@@ -2,23 +2,23 @@ var Discord = require("discord.js");
 var bot = new Discord.Client();
 
 bot.on("message", msg => {
-  
-  let prefix = "!!!";
-  
+
+  let prefix = "!";
+
   if(!msg.content.startsWith(prefix)) return;
 
   if(msg.author.bot) return;
 
   if (msg.content.startsWith(prefix + "valarjar")) {
     let guild = msg.guild
-        
+
     let roleID = "269363541570617345"
-    
+
     guild.fetchMembers()
       .then(g => g.members.array())
       .then(members => {
         members.forEach(member => {
-          
+
           if (shouldApplyValarjar(member.roles)) {
             console.log("adding role to ", member.displayName);
             member.addRole(roleID)
@@ -31,13 +31,13 @@ bot.on("message", msg => {
 });
 
 function shouldApplyValarjar(memberRoles) {
-  
+
   for (var i = 0; i < excludedRoles.length; i++) {
     if (memberRoles.findKey('id', excludedRoles[i]) == excludedRoles[i]) {
       return false;
     }
   }
-  
+
   return true;
 }
 
