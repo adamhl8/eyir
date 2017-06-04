@@ -1,8 +1,12 @@
+require('dotenv').config({path: process.argv[2]})
+
+process.setMaxListeners(20);
+
 const Discord = require("discord.js");
 const RoleCache = require("./RoleCache.js")
 
 const bot = new Discord.Client();
-bot.login("MjY5MDU3NjYyNzQwNzI1NzYw.DBVnRg.WwqIy4a4ZyR0RvwZy9wYl_aF2f0");
+bot.login(process.env.TOKEN);
 
 bot.on('ready', () => {
   console.log('I am ready!');
@@ -13,8 +17,12 @@ bot.on('ready', () => {
 let roleCache = null
 
 function run() {
-
-  roleCache = new RoleCache(bot.guilds.first().roles)
+  
+  let guild = bot.guilds.first();
+  guild.fetchMembers()
+    .then(g => {
+      roleCache = new RoleCache(g.roles)
+    })
 }
 
 bot.on("message", msg => {
@@ -82,8 +90,8 @@ function newMemberMessage(member) {
 
 function addRole(member, roleName) {
 
-  const role = roleCache.getByName(roleName); // REEEEE -> [0]
-  member.addRole(role) // promise that doesn't need a ".then"?
+  const role = roleCache.getByName(roleName);
+  member.addRole(role)
     .catch(console.error);
   console.log("Added " + role.name + " to " + member.displayName)
 }

@@ -6,11 +6,12 @@
   "repository": "https://github.com/xMarok/eyir",
   "author": "Marok",
   "dependencies": {
-    "discord.js": "^11.1.0"
+    "discord.js": "^11.1.0",
+    "dotenv": "^4.0.0"
   },
   "scripts": {
-    "start": "node eyir.js",
-    "start-dev": "nodemon eyir.js"
+    "start": "node eyir.js .env",
+    "start-test": "nodemon eyir.js .env-test"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
