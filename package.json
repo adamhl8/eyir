@@ -1,0 +1,17 @@
+{
+  "name": "eyir",
+  "version": "0.1.0",
+  "description": "Discord bot for the Warrior discord server, Skyhold.",
+  "main": "eyir.js",
+  "repository": "https://github.com/xMarok/eyir",
+  "author": "Marok",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  },
+  "scripts": {
+    "start": "nodemon eyir.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

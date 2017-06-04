@@ -1,5 +1,25 @@
-var Discord = require("discord.js");
-var bot = new Discord.Client();
+const Discord = require("discord.js");
+const RoleCache = require("./RoleCache.js")
+
+const bot = new Discord.Client();
+bot.login("MzIwNzc4MDQwNDkxNjM4Nzk0.DBUbiA.ZeHp_AVBJb-fy4zMaNw9lESbxGI");
+
+bot.on('ready', () => {
+  console.log('I am ready!');
+
+  run();
+});
+
+let roleCache = null
+
+function run() {
+
+  roleCache = new RoleCache(bot.guilds.first().roles)
+}
+
+
+
+let valarjarRoleID = "269363541570617345"
 
 bot.on("message", msg => {
 
@@ -11,9 +31,7 @@ bot.on("message", msg => {
 
   if (msg.content.startsWith(prefix + "valarjar")) {
     let guild = msg.guild
-
-    let roleID = "269363541570617345"
-
+    
     guild.fetchMembers()
       .then(g => g.members.array())
       .then(members => {
@@ -50,8 +68,18 @@ let excludedRoles = [
   "257988415704924162" // Odny's Minions
 ];
 
-bot.on('ready', () => {
-  console.log('I am ready!');
+bot.on('guildMemberAdd', member => {
+  newMemberMessage(member);
+  //addRole(member, )
 });
 
-bot.login("MjY5MDU3NjYyNzQwNzI1NzYw.C1j1_g.wdc6MwjFpI_RQ_o_S8MEUH9Pqoo");
+function newMemberMessage(member) {
+
+}
+
+function addRole(member, roleName) {
+
+  const roleId = roleCache.getByName(roleName);
+  member.addRole(roleId)
+              .catch(console.error);
+}
