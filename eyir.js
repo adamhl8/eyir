@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const RoleCache = require("./RoleCache.js")
 
 const bot = new Discord.Client();
-bot.login("MzIwNzc4MDQwNDkxNjM4Nzk0.DBUbiA.ZeHp_AVBJb-fy4zMaNw9lESbxGI");
+bot.login("MjY5MDU3NjYyNzQwNzI1NzYw.DBVnRg.WwqIy4a4ZyR0RvwZy9wYl_aF2f0");
 
 bot.on('ready', () => {
   console.log('I am ready!');
@@ -16,10 +16,6 @@ function run() {
 
   roleCache = new RoleCache(bot.guilds.first().roles)
 }
-
-
-
-let valarjarRoleID = "269363541570617345"
 
 bot.on("message", msg => {
 
@@ -38,9 +34,7 @@ bot.on("message", msg => {
         members.forEach(member => {
 
           if (shouldApplyValarjar(member.roles)) {
-            console.log("adding role to ", member.displayName);
-            member.addRole(roleID)
-              .catch(console.error);
+            addRole(member, "Valarjar");
           }
         })
       })
@@ -91,5 +85,5 @@ function addRole(member, roleName) {
   const role = roleCache.getByName(roleName); // REEEEE -> [0]
   member.addRole(role) // promise that doesn't need a ".then"?
     .catch(console.error);
-  console.log("Added Valarjar to " + member.displayName)
+  console.log("Added " + role.name + " to " + member.displayName)
 }
