@@ -9,7 +9,8 @@
     "discord.js": "^11.1.0"
   },
   "scripts": {
-    "start": "nodemon eyir.js"
+    "start": "node eyir.js",
+    "start-dev": "nodemon eyir.js"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
