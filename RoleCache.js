@@ -20,7 +20,7 @@ class RoleCache {
   }
 
   getByName(name) {
-    return this._cacheByName.get(name);
+    return this._cacheByName.get(name)[0];
   }
 }
 
