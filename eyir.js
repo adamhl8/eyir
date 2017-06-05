@@ -1,9 +1,10 @@
-require('dotenv').config({path: process.argv[2]})
+require('dotenv').config({path: process.argv[2]});
 
 process.setMaxListeners(20);
 
 const Discord = require("discord.js");
-const RoleCache = require("./RoleCache.js")
+const RoleCache = require("./RoleCache.js");
+const ChannelCache = require("./ChannelCache.js");
 
 const bot = new Discord.Client();
 bot.login(process.env.TOKEN);
@@ -14,15 +15,19 @@ bot.on('ready', () => {
   run();
 });
 
-let roleCache = null
+let roleCache = null;
+let channelCache = null;
 
 function run() {
   
   let guild = bot.guilds.first();
+
   guild.fetchMembers()
     .then(g => {
-      roleCache = new RoleCache(g.roles)
-    })
+      roleCache = new RoleCache(g.roles);
+    });
+
+  channelCache = new ChannelCache(guild.channels);
 }
 
 bot.on("message", msg => {
