@@ -3,8 +3,7 @@ require('dotenv').config({path: process.argv[2]});
 process.setMaxListeners(20);
 
 const Discord = require("discord.js");
-const RoleCache = require("./RoleCache.js");
-const ChannelCache = require("./ChannelCache.js");
+const ObjectCache = require("./ObjectCache.js");
 
 const bot = new Discord.Client();
 bot.login(process.env.TOKEN);
@@ -24,10 +23,10 @@ function run() {
 
   guild.fetchMembers()
     .then(g => {
-      roleCache = new RoleCache(g.roles);
+      roleCache = new ObjectCache(g.roles);
     });
 
-  channelCache = new ChannelCache(guild.channels);
+  channelCache = new ObjectCache(guild.channels);
 }
 
 bot.on("message", msg => {

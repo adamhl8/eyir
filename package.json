@@ -11,9 +11,11 @@
   },
   "scripts": {
     "start": "node eyir.js .env",
-    "start-test": "nodemon eyir.js .env-test"
+    "start-test": "nodemon eyir.js .env-test",
+    "test": "jest"
   },
   "devDependencies": {
+    "jest": "^20.0.4",
     "nodemon": "^1.11.0"
   }
 }
