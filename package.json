@@ -12,7 +12,7 @@
   "scripts": {
     "start": "node eyir.js .env",
     "start-test": "nodemon eyir.js .env-test",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "jest": "^20.0.4",

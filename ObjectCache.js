@@ -3,7 +3,7 @@ class ObjectCache {
   constructor(data) {
 
     if (!(data instanceof Map)) {
-      throw new Error("ObjectCache input must be a map")
+      throw new Error("ObjectCache input must be a map");
     }
 
     // validate input structure
@@ -34,7 +34,7 @@ class ObjectCache {
   }
 
   getByName(name) {
-    return this._cacheByName.get(name)[0];
+    return this._cacheByName.get(name);
   }
 }
 
