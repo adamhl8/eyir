@@ -17,9 +17,11 @@ bot.on('ready', () => {
 let roleCache = null;
 let channelCache = null;
 
+let guild = null;
+
 function run() {
-  
-  let guild = bot.guilds.first();
+
+  guild = bot.guilds.first();
 
   guild.fetchMembers()
     .then(g => {
@@ -38,7 +40,6 @@ bot.on("message", msg => {
   if(msg.author.bot) return;
 
   if (msg.content.startsWith(prefix + "valarjar")) {
-    let guild = msg.guild
     
     guild.fetchMembers()
       .then(g => g.members.array())
@@ -73,9 +74,15 @@ let excludedRoles = [
   "201785195441946624", // Odyn
 ];
 
-bot.on('guildMemberAdd', member => {
+bot.on("guildMemberAdd", member => {
   newMemberMessage(member);
-  addRole(member, "Valarjar")
+  addRole(member, "Valarjar");
+
+  memberJoinedEmbed(member);
+});
+
+bot.on("guildMemberRemove", member => {
+  memberLeftEmbed(member);
 });
 
 function newMemberMessage(member) {
@@ -94,7 +101,44 @@ function newMemberMessage(member) {
 function addRole(member, roleName) {
 
   const role = roleCache.getByName(roleName);
-  member.addRole(role)
+  member.addRole(role[0])
     .catch(console.error);
-  console.log("Added " + role.name + " to " + member.displayName)
+  console.log("Added " + role[0].name + " to " + member.displayName)
+}
+
+function memberJoinedEmbed(member) {
+
+  const memberUser = member.user.tag;
+  const memberJoinTimestamp = new Date(member.joinedTimestamp);
+  const memberUserID = member.user.id;
+  const memberUserAvatarURL = member.user.displayAvatarURL;
+
+  let embed = new Discord.RichEmbed()
+    .setAuthor("Member Joined", memberUserAvatarURL)
+    .setTitle(memberUser)
+    .setDescription(`<@${memberUserID}>`)
+    .setFooter(`ID: ${memberUserID}`)
+    .setTimestamp(memberJoinTimestamp)
+    .setColor('GREEN');
+
+  channelCache.getByName("server-log")[0].send({embed})
+      .catch(console.error);
+}
+
+function memberLeftEmbed(member) {
+
+  const memberUser = member.user.tag;
+  const memberUserID = member.user.id;
+  const memberUserAvatarURL = member.user.displayAvatarURL;
+
+  let embed = new Discord.RichEmbed()
+    .setAuthor("Member Left", memberUserAvatarURL)
+    .setTitle(memberUser)
+    .setDescription(`<@${memberUserID}>`)
+    .setFooter(`ID: ${memberUserID}`)
+    .setTimestamp()
+    .setColor('BLUE');
+
+  channelCache.getByName("server-log")[0].send({embed})
+      .catch(console.error);
 }
