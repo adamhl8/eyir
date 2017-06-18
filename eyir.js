@@ -26,9 +26,8 @@ function run() {
   guild.fetchMembers()
     .then(g => {
       roleCache = new ObjectCache(g.roles);
+      channelCache = new ObjectCache(g.channels);
     });
-
-  channelCache = new ObjectCache(guild.channels);
 }
 
 bot.on("message", msg => {
