@@ -71,7 +71,6 @@ let excludedRoles = [
   "257983573498265600", // Val'kyr
   "197179529360310272", // Theorycrafter
   "201785195441946624", // Odyn
-  "257988415704924162" // Odny's Minions
 ];
 
 bot.on('guildMemberAdd', member => {
