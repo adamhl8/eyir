@@ -28,6 +28,8 @@ function run() {
       roleCache = new ObjectCache(g.roles);
       channelCache = new ObjectCache(g.channels);
     });
+
+    applyValarjar();
 }
 
 bot.on("message", msg => {
@@ -39,8 +41,13 @@ bot.on("message", msg => {
   if(msg.author.bot) return;
 
   if (msg.content.startsWith(prefix + "valarjar")) {
-    
-    guild.fetchMembers()
+    applyValarjar();
+  }
+});
+
+function applyValarjar() {
+
+  guild.fetchMembers()
       .then(g => g.members.array())
       .then(members => {
         members.forEach(member => {
@@ -51,8 +58,7 @@ bot.on("message", msg => {
         })
       })
       .catch(console.error);
-  }
-});
+}
 
 function shouldApplyValarjar(memberRoles) {
 
@@ -185,6 +191,8 @@ function messageDeleteEmbed(message) {
   const memberUserID = member.user.id;
   const memberUserAvatarURL = member.user.displayAvatarURL;
 
+  const content = message.content ? message.content : "<empty message>";
+
   let embed = new Discord.RichEmbed()
     .setAuthor("Message Deleted", memberUserAvatarURL)
     .setTitle(memberUser)
@@ -192,7 +200,7 @@ function messageDeleteEmbed(message) {
     .setFooter(`ID: ${memberUserID}`)
     .setTimestamp()
     .setColor('RED')
-    .addField("Message", message.content, false);
+    .addField("Message", content, false);
 
   channelCache.getByName("server-log")[0].send({embed})
       .catch(console.error);
