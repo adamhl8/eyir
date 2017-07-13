@@ -92,7 +92,7 @@ bot.on("guildMemberRemove", member => {
 
 bot.on("messageUpdate", (oldMessage, newMessage) => {
 
-  if (!oldMessage.content && !newMessage.content) {
+  if ((!oldMessage.content && !newMessage.content) || (oldMessage.content == newMessage.content)) {
     return;
   }
 
