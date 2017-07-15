@@ -92,7 +92,10 @@ bot.on("guildMemberRemove", member => {
 
 bot.on("messageUpdate", (oldMessage, newMessage) => {
 
-  if ((!oldMessage.content && !newMessage.content) || (oldMessage.content == newMessage.content)) {
+  if (
+    (!oldMessage.content && !newMessage.content) || 
+    (oldMessage.content == newMessage.content)
+    ) {
     return;
   }
 
@@ -169,6 +172,13 @@ function messageEditEmbed(oldMessage, newMessage) {
   const memberUserID = member.user.id;
   const memberUserAvatarURL = member.user.displayAvatarURL;
 
+  if (oldMessage.content.length > 1024) {
+    oldMessage.content = oldMessage.content.substr(0, 1021) + "...";
+  }
+  if (newMessage.content.length > 1024) {
+    newMessage.content = newMessage.content.substr(0, 1021) + "...";
+  }
+
   let embed = new Discord.RichEmbed()
     .setAuthor("Message Edited", memberUserAvatarURL)
     .setTitle(memberUser)
@@ -190,6 +200,10 @@ function messageDeleteEmbed(message) {
   const memberUser = member.user.tag;
   const memberUserID = member.user.id;
   const memberUserAvatarURL = member.user.displayAvatarURL;
+
+  if (message.content.length > 1024) {
+    message.content = message.content.substr(0, 1021) + "...";
+  }
 
   const content = message.content ? message.content : "<empty message>";
 
