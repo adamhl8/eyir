@@ -168,9 +168,20 @@ function messageEditEmbed(oldMessage, newMessage) {
 
   const member = newMessage.member;
 
-  const memberUser = member.user.tag;
-  const memberUserID = member.user.id;
-  const memberUserAvatarURL = member.user.displayAvatarURL;
+  let memberUser = null;
+  let memberUserID = null;
+  let memberUserAvatarURL = null;
+
+  if (!member) {
+    memberUser = "<no user>";
+    memberUserID = "";
+    memberUserAvatarURL = "";
+  }
+  else {
+    memberUser = member.user.tag;
+    memberUserID = member.user.id;
+    memberUserAvatarURL = member.user.displayAvatarURL;
+  }
 
   if (oldMessage.content.length > 1024) {
     oldMessage.content = oldMessage.content.substr(0, 1021) + "...";
@@ -197,9 +208,20 @@ function messageDeleteEmbed(message) {
 
   const member = message.member;
 
-  const memberUser = member.user.tag;
-  const memberUserID = member.user.id;
-  const memberUserAvatarURL = member.user.displayAvatarURL;
+  let memberUser = null;
+  let memberUserID = null;
+  let memberUserAvatarURL = null;
+
+  if (!member) {
+    memberUser = "<no user>";
+    memberUserID = "";
+    memberUserAvatarURL = "";
+  }
+  else {
+    memberUser = member.user.tag;
+    memberUserID = member.user.id;
+    memberUserAvatarURL = member.user.displayAvatarURL;
+  }
 
   if (message.content.length > 1024) {
     message.content = message.content.substr(0, 1021) + "...";
