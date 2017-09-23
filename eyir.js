@@ -32,19 +32,6 @@ function run() {
     applyValarjar();
 }
 
-bot.on("message", msg => {
-
-  let prefix = "!";
-
-  if(!msg.content.startsWith(prefix)) return;
-
-  if(msg.author.bot) return;
-
-  if (msg.content.startsWith(prefix + "valarjar")) {
-    applyValarjar();
-  }
-});
-
 function applyValarjar() {
 
   guild.fetchMembers()
@@ -72,11 +59,11 @@ function shouldApplyValarjar(memberRoles) {
 }
 
 let excludedRoles = [
-  "269363541570617345", // Valarjar
-  "148893703207911433", // Val'kyr
-  "257983573498265600", // Val'kyr
-  "197179529360310272", // Theorycrafter
   "201785195441946624", // Odyn
+  "148893703207911433", // Val'kyr (non-mod)
+  "197179529360310272", // Theorycrafter
+  "269061350251167744", // Eyir
+  "269363541570617345", // Valarjar
 ];
 
 bot.on("guildMemberAdd", member => {
