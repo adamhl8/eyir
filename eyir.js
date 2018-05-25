@@ -29,25 +29,25 @@ function run() {
       channelCache = new ObjectCache(g.channels);
     });
 
-    applyValarjar();
+    applyVrykul();
 }
 
-function applyValarjar() {
+function applyVrykul() {
 
   guild.fetchMembers()
       .then(g => g.members.array())
       .then(members => {
         members.forEach(member => {
 
-          if (shouldApplyValarjar(member.roles)) {
-            addRole(member, "Valarjar");
+          if (shouldApplyVrykul(member.roles)) {
+            addRole(member, "Vrykul");
           }
         })
       })
       .catch(console.error);
 }
 
-function shouldApplyValarjar(memberRoles) {
+function shouldApplyVrykul(memberRoles) {
 
   for (var i = 0; i < excludedRoles.length; i++) {
     if (memberRoles.findKey('id', excludedRoles[i]) == excludedRoles[i]) {
@@ -62,13 +62,16 @@ let excludedRoles = [
   "201785195441946624", // Odyn
   "148893703207911433", // Val'kyr (non-mod)
   "197179529360310272", // Theorycrafter
+  "449207291800059925", // Stormforged
+  "449714441559474177", // Patreon Bot
   "269061350251167744", // Eyir
-  "269363541570617345", // Valarjar
+  "449714441559474177", // GiveawayBot
+  "269363541570617345", // Vrykul
 ];
 
 bot.on("guildMemberAdd", member => {
   newMemberMessage(member);
-  addRole(member, "Valarjar");
+  addRole(member, "Vrykul");
 
   memberJoinedEmbed(member);
 });
