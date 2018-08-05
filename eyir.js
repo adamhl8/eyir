@@ -15,7 +15,6 @@ bot.on('ready', () => {
 });
 
 let roleCache = null;
-let channelCache = null;
 
 let guild = null;
 
@@ -26,7 +25,6 @@ function run() {
   guild.fetchMembers()
     .then(g => {
       roleCache = new ObjectCache(g.roles);
-      channelCache = new ObjectCache(g.channels);
     });
 
     applyVrykul();
@@ -64,7 +62,7 @@ let excludedRoles = [
   "197179529360310272", // Theorycrafter
   "225683487162630145", // Stormforged
   "448628418603515904", // Patreon Bot
-  "269061350251167744", // Eyir
+  "475726900019331092", // Bots
   "397114195608469514", // GiveawayBot
   "269363541570617345", // Vrykul
 ];
@@ -72,28 +70,6 @@ let excludedRoles = [
 bot.on("guildMemberAdd", member => {
   newMemberMessage(member);
   addRole(member, "Vrykul");
-
-  memberJoinedEmbed(member);
-});
-
-bot.on("guildMemberRemove", member => {
-  memberLeftEmbed(member);
-});
-
-bot.on("messageUpdate", (oldMessage, newMessage) => {
-
-  if (
-    (!oldMessage.content && !newMessage.content) || 
-    (oldMessage.content == newMessage.content)
-    ) {
-    return;
-  }
-
-  messageEditEmbed(oldMessage, newMessage);
-});
-
-bot.on("messageDelete", message => {
-  messageDeleteEmbed(message);
 });
 
 function newMemberMessage(member) {
@@ -115,119 +91,4 @@ function addRole(member, roleName) {
   member.addRole(role[0])
     .catch(console.error);
   console.log("Added " + role[0].name + " to " + member.displayName)
-}
-
-function memberJoinedEmbed(member) {
-
-  const memberUser = member.user.tag;
-  const memberJoinTimestamp = new Date(member.joinedTimestamp);
-  const memberUserID = member.user.id;
-  const memberUserAvatarURL = member.user.displayAvatarURL;
-
-  let embed = new Discord.RichEmbed()
-    .setAuthor("Member Joined", memberUserAvatarURL)
-    .setTitle(memberUser)
-    .setDescription(`<@${memberUserID}>`)
-    .setFooter(`ID: ${memberUserID}`)
-    .setTimestamp(memberJoinTimestamp)
-    .setColor('GREEN');
-
-  channelCache.getByName("server-log")[0].send({embed})
-      .catch(console.error);
-}
-
-function memberLeftEmbed(member) {
-
-  const memberUser = member.user.tag;
-  const memberUserID = member.user.id;
-  const memberUserAvatarURL = member.user.displayAvatarURL;
-
-  let embed = new Discord.RichEmbed()
-    .setAuthor("Member Left", memberUserAvatarURL)
-    .setTitle(memberUser)
-    .setDescription(`<@${memberUserID}>`)
-    .setFooter(`ID: ${memberUserID}`)
-    .setTimestamp()
-    .setColor('BLUE');
-
-  channelCache.getByName("server-log")[0].send({embed})
-      .catch(console.error);
-}
-
-function messageEditEmbed(oldMessage, newMessage) {
-
-  const member = newMessage.member;
-
-  let memberUser = null;
-  let memberUserID = null;
-  let memberUserAvatarURL = null;
-
-  if (!member) {
-    memberUser = "<no user>";
-    memberUserID = "";
-    memberUserAvatarURL = "";
-  }
-  else {
-    memberUser = member.user.tag;
-    memberUserID = member.user.id;
-    memberUserAvatarURL = member.user.displayAvatarURL;
-  }
-
-  if (oldMessage.content.length > 1024) {
-    oldMessage.content = oldMessage.content.substr(0, 1021) + "...";
-  }
-  if (newMessage.content.length > 1024) {
-    newMessage.content = newMessage.content.substr(0, 1021) + "...";
-  }
-
-  let embed = new Discord.RichEmbed()
-    .setAuthor("Message Edited", memberUserAvatarURL)
-    .setTitle(memberUser)
-    .setDescription(`<@${memberUserID}>`)
-    .setFooter(`ID: ${memberUserID}`)
-    .setTimestamp()
-    .setColor('ORANGE')
-    .addField("Original Message", oldMessage.content, false)
-    .addField("After Edit", newMessage.content, false);
-
-  channelCache.getByName("server-log")[0].send({embed})
-      .catch(console.error);
-}
-
-function messageDeleteEmbed(message) {
-
-  const member = message.member;
-
-  let memberUser = null;
-  let memberUserID = null;
-  let memberUserAvatarURL = null;
-
-  if (!member) {
-    memberUser = "<no user>";
-    memberUserID = "";
-    memberUserAvatarURL = "";
-  }
-  else {
-    memberUser = member.user.tag;
-    memberUserID = member.user.id;
-    memberUserAvatarURL = member.user.displayAvatarURL;
-  }
-
-  if (message.content.length > 1024) {
-    message.content = message.content.substr(0, 1021) + "...";
-  }
-
-  const content = message.content ? message.content : "<empty message>";
-
-  let embed = new Discord.RichEmbed()
-    .setAuthor("Message Deleted", memberUserAvatarURL)
-    .setTitle(memberUser)
-    .setDescription(`<@${memberUserID}>`)
-    .setFooter(`ID: ${memberUserID}`)
-    .setTimestamp()
-    .setColor('RED')
-    .addField("Message", content, false);
-
-  channelCache.getByName("server-log")[0].send({embed})
-      .catch(console.error);
 }
