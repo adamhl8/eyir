@@ -92,3 +92,36 @@ function addRole(member, roleName) {
     .catch(console.error);
   console.log("Added " + role[0].name + " to " + member.displayName)
 }
+
+bot.on("message", msg => {
+
+  let prefix = "!";
+
+  if(!msg.content.startsWith(prefix)) return;
+  if(msg.author.bot) return;
+
+  if (msg.content.startsWith(prefix + "listbots")) {
+
+    let bots = [];
+
+    guild.fetchMembers()
+    .then(g => g.members.array())
+    .then(members => {
+      members.forEach(member => {
+
+        if (member.user.bot) {
+          bots.push(member);
+        }
+      })
+    })
+    .catch(console.error);
+
+    bots.forEach(bot => {
+      msg.channel.send("<@" + bot.user.id + ">");
+    });
+  }
+});
+
+function listBots() {
+
+}
