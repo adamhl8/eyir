@@ -121,7 +121,3 @@ bot.on("message", msg => {
     });
   }
 });
-
-function listBots() {
-
-}
