@@ -97,27 +97,30 @@ bot.on("message", msg => {
 
   let prefix = "!";
 
-  if(!msg.content.startsWith(prefix)) return;
-  if(msg.author.bot) return;
+  if (!msg.content.startsWith(prefix)) return;
+  if (msg.author.bot) return;
 
-  if (msg.content.startsWith(prefix + "listbots")) {
+  msg.guild
+  .fetchMember(msg.author)
+  .then(member => {
+    if (!member.roles.has("257983573498265600")) {
+      console.log(member.displayName + " tried to run command: " + msg.content);
+      return
+    }
 
-    let bots = [];
+    if (msg.content.startsWith(prefix + "listbots")) {
 
-    guild.fetchMembers()
-    .then(g => g.members.array())
-    .then(members => {
-      members.forEach(member => {
-
-        if (member.user.bot) {
-          bots.push(member);
-        }
-      })
-    })
-    .catch(console.error);
-
-    bots.forEach(bot => {
-      msg.channel.send("<@" + bot.user.id + ">");
-    });
-  }
+      return guild
+      .fetchMembers()
+      .then(g => g.members.array())
+      .then(members => members.filter(member => member.user.bot))
+      .then(bots => {
+        let messages = bots.map(bot => {
+          msg.channel.send("<@" + bot.user.id + ">")
+        })
+        return Promise.all(messages);
+      });
+    }
+  })
+  .catch(console.error);
 });
