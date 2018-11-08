@@ -165,7 +165,7 @@ bot.on("message", msg => {
           winners.push(winner);
         }
         
-        msg.channel.send("TEST | Drawing in...")
+        msg.channel.send("Drawing in...")
 
         let countdown = 5
 
