@@ -116,6 +116,10 @@ bot.on("message", msg => {
 
   let prefix = "!";
 
+  if ((msg.content.includes("eyir") || msg.content.includes("Eyir")) && msg.content.includes("sucks")) {
+    msg.channel.send("fuk u " + "<@" + msg.author.id + ">");
+  }
+
   if (!msg.content.startsWith(prefix)) return;
   if (msg.author.bot) return;
 
