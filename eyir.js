@@ -135,6 +135,11 @@ bot.on("message", msg => {
 
         let numWinners = giveawayString[0].match(/\d+/g);
 
+        if (numWinners >= Object.keys(entries).length) {
+          msg.channel.send("Number of winners exceeds total number of eliglble entrants.")
+          return
+        }
+
         let pool = [];
 
         for (var key in entries) {
@@ -156,10 +161,6 @@ bot.on("message", msg => {
           while (winners.includes(winner)) {
 
             winner = pool[getRandomInt(0, pool.length)];
-
-            if (winners.length >= Object.keys(entries).length) {
-              break;
-            }
           }
 
           winners.push(winner);
