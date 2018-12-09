@@ -103,13 +103,14 @@ let entries = {
   "loothore": [3, "300793374447763456"],
   "slinky": [3, "202961834360176641"],
   "burrito boi": [5, "133091064507531264"],
-  "lexpatrona": [5, "247107919064203265"],
   "talgryf": [5, "269145186032943104"],
   "demon": [5, "221111180125667330"],
   "brakthir": [5, "119637578050699264"],
   "zeroblade": [5, "195605929637445633"],
   "exid": [5, "140487553970208768"],
-  "phem0r": [5, "239543641197117441"]
+  "phem0r": [0, "239543641197117441"], // Last month
+  "lexpatrona": [8, "247107919064203265"],
+  "xravius": [10, "247107919064203265"],
 };
 
 bot.on("message", msg => {
@@ -140,7 +141,7 @@ bot.on("message", msg => {
         let numWinners = giveawayString[0].match(/\d+/g);
 
         if (numWinners >= Object.keys(entries).length) {
-          msg.channel.send("Number of winners exceeds total number of eliglble entrants.")
+          msg.channel.send("Number of winners exceeds total number of eligible entrants.")
           return
         }
 
