@@ -1,9 +1,9 @@
 require('dotenv').config({path: process.argv[2]});
 
 const Discord = require("discord.js");
-const Giveaway = require("./modules/giveaway.js");
 const RoleCache = require("./modules/roleCache.js");
 const Util = require("./modules/util.js");
+const Commands = require("./modules/commands.js");
 
 const bot = new Discord.Client();
 bot.login(process.env.TOKEN);
@@ -59,41 +59,41 @@ bot.on("guildMemberAdd", member => {
 
 bot.on("message", msg => {
 
-  let prefix = "!";
+  Util.sass(msg);
 
-  if ((msg.content.includes("eyir") || msg.content.includes("Eyir")) && msg.content.includes("sucks")) {
-    msg.channel.send("fuk u " + "<@" + msg.author.id + ">");
-  }
+  let prefix = "!";
 
   if (!msg.content.startsWith(prefix)) return;
   if (msg.author.bot) return;
 
-  msg.guild
-  .fetchMember(msg.author)
-  .then(member => {
-    if (!member.roles.has()) {
-      console.log(member.displayName + " tried to run command: " + msg.content);
-      return
-    }
+  let match = /!(\S+)/g.exec(msg.content);
+  let command = match[1];
 
-    if (msg.content.startsWith(prefix + "pgiveaway")) {
-      giveaway.draw(msg);
-    }
+  if (Commands.hasOwnProperty(command)) {
 
-    if (msg.content.startsWith(prefix + "listbots")) {
+    let isMod = false;
+    msg.guild
+    .fetchMember(msg.author)
+    .then(member => {
 
-      return skyhold
-      .fetchMembers()
-      .then(g => g.members.array())
-      .then(members => members.filter(member => member.user.bot))
-      .then(bots => {
-        let messages = bots.map(bot => {
-          msg.channel.send("<@" + bot.user.id + ">")
-        })
-        return Promise.all(messages);
-      });
+      if (member.roles.find(role => {
+        role.id === roleCache["Val'kyr"].role.id
+      })) {
+        isMod = true;
+      }
+    })
+    .catch(console.error)
+
+    console.log(Commands[command]);
+
+    if (Commands[command].reqMod && isMod) {
+      Commands[command].run();
     }
-  })
-  .catch(console.error);
+    else if (!Commands[command].reqMod) {
+      Commands[command].run();
+    }
+    else {
+      console.log(msg.author.tag + " tried to run command: " + msg.content);
+    }
+  }
 });
-
