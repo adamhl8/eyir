@@ -13,10 +13,12 @@
     "node-persist": "^3.0.2"
   },
   "scripts": {
-    "start": "nodemon eyir.js .env",
-    "start-test": "nodemon eyir.js .env-test"
+    "start": "pm2 start eyir.js .env",
+    "start-test": "nodemon eyir.js .env-test",
+    "restart": "pm2 restart all"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "pm2": "^3.2.4"
   }
 }
