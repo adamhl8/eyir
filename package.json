@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "pm2 start eyir.js .env",
-    "start-test": "nodemon eyir.js .env-test",
+    "start-test": "nodemon eyir.js .env",
     "restart": "pm2 restart all"
   },
   "devDependencies": {

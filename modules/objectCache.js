@@ -4,19 +4,19 @@ exports.build = function(objects) {
 
     let objectCache = {};
 
-    objects.array().forEach(o => {
+    objectCache.props = {};
 
+    objects.array().forEach(o => {
+      
       if (objectCache[o.name]) {
         objectCache[o.name+"("+o.calculatedPosition+")"] = o
       } else {
         objectCache[o.name] = o
       }
-  
-      objectCache.props = {};
       
       if (o.constructor.name == "Role") {
 
-        if (!objectCache.props.isMod) {
+        if (!objectCache.props.isMod) {          
           objectCache.props.isMod = o.id == "257983573498265600" || o.id == "530658835036373004"
         }
 

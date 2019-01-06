@@ -4,7 +4,7 @@ exports.roles = [
     "Theorycrafter",
     "Stormforged",
     "Patreon Bot",
-    "Bots",
-    "GiveawayBota",
+    "Bot",
+    "GiveawayBot",
     "Vrykul"
     ]
