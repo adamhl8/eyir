@@ -15,7 +15,7 @@ let entries = {
     "exid": [5, "140487553970208768"],
     "phem0r": [0, "239543641197117441"], // Last month
     "lexpatrona": [8, "247107919064203265"],
-    "xravius": [10, "247107919064203265"],
+    "xravius": [10, "153282683080802304"],
 };
 
 exports.draw = function(msg) {

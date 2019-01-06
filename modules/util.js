@@ -17,8 +17,8 @@ exports.sass = function(msg) {
     }
 }
 
-exports.faqset = function(msg) {
-    fs.readFile("./modules/faq.txt", "utf8", (err, data) => {
+exports.faqset = function(dir, file, msg) {
+    fs.readFile("./faq/" + dir + file, "utf8", (err, data) => {
         msg.edit(data)
     });
 }

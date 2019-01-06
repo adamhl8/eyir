@@ -1,0 +1,16 @@
+**Q:** Should I play Arms or Fury for Uldir?
+**A:** Arms is currently ahead in most situations, but both specs are faring well.
+
+**Q:** Should I use Pawn? What's a good Pawn string for X spec?
+**A:** Please don't use Pawn. We cannot stress this enough. Pawn does not take stat breakpoints into account and various other factors that need to be taken into consideration. Sim your character instead to determine gear upgrades.
+
+**Q:** How do I sim my character?
+**A:** Raidbots - <https://www.raidbots.com>
+
+**Q:** What's the best race for X spec?
+**A:** Whichever one you like the best. Not only are racials not particularly impactful, they're also extremely situational.
+
+**Q:** What's the best spec for leveling?
+**A:** You can level with similar efficiency using any spec. It *really* doesn't matter.
+
+━━━━━━━━━━━━━━━━━━━━━━━━

@@ -31,7 +31,7 @@ function run() {
 }
 
 function applyVrykul(g) {
-  
+
     g.members.array().forEach(member => {
 
       memberRoleCache = ObjectCache.build(member.roles);
@@ -43,19 +43,22 @@ function applyVrykul(g) {
     })
 }
 
-let faqMessage = null;
+let faqMessages = null;
 
-gaze("./modules/faq.txt", (err, watcher) => {
-  
+gaze("./faq/*/*", (err, watcher) => {
+
   watcher.on("changed", fp => {
-    if (faqMessage) {
-      Util.faqset(faqMessage);
-    }
+
+    let parseFilepath = /.+faq\/(.+\/)(.+)/.exec(fp);
+    let currentDir = parseFilepath[1];
+    let currentFile = parseFilepath[2];
+
+    Util.faqset(currentDir, currentFile, faqMessages[currentFile]);
   });
 });
 
-exports.setFaqMessage = function(msg) {
-  faqMessage = msg;
+exports.setFaqMessages = function(obj) {
+  faqMessages = obj;
 }
 
 bot.on("guildMemberAdd", member => {
