@@ -1,4 +1,6 @@
 const Giveaway = require("./giveaway.js");
+const Util = require("./util.js");
+const Main = require("../eyir");
 
 exports.pgiveaway = {
     reqMod: true,
@@ -22,6 +24,19 @@ exports.listbots = {
                 msg.channel.send("<@" + bot.user.id + ">")
             })
         })
-        .catch(console.error)
+        .catch(console.error);
+    }
+}
+
+exports.faqinit = {
+    reqMod: true,
+
+    run: msg => {
+        return msg.channel.send("init")
+        .then(message => {
+            Main.setFaqMessage(message);
+            Util.faqset(message);
+        })
+        .catch(console.error);
     }
 }
