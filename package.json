@@ -16,7 +16,7 @@
     "start": "pm2 start eyir.js .env",
     "skyhold-test": "nodemon eyir.js .env",
     "eyir-test": "nodemon eyir.js .env-test",
-    "restart": "pm2 restart all"
+    "restart": "yarn; pm2 restart all"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
