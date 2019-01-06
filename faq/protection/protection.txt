@@ -16,4 +16,4 @@ Wowhead Guide - <https://www.wowhead.com/protection-warrior-guide>
 __Ignore Pain Tracker__ - <https://wago.io/IgnorePainTracker>
 __Block Tracker__ - <https://wago.io/WarriorBlockTracker>
 
-test
+tests
