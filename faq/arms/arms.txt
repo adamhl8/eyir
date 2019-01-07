@@ -23,7 +23,7 @@ A more complete list here - <https://bloodmallet.com/index.html#warrior_arms?dat
 **Q:** When do I use the Crushing Assault proc?
 **A:** Before Execute use it like you would use Slam. In Execute you want to use it as soon as it procs.
 
-**Q:** Is it ok so sit on Skullsplitter?
+**Q:** Is it ok to sit on Skullsplitter?
 **A:** Yes, the power of Skullsplitter comes from the near on demand rage. Sitting on it when you are high rage is fine.
 
 **Q:** Is Mortal Strike used in the Execute phase?
