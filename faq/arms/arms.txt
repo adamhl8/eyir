@@ -8,4 +8,38 @@ Wowhead Guide - <https://www.wowhead.com/arms-warrior-guide>
 
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/arms>
 
-━━━━━━━━━━━━━━━━━━━━━━━━
+***ARMS FAQ***
+
+**Trait FAQ**
+
+__What are the best traits?__
+
+Single target: Crushing Assault, Striking the Avnil, Test of Might.
+AoE: Lord of War, Gathering Storm.
+Mythic Plus: 3x Lord of War, Gathering Storm is fine too.
+A more complete list here - <https://bloodmallet.com/index.html#warrior_arms?data_view=azerite_traits&type=trait_stacking&tier=3>
+
+__How/Which traits stack?__
+Striking the Anvil - Only the Overpower Damage .
+Crushing Assault -  Only the Slam damage.
+Test of Might - Strength bonus does stack.
+Lord of War - CS/WB Damage stacks, not the rage gained.
+Seismic Wave - Damage Stacks.
+Gathering Storm - Strength Stacks.
+
+__With only 1 Test of Might trait, do I still delay Bladestorm till the Test of Might Window?__
+Yes, even with 1 trait only it's still worth to delay Bladestorm. On Burst AoE it's fine to ignore the ToM trait.
+
+__When do we use the Crushing Assault proc?__
+ Before Execute you'd use it like you're just casting Slam. In Execute you want to use it procs.
+
+**Stats FAQ**
+
+__What is the general stat priority?__
+Haste > Crit > Strength > Versatility > Mastery
+**THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS**
+
+__Are there any breakpoints we need to aim for?__
+No, there are tons of breakpoints that are not impactful outside of a sim. Keep getting more Haste and Crit.
+
+
