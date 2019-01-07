@@ -6,35 +6,21 @@ Wowhead Guide - <https://www.wowhead.com/fury-warrior-guide>
 
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/fury>
 
-Q: What are the best traits?
-A: 
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+**FAQ:**
+
+**Q:** What are the best traits?
+**A:** 
 Single-target: 1st Unbridled Ferocity, 1st Simmering Rage, Reckless Flurry, Cold Steel Hot Blood
 AoE: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood
 Mythic+: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood, Gathering Storm with Bladestorm talented
 In Uldir make sure you have 1 trait that activates Reorigination Array (either Archive of the Titans or Laser Matrix).
 
-A more complete list here - https://bloodmallet.com/index.html#warrior_fury?data_view=azerite_traits&type=itemlevel&tier=3
+A more complete list here - <https://bloodmallet.com/index.html#warrior_fury?data_view=azerite_traits&type=itemlevel&tier=3>
 
-Q: With Reckless Flurry, do I delay Recklessness for Siegebreaker?
-A: Holding Recklessness is the marginally better choice in most situations. Not holding Recklessness is only strictly better with very specific kill timings.
+**Q:** With Reckless Flurry, do I delay Recklessness for Siegebreaker?
+**A:** Holding Recklessness is the marginally better choice in most situations. Not holding Recklessness is only strictly better with very specific kill timings.
 
-Q: What enchants do I use? 
-A: Quick and Masterful Navigation, doesn't matter in which hand as long as you have one of each.
-
-Q: How good is Geti'ikku?
-A: The weapon is good on single-target, however it loses value in most multitarget situations due to secondary stats being better.
-
-Q: Is there any time I use *x* talent?
-A: The standard talents of 2120123 are good for everything, and will give you strong results on every boss in Uldir as well in Mythic+. There are a few situational talents that can be used though.
-Inner Rage, Bladestorm, Anger Management and Reckless Abandon all have use in Mythic+, and the first three can see slight use in Uldir.
-
-Q: Should I use *x* trinket?
-A: Go to https://bloodmallet.com/index.html#warrior_fury for a general list. **SIM YOURSELF FOR BEST RESULTS**
-
-Q: Are there stat breakpoints?
-A: No
-
-Q: What potion do I use?
-A: Bursting Blood for pure single-target, Strength Pot for everything else.
-
-━━━━━━━━━━━━━━━━━━━━━━━━
+**Q:** What enchants do I use? 
+**A:** Quick and Masterful Navigation, doesn't matter in which hand as long as you have one of each.
