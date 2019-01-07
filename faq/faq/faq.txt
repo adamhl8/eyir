@@ -26,5 +26,3 @@
 **A:** Duration increases / multipliers, proc chances, number of targets, etc.
 
 There *are* exceptions to these rules and it varies trait by trait.
-
-━━━━━━━━━━━━━━━━━━━━━━━━
