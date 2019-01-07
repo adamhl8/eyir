@@ -65,7 +65,7 @@ function readFaqDirs() {
     }
 
     else {
-        faqSectionOrder = Object.keys(faqMessages);;
+        faqSectionOrder = Object.keys(faqMessages);
         sendSections();
     }
 }
@@ -101,7 +101,8 @@ function sendSections() {
                 Util.faqset(currentDir, currentSection, faqMessages[currentSection])
                 faqSectionOrder.shift();
                 sendSections();
-            });
+            })
+            .catch(console.error);
         }
     }
 

@@ -68,12 +68,13 @@ bot.on("guildMemberAdd", member => {
 
 bot.on("message", msg => {
 
+  if (msg.author.bot) return;
+
   Util.sass(msg);
 
   let prefix = "!";
 
   if (!msg.content.startsWith(prefix)) return;
-  if (msg.author.bot) return;
 
   let match = /!(\S+)/g.exec(msg.content);
   let command = match[1];
