@@ -15,3 +15,16 @@ Wowhead Guide - <https://www.wowhead.com/protection-warrior-guide>
 
 __Ignore Pain Tracker__ - <https://wago.io/IgnorePainTracker>
 __Block Tracker__ - <https://wago.io/WarriorBlockTracker>
+
+━━━━━━━━━━━━
+
+**Q:** Is Protection viable for end-game M+ / raid progression?
+**A:** Yes. Protection is very strong defensively and and *extremely* strong offensively, particularly in AoE/Mythic+. Regardless, what tank you play isn't going to dictate your overall success. Tank balance right now is in a good spot and the minor differences between the different tank specs won't make a difference for most. What matters is your individual skill and how familiar you are with a particular spec.
+
+**Q:** How much of <insert stat here> do I need?
+**A:** You do not need a certain amount of any particular stat, nor do you need or want a certain distribution of stats. You simply want the most amount of total stats possible. That means going for item level.
+
+Your gear and stats are a lot less meaningful to tanking than your actual play. So, if you're struggling on appropriately geared content, it's because you are playing poorly. Read the guide, learn the spec, and learn to make your own decisions.
+
+**Q:** I’m having trouble keeping aggro on enemies, why is that?
+**A:** Make sure you're using the right talents, particularly Unstoppable Force, Booming Voice, and Anger Management. Protection has extremely high damage output and as a result extremely high threat output. If you are having threat issues you are likely making mistakes.
