@@ -51,7 +51,8 @@ let headerMessage = null;
 
 function sendHeader() {
 
-    header.setTitle("Click a link below to jump to that section of this channel.")
+    header.setTitle("Click a link below to jump to that section of this channel.");
+    header.setColor("#fcc200");
     initMessage.channel.send(header)
     .then(msg => {
         headerMessage = msg;
