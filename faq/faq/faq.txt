@@ -1,8 +1,8 @@
 **Q:** Should I play Arms or Fury in Uldir?
-**A:** Arms is currently ahead in most situations, but both specs are faring well.
+**A:** Both specs are viable in Uldir. It depends on the fight and the gear your have available.
 
 **Q:** Should I play Arms or Fury in BoD?
-**A:** 
+**A:** This is a difficult question to answer before the raid comes out, but currently Fury seems to be slightly ahead.
 
 **Q:** Should I use Pawn? What's a good Pawn string for X spec?
 **A:** Please don't use Pawn. We cannot stress this enough. Pawn does not take stat breakpoints into account and various other factors that need to be taken into consideration. Sim your character instead to determine gear upgrades.
@@ -15,6 +15,9 @@
 
 **Q:** What's the best spec for leveling?
 **A:** You can level with similar efficiency using any spec. It *really* doesn't matter. Play what you think is the most fun.
+
+**Q:** What professions should I have?
+**A:** This depends on your goals and the types of content you do. Check out this page for an overview of the professions and pick the ones that most interest you. <https://www.wowhead.com/professions-in-battle-for-azeroth>
 
 **Q:** What stacks for Azerite traits?
 **A:** Stat increases, damage additions, and healing additions.
