@@ -4,6 +4,7 @@
 
 <https://raidbots.com/simbot> - An online, easy-to-use tool for simming your character with SimulationCraft
 <https://www.herodamage.com/warrior> - A centralized base for SimulationCraft results for every class
+<https://bloodmallet.com> - SimluationCraft results for every class, similar to Hero Damage
 
 <https://mythicpl.us> - Current Mythic+ affixes and other useful M+ info
 <https://questionablyepic.com/mythic-plus> - Mythic+ Compendium (Dungeon routes and more)

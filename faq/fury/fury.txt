@@ -16,7 +16,6 @@ Single-target: 1st Unbridled Ferocity, 1st Simmering Rage, Reckless Flurry, Cold
 AoE: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood
 Mythic+: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood, Gathering Storm with Bladestorm talented
 In Uldir make sure you have 1 trait that activates Reorigination Array (either Archive of the Titans or Laser Matrix).
-
 A more complete list here - <https://bloodmallet.com/index.html#warrior_fury?data_view=azerite_traits&type=itemlevel&tier=3>
 
 **Q:** With Reckless Flurry, do I delay Recklessness for Siegebreaker?

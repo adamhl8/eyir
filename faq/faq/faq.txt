@@ -1,5 +1,8 @@
-**Q:** Should I play Arms or Fury for Uldir?
+**Q:** Should I play Arms or Fury in Uldir?
 **A:** Arms is currently ahead in most situations, but both specs are faring well.
+
+**Q:** Should I play Arms or Fury in BoD?
+**A:** 
 
 **Q:** Should I use Pawn? What's a good Pawn string for X spec?
 **A:** Please don't use Pawn. We cannot stress this enough. Pawn does not take stat breakpoints into account and various other factors that need to be taken into consideration. Sim your character instead to determine gear upgrades.
@@ -11,6 +14,14 @@
 **A:** Whichever one you like the best. Not only are racials not particularly impactful, they're also extremely situational.
 
 **Q:** What's the best spec for leveling?
-**A:** You can level with similar efficiency using any spec. It *really* doesn't matter.
+**A:** You can level with similar efficiency using any spec. It *really* doesn't matter. Play what you think is the most fun.
+
+**Q:** What stacks for Azerite traits?
+**A:** Stat increases, damage additions, and healing additions.
+
+**Q:** What doesn’t stack for Azerite traits?
+**A:** Duration increases / multipliers, proc chances, number of targets, etc.
+
+There *are* exceptions to these rules and it varies trait by trait.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━

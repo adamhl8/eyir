@@ -1,0 +1,13 @@
+-
+**Q:** How much of <insert stat here> do I need? How do my stats look?
+**A:** You do not need a certain amount of any particular stat, nor do you need or want a certain distribution of stats. You simply want the most amount of total stats possible. That means going for item level.
+
+Your gear and stats are a lot less meaningful to tanking than your actual play. So, if you're struggling on appropriately geared content, it's because you are playing poorly. Read the guide, learn the spec, and learn to make your own decisions.
+
+**Q:** I’m having trouble keeping aggro on enemies, why is that?
+**A:** Make sure you're using the right talents, particularly Unstoppable Force, Booming Voice, and Anger Management. Protection has extremely high damage output and as a result extremely high threat output. If you are having threat issues you are likely making mistakes.
+
+**Q:** What traits should I use for Mythic+?
+**A:** You should generally try to maximize damage in M+. As such, you'd want 1 Deafening Crash + 2 Bastion of Might.
+
+━━━━━━━━━━━━━━━━━━━━━━━━

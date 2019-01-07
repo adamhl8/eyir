@@ -56,9 +56,9 @@ function sendHeader() {
     initMessage.channel.send(header)
     .then(msg => {
         headerMessage = msg;
+        readFaqDirs();
     })
     .catch(console.error);
-    readFaqDirs();
 }
 
 let handleOrder = null;
@@ -125,6 +125,7 @@ function sendSections() {
     else {
         Main.setFaqMessages(faqMessages);
         editHeader();
+        initMessage.channel.send(header).catch(console.error);
     }
 }
 

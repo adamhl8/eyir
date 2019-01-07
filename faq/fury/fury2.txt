@@ -6,7 +6,7 @@
 **A:** The standard talents of 2120123 are good for everything, and will give you strong results on every boss in Uldir as well in Mythic+. There are a few situational talents that can be used though.
 Inner Rage, Bladestorm, Anger Management and Reckless Abandon all have use in Mythic+, and the first three can see slight use in Uldir.
 
-**Q** Should I use *x* trinket?
+**Q:** Should I use *x* trinket?
 **A:** Go to <https://bloodmallet.com/index.html#warrior_fury> for a general list. **SIM YOURSELF FOR BEST RESULTS**
 
 **Q:** Are there stat breakpoints?
