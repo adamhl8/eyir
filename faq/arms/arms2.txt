@@ -1,3 +1,4 @@
+-
 **Q:** What is the general stat priority?
 **A:** Haste > Crit > Strength > Versatility > Mastery
 __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS__
