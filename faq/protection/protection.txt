@@ -18,6 +18,8 @@ __Block Tracker__ - <https://wago.io/WarriorBlockTracker>
 
 ━━━━━━━━━━━━
 
+**FAQ:**
+
 **Q:** Is Protection viable for end-game M+ / raid progression?
 **A:** Yes. Protection is very strong defensively and and *extremely* strong offensively, particularly in AoE/Mythic+. Regardless, what tank you play isn't going to dictate your overall success. Tank balance right now is in a good spot and the minor differences between the different tank specs won't make a difference for most. What matters is your individual skill and how familiar you are with a particular spec.
 
