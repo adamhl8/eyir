@@ -8,94 +8,26 @@ Wowhead Guide - <https://www.wowhead.com/arms-warrior-guide>
 
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/arms>
 
-***ARMS FAQ***
+**FAQ:**
 
-**Trait FAQ**
-
-__What are the best traits?__
-
-Single target: Crushing Assault, Striking the Avnil, Test of Might.
-AoE: Lord of War, Gathering Storm.
-Mythic Plus: 3x Lord of War, Gathering Storm is fine too.
+**Q:** What are the best traits?
+**A:**
+Single-target: Crushing Assault, Striking the Avnil, Test of Might
+AoE: Lord of War, Gathering Storm
+Mythic+ : 3x Lord of War, Gathering Storm is fine too.
 A more complete list here - <https://bloodmallet.com/index.html#warrior_arms?data_view=azerite_traits&type=trait_stacking&tier=3>
 
-__How/Which traits stack?__
-Striking the Anvil - Only the Overpower Damage .
-Crushing Assault -  Only the Slam damage.
-Test of Might - Strength bonus does stack.
-Lord of War - CS/WB Damage stacks, not the rage gained.
-Seismic Wave - Damage Stacks.
-Gathering Storm - Strength Stacks.
+**Q:** With only 1 Test of Might trait, do I still delay Bladestorm till the Test of Might Window?
+**A:** Yes, even with 1 trait only it's still worth to delay Bladestorm. On Burst AoE it's fine to ignore the ToM trait.
 
-__With only 1 Test of Might trait, do I still delay Bladestorm till the Test of Might Window?__
-Yes, even with 1 trait only it's still worth to delay Bladestorm. On Burst AoE it's fine to ignore the ToM trait.
+**Q:** When do I use the Crushing Assault proc?
+**A:** Before Execute use it like you would use Slam. In Execute you want to use it as soon as it procs.
 
-__When do we use the Crushing Assault proc?__
- Before Execute you'd use it like you're just casting Slam. In Execute you want to use it procs.
+**Q:** Is it ok so sit on Skullsplitter?
+**A:** Yes, the power of Skullsplitter comes from the near on demand rage. Sitting on it when you are high rage is fine.
 
-**Stats FAQ**
+**Q:** Is Mortal Strike used in the Execute phase?
+**A:** At this point no, the DPR of Execute and MS with 2 OP stacks is basically even. However in practice it's better to keep using Execute as it doesn't slow the rotation as much.
 
-__What is the general stat priority?__
-Haste > Crit > Strength > Versatility > Mastery
-**THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS**
-
-__Are there any breakpoints we need to aim for?__
-No, there are tons of breakpoints that are not impactful outside of a sim. Keep getting more Haste and Crit.
-
-**Talent FAQ**
-
-__Is Avatar or In for the Kill better for M+?__
-In for the Kill is generally better, however Avatar can be used if you co-ordiante with your group for large pulls.
-
-__Is Fervor of Battle viable in M+?__
-No, Massacre is still much better for single target and AoE. 
-
-__Rend sims higher, should I use it over Massacre?__
-No, Rend may sim higher but is worse in practice. Massacre is much easier to abuse.
-
-__Is Second Wind Viable?__
-Yes, in some cases in raid "Environmental" damage doesn't break Second Winds healing. Ex: Mythrax and Bursting/Greivous in M+.
-
-**Rotation FAQ**
-
-__Do you wait for 40 rage to cast Execute?__
-No, you want to use execute at any rage, the DPR scales linearly. 
-
-__Is Mortal Strike used in the Execute phase?__
-At this point no, the DPR of Execute and MS with 2 OP stacks is basically even. However in real practice it's better to keep using Execute as it doesn't slow the rotation as much.
-
-__Is it ok so sit on Skullsplitter>__
-Yes, the power of Skullsplitter comes from the near on demand rage. Sitting on it when you are high rage is fine.
-
-__What is the opener?__
-Without Test of Might
-Charge > Warbreaker/Colossus Smash > Bladestorm > Regular Rotation
-
-With Test of Might
-Charge > Skullsplitter > Warbreaker/Colossus Smash > Regular Rotation > Bladestorm when Colossus Smash fades.
-
-**General FAQ**
-__What are the best races for Arms?__
-For Horde: Undead, Blood Elf, Goblin. 
-For Alliance: Lightforged Draenei, Gnome, Void Elf.
-For Mythic plus: Blood Elf is strong due to Arcane Torrent, and Night Elf is great too for Shadowmeld.
-
-__Is Arms or Fury better for M+?__
-Fury is generally considered to be better than Arms, however Arms is still a viable spec.
-
-__Is Arms or Fury better for Raid?__
-As of now in Uldir both specs trade blows on fights. For Battle of Dazar'alor we don't know yet.
-*You can look at logs here for a more clear idea* <https://www.warcraftlogs.com/zone/rankings/19#class=Warrior&spec=Melee>
-
-__What does Arms excell at?__
-Arms is particuarly good at 2-target cleave and burst AoE. It's single target is quite weak.
-
-__Is there a BiS list?__
-Not really, with Titanforging making a lot of gear relevant it's hard to acquire said "BiS". Every character is vastly different.
-
-__What Potion does Arms use?__
-Bursting Blood is better on single target, Strength better for AoE. However the Strength pot is almost as good as Bursting Blood in Single Target.
-
-__What are the best Trinkets for Arms?__
-Since Titanforging makes a lot of gear relevant, you can check out the Bloodmallet list here. - <https://bloodmallet.com/index.html#warrior_arms>
-
+**Q:** Do you wait for 40 rage to cast Execute?
+**A:** No, you want to use execute at any rage, the DPR scales linearly.
