@@ -1,3 +1,4 @@
+-
 **Q:** How good is Geti'ikku?
 **A:** The weapon is good on single-target, however it loses value in most multitarget situations due to secondary stats being better.
 
