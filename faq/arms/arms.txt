@@ -8,9 +8,7 @@ Wowhead Guide - <https://www.wowhead.com/arms-warrior-guide>
 
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/arms>
 
-━━━━━━━━━━━━
-
-**FAQ:**
+**__FAQ__**
 
 **Q:** What are the best traits?
 **A:**

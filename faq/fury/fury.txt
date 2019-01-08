@@ -6,9 +6,7 @@ Wowhead Guide - <https://www.wowhead.com/fury-warrior-guide>
 
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/fury>
 
-━━━━━━━━━━━━
-
-**FAQ:**
+**__FAQ__**
 
 **Q:** What are the best traits?
 **A:** 
