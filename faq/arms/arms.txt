@@ -12,9 +12,9 @@ Wowhead Guide - <https://www.wowhead.com/arms-warrior-guide>
 
 **Q:** What are the best traits?
 **A:**
-Single-target: Crushing Assault, Striking the Avnil, Test of Might
-AoE: Lord of War, Gathering Storm
-Mythic+ : 3x Lord of War, Gathering Storm is fine too.
+Single-target: Crushing Assault, Striking the Avnil, Test of Might, Treacherous Covenant 
+AoE: Lord of War, Gathering Storm, Treacherous Covenant 
+Mythic+ : Lord of War, Gathering Storm, Treacherous Covenant
 A more complete list here - <https://bloodmallet.com/index.html#warrior_arms?data_view=azerite_traits&type=trait_stacking&tier=3>
 
 **Q:** With only 1 Test of Might trait, do I still delay Bladestorm till the Test of Might Window?
