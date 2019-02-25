@@ -2,15 +2,22 @@
 **Q:** How good is Geti'ikku?
 **A:** The weapon is good on single-target, however it loses value in most multitarget situations due to secondary stats being better.
 
-**Q:** Is there any time I use *x* talent?
-**A:** The standard talents of 2120123 are good for everything, and will give you strong results on every boss in Uldir as well in Mythic+. There are a few situational talents that can be used though.
-Inner Rage, Bladestorm, Anger Management and Reckless Abandon all have use in Mythic+, and the first three can see slight use in Uldir.
+**Q:** Is there any alternate talents for Mythic+?
+**A:** Bladestorm is a very strong choice in Mythic+, and will generally lead to better results. 
+Reckless Abandon is also very strong for more infrequent but much stronger burst. 
+Anger Management can be used to pair Recklessness with Bladestorm every time. 
+Inner Rage is a good choice on specifically Explosive weeks in order to ensure you can kill the Explosive orbs.
+
+**Q:** Are there alternate talents for Battle of Daz'alor?
+**A:** Bladestorm is a good choice for Mythic Opulence for more damage to the adds in Phase 2.
+Reckless Abandon is a potential choice for Mythic Rastakhan and Mythic Mekkatorque.
+Anger Management is a potential choice for Mythic Jaina as this allows you to use Recklessness on the wall as well as using it twice on Jaina.
 
 **Q:** Should I use *x* trinket?
 **A:** Go to <https://bloodmallet.com/index.html#warrior_fury> for a general list. **SIM YOURSELF FOR BEST RESULTS**
 
 **Q:** Are there stat breakpoints?
-**A:** No.
+**A:** There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stats.
 
 **Q:** What potion do I use?
 **A:** Bursting Blood for pure single-target, Strength Pot for everything else.
