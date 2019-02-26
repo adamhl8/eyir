@@ -2,7 +2,7 @@
 **Q:** How good is Geti'ikku?
 **A:** The weapon is good on single-target, however it loses value in most multitarget situations due to secondary stats being better.
 
-**Q:** Is there any alternate talents for Mythic+?
+**Q:** Are there any alternate talents for Mythic+?
 **A:** Bladestorm is a very strong choice in Mythic+, and will generally lead to better results. 
 Reckless Abandon is also very strong for more infrequent but much stronger burst. 
 Anger Management can be used to pair Recklessness with Bladestorm every time. 
