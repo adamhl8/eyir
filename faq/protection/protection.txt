@@ -8,6 +8,7 @@ Blockable/Reflectable Spells Sheet - <https://goo.gl/Tb49B3>
 
 Talent Analysis Sheet - <https://goo.gl/iKaePF>
 Stat Analysis Sheet - <https://goo.gl/oguKzo>
+Azerite Trait Analysis Sheet - <https://bit.ly/2JifoHS>
 
 Wowhead Guide - <https://www.wowhead.com/protection-warrior-guide>
 
@@ -15,6 +16,7 @@ Wowhead Guide - <https://www.wowhead.com/protection-warrior-guide>
 
 __Ignore Pain Tracker__ - <https://wago.io/IgnorePainTracker>
 __Block Tracker__ - <https://wago.io/WarriorBlockTracker>
+__Spell Reflection Tracker__ - <https://wago.io/SpellReflectionTracker>
 Deafening Crash Tracker - <https://wago.io/DeafeningCrashTracker>
 
 **__FAQ__**
