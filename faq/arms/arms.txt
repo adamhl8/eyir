@@ -12,7 +12,7 @@ Wowhead Guide - <https://www.wowhead.com/arms-warrior-guide>
 
 **Q:** What are the best traits?
 **A:**
-Single-target: Crushing Assault, Striking the Avnil, Test of Might, Treacherous Covenant and Meticulous Scheming 
+Single-target: Crushing Assault, Striking the Avnil, Test of Might, Treacherous Covenant, and Meticulous Scheming
 AoE: Lord of War, Gathering Storm, Treacherous Covenant 
 Mythic+ : Lord of War, Gathering Storm, Treacherous Covenant
 A more complete list here - <https://bloodmallet.com/index.html#warrior_arms?data_view=azerite_traits&type=trait_stacking&tier=3>
