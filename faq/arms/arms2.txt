@@ -13,7 +13,7 @@ __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS
 **A:** No, Massacre is still much better for single-target and AoE. 
 
 **Q:** Rend/FoB sims higher, should I use it over Massacre?
-**A:** Depends, Rend/FoB are less flexible than Massacre in raids, but are equally as viable if not better in BoD/CoS 
+**A:** Depends, Rend/FoB are less flexible than Massacre in raids, but are equally as viable, if not better, in BoD/CoS.
 
 **Q:** Is Second Wind Viable?
 **A:** Yes, in some cases in raid "Environmental" damage doesn't break Second Winds healing. Ex: Mythrax and Bursting/Greivous in M+.
