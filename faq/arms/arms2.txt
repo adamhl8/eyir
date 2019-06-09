@@ -28,6 +28,4 @@ __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS
 **A:** It's typically used after the opener when you're not going to rage cap. It does not scale with CS/ToM so it's a waste to use during those windows.
 
 **Q:** How do we use Ramping Amplitude Gigavolt Engine?
-**A:** Engine should be used about 8s before a CS cast, even on pull you'd precast it. 
-
-rend pipes
+**A:** Engine should be used about 8s before a CS cast, even on pull you'd precast it.
