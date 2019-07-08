@@ -6,9 +6,9 @@ TankNotes (tank-specific Uldir guide) - <https://tanknotes.tk>
 
 Blockable/Reflectable Spells Sheet - <https://goo.gl/Tb49B3>
 
-Talent Analysis Sheet - <https://goo.gl/iKaePF>
-Stat Analysis Sheet - <https://goo.gl/oguKzo>
-Azerite Trait Analysis Sheet - <https://bit.ly/2JifoHS>
+Talent Analysis Sheet - <https://docs.google.com/spreadsheets/d/1dIU9JY_6wxtAgM3rldF8ucnQ-EZKPnLobXBaF-Ar4qQ/edit>
+Stat Analysis Sheet - <https://docs.google.com/spreadsheets/d/1JyBPSJppO6VDfEBeVxUHqnGHL0mbnMM-v4e8SrEtCuQ/edit>
+Azerite Trait Analysis Sheet - <https://docs.google.com/spreadsheets/d/1AtQ0sppSm6ree-Tdy91z104_9o8IGEE87m7rI3x51UE/edit>
 
 Wowhead Guide - <https://www.wowhead.com/protection-warrior-guide>
 
