@@ -25,20 +25,20 @@ function run() {
   skyhold.fetchMembers()
   .then(g => {
     roleCache = ObjectCache.build(g.roles)
-    applyVrykul(g);
+    applyValarjar(g);
   })
   .catch(console.error)
 }
 
-function applyVrykul(g) {
+function applyValarjar(g) {
 
     g.members.array().forEach(member => {
 
       memberRoleCache = ObjectCache.build(member.roles);
 
       if (!memberRoleCache.props.excluded) {
-        member.addRole(roleCache["Vrykul"]);
-        console.log("Added Vrykul to " + member.user.tag);
+        member.addRole(roleCache["Valarjar"]);
+        console.log("Added Valarjar to " + member.user.tag);
       }
     })
 }
@@ -63,7 +63,7 @@ exports.setFaqMessages = function(obj) {
 
 bot.on("guildMemberAdd", member => {
   Util.welcomeNewMember(member);
-  member.addRole(roleCache["Vrykul"]);
+  member.addRole(roleCache["Valarjar"]);
 });
 
 bot.on("message", msg => {

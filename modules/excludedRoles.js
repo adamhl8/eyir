@@ -6,5 +6,5 @@ exports.roles = [
     "Patreon Bot",
     "Bot",
     "GiveawayBot",
-    "Vrykul"
+    "Valarjar"
     ]
