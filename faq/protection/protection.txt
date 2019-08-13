@@ -4,7 +4,7 @@ __Icy Veins Guide__ - <https://www.icy-veins.com/wow/protection-warrior-pve-tank
 
 TankNotes (tank-specific Uldir guide) - <https://tanknotes.tk>
 
-Blockable/Reflectable Spells Sheet - <https://goo.gl/Tb49B3>
+Blockable/Reflectable Spells Sheet - <https://docs.google.com/spreadsheets/d/e/2PACX-1vRvMMhBT1xyvECDvAlxXirfLYtgzYZ18vjY3zRyA4LU7NgVg5Vmj-MroMT5W6i94q0aYNodyer0hbZ3/pubhtml>
 
 Talent Analysis Sheet - <https://docs.google.com/spreadsheets/d/1dIU9JY_6wxtAgM3rldF8ucnQ-EZKPnLobXBaF-Ar4qQ/edit>
 Stat Analysis Sheet - <https://docs.google.com/spreadsheets/d/1JyBPSJppO6VDfEBeVxUHqnGHL0mbnMM-v4e8SrEtCuQ/edit>
