@@ -7,19 +7,17 @@
   "author": "Marok",
   "dependencies": {
     "discord.js": "^11.4.2",
-    "dotenv": "^6.2.0",
+    "dotenv": "^8.1.0",
     "gaze": "^1.1.3",
     "moment-timer": "^1.3.0",
     "node-persist": "^3.0.2"
   },
   "scripts": {
-    "start": "pm2 start eyir.js .env",
+    "start": "node eyir.js .env",
     "skyhold-test": "nodemon eyir.js .env",
-    "eyir-test": "nodemon eyir.js .env-test",
-    "restart": "yarn; pm2 restart all"
+    "eyir-test": "nodemon eyir.js .env-test"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
-    "pm2": "^3.2.4"
+    "nodemon": "^1.18.9"
   }
 }
