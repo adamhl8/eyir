@@ -27,8 +27,9 @@ A more complete list here - <https://bloodmallet.com/index.html#warrior_arms?dat
 **A:** Yes, the trait reduces the rage cost of Whirlwind by 20 and increases the slam cast damage.
 
 **Q:** What are the best Essences for Arms?
-**A:** Raid: Lucid Dreams major, Focusing Iris first minor, Conflict and Strife or Crucible of Flame for second minor.
-       M+/AoE: Focusing Iris or Blood of the Enemy(combo'd with Avatar) major, Purification Protocol/Conflict and Strife or Lucid minors.
+**A:**
+Raid: Lucid Dreams major, Focusing Iris first minor, Conflict and Strife or Crucible of Flame for second minor.
+M+/AoE: Focusing Iris or Blood of the Enemy(combo'd with Avatar) major, Purification Protocol/Conflict and Strife or Lucid minors.
 
--**Q:** Is it ok to sit on Skullsplitter?
+**Q:** Is it ok to sit on Skullsplitter?
 **A:** Yes, the power of Skullsplitter comes from the near on demand rage. Sitting on it's cooldown during lucid or high rage is fine.
