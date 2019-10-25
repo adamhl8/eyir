@@ -13,8 +13,8 @@
     "node-persist": "^3.0.2"
   },
   "scripts": {
-    "start": "pm2 start eyir.js .env",
-    "skyhold-test": "pm2 start eyir.js .env --watch",
+    "start": "pm2 start eyir.js -- .env",
+    "skyhold-test": "pm2 start eyir.js -- .env --watch",
     "eyir-test": "pm2 start eyir.js .env-test"
   },
   "devDependencies": {
