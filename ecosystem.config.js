@@ -7,7 +7,7 @@ module.exports = {
     autorestart: true,
     watch: false,
     log_date_format: "YYYY-MM-DD HH:mm:ss",
-    combine_logs: "true",
+    combine_logs: true,
     error_file: "logs/errors.log",
     out_file: "logs/eyir.log"
   },{
@@ -18,7 +18,7 @@ module.exports = {
     autorestart: true,
     watch: true,
     log_date_format: "YYYY-MM-DD HH:mm:ss",
-    combine_logs: "true",
+    combine_logs: true,
     error_file: "logs/skyhold-test-errors.log",
     out_file: "logs/skyhold-test-eyir.log"
   },
@@ -30,7 +30,7 @@ module.exports = {
     autorestart: true,
     watch: true,
     log_date_format: "YYYY-MM-DD HH:mm:ss",
-    combine_logs: "true",
+    combine_logs: true,
     error_file: "logs/test-errors.log",
     out_file: "logs/test-eyir.log"
   }
