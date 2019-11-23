@@ -1,0 +1,13 @@
+[Unit]
+Description=eyir
+Documentation=https://github.com/xMarok/eyir
+
+[Service]
+Environment=NODE_ENV=production
+Type=simple
+User=eyir
+ExecStart=/usr/bin/node /home/eyir/eyir.js .env
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
