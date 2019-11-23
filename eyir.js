@@ -1,20 +1,17 @@
 require('dotenv').config({path: process.argv[2]});
 
-const { log } = require("./modules/logger.js");
 const Discord = require("discord.js");
 const ObjectCache = require("./modules/objectCache.js");
 const Util = require("./modules/util.js");
 const Commands = require("./modules/commands.js");
 const gaze = require("gaze");
 
-process.prependListener('uncaughtException', function(error) { log.log('error', 'from process'); });
-
 const bot = new Discord.Client();
 bot.login(process.env.TOKEN);
 
 bot.on('ready', () => {
   
-  log.info('I am ready!');
+  console.log('I am ready!');
 
   run();
 });
@@ -41,7 +38,7 @@ function applyValarjar(g) {
 
       if (!memberRoleCache.props.excluded) {
         member.addRole(roleCache["Valarjar"]);
-        log.info("Added Valarjar to " + member.user.tag);
+        console.log("Added Valarjar to " + member.user.tag);
       }
     })
 }
