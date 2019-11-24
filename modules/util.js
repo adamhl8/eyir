@@ -6,9 +6,10 @@ exports.welcomeNewMember = function(member) {
 
     member.createDM()
     .then(channel => {
-        channel.send(welcomeMessage)
-        console.log("Sent welcome message to " + member.displayName)
-    });
+        channel.send(welcomeMessage).catch(console.error);
+        console.log("Sent welcome message to " + member.displayName);
+    })
+    .catch(console.error);
 }
 
 exports.sass = function(msg) {

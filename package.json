@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "pm2 start ecosystem.config.js --only eyir",
-    "skyhold-test": "pm2 start ecosystem.config.js --only eyir-skyhold-test",
+    "skyhold-test": "pm2 start ecosystem.config.js --only skyhold-test",
     "eyir-test": "pm2 start ecosystem.config.js --only eyir-test"
   },
   "devDependencies": {

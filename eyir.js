@@ -77,7 +77,10 @@ bot.on("message", msg => {
   if (!msg.content.startsWith(prefix)) return;
 
   let match = /!(\S+)/g.exec(msg.content);
-  let command = match[1];
+  let command = "none";
+  if (match) {
+    command = match[1];
+  }
 
   if (Commands.hasOwnProperty(command)) {
 
