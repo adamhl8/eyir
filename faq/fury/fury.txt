@@ -12,7 +12,7 @@ Wowhead Guide - <https://www.wowhead.com/fury-warrior-guide>
 **A:** 
 Single-target: 1st Unbridled Ferocity, 1st Simmering Rage, Reckless Flurry, Cold Steel Hot Blood
 AoE: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood
-Mythic+: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood, Gathering Storm with Bladestorm talented
+Mythic+: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood
 Tier 2s: Overwhelming Power, Gutripper, Heed My Call
 A more complete list here - <https://bloodmallet.com/index.html#warrior_fury?data_view=azerite_traits&type=itemlevel&tier=3>
 
@@ -24,7 +24,7 @@ A more complete list here - <https://bloodmallet.com/index.html#warrior_fury?dat
 
 **Q:** How strong is Infinite Fury?
 **A:** Assuming you have Cold Steel Hot Blood, Infinite Fury is one of the strongest traits on paper but in practice it does lose value. If you have any downtime it hurts the value of the trait a lot. Even if it does lose value on some bosses, the trait is still a good choice if it sims a good amount higher than your other choice (at least >0.5% more).
-In Battle of Daz'alor, Infinite Fury is weak on the following bosses: Jadefire Masters, Opulence, Conclave of the Loa, Mekkatorque.
+In The Eternal Palace, Infinite Fury is generally a weaker trait and should not be used unless it far surpasses other options.
 
 **Q:** What enchants do I use? 
-**A:** Quick and Masterful Navigation, however if you have Cold Steel Hot Blood then you might sim higher with Deadly Navigation. This can lead to either Quick+Deadly or Deadly+Masterful (Mainhand vs Offhand makes no difference). Sim yourself to be sure.
+**A:** Deadly Navigation and Force Multiplier, however many aspects of gear affects this. Benthic, essences, geti'iiku, and trinkets can all sway enchants to things like quick and versatile navigation. In general for enchants and gems sim yourself for a complete answer.
