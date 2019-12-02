@@ -3,15 +3,16 @@
 **A:** The weapon is good on single-target, however it loses value in most multitarget situations due to secondary stats being better.
 
 **Q:** Are there any alternate talents for Mythic+?
-**A:** Bladestorm is a very strong choice in Mythic+, and will generally lead to better results. 
+**A:** Bladestorm is a very strong choice in Mythic+, and can lead to better results depending on pulls.
 Reckless Abandon is also very strong for more infrequent but much stronger burst. 
-Anger Management can be used to pair Recklessness with Bladestorm every time. 
+Anger Management can be used to pair Recklessness with Bladestorm every time, it also works better with focusing iris as it will desync from blood of the enemy.
 Inner Rage is a good choice on specifically Explosive weeks in order to ensure you can kill the Explosive orbs.
 
-**Q:** Are there alternate talents for Battle of Daz'alor?
-**A:** Bladestorm is a good choice for Mythic Opulence for more damage to the adds in Phase 2.
-Reckless Abandon is a potential choice for Mythic Rastakhan and Mythic Mekkatorque.
-Anger Management is a potential choice for Mythic Jaina as this allows you to use Recklessness on the wall as well as using it twice on Jaina.
+**Q:** Are there alternate talents for The Eternal Palace?
+**A:** Furious Slashs generally sims higher for single target and is playable on the first 4 bosses as well as Queen's Court. On the other 3 fights Sudden Death is still ahead, and can still be an option to play on Lady Ashvane, Blackwater Behemoth, and Radiance of Azshara.
+Bladestorm is a good choice for Mythic Azhsara for more damage on the devoted adds as well as in p3, but does slightly less in p4.
+
+
 
 **Q:** Should I use *x* trinket?
 **A:** Go to <https://bloodmallet.com/index.html#warrior_fury> for a general list. **SIM YOURSELF FOR BEST RESULTS**
@@ -20,4 +21,4 @@ Anger Management is a potential choice for Mythic Jaina as this allows you to us
 **A:** There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stats.
 
 **Q:** What potion do I use?
-**A:** Bursting Blood for pure single-target, Strength Pot for everything else.
+**A:** Potion of Unbridled Fury for most situations including single target and low target cleave, Potion of Empowered Proximity for larger scale AoE and generally used to trash in mythic plus.
