@@ -6,10 +6,6 @@ TankNotes (tank-specific Uldir guide) - <https://tanknotes.tk>
 
 Blockable/Reflectable Spells Sheet - <https://docs.google.com/spreadsheets/d/e/2PACX-1vRvMMhBT1xyvECDvAlxXirfLYtgzYZ18vjY3zRyA4LU7NgVg5Vmj-MroMT5W6i94q0aYNodyer0hbZ3/pubhtml>
 
-Talent Analysis Sheet - <https://docs.google.com/spreadsheets/d/1dIU9JY_6wxtAgM3rldF8ucnQ-EZKPnLobXBaF-Ar4qQ/edit>
-Stat Analysis Sheet - <https://docs.google.com/spreadsheets/d/1JyBPSJppO6VDfEBeVxUHqnGHL0mbnMM-v4e8SrEtCuQ/edit>
-Azerite Trait Analysis Sheet - <https://docs.google.com/spreadsheets/d/1AtQ0sppSm6ree-Tdy91z104_9o8IGEE87m7rI3x51UE/edit>
-
 Wowhead Guide - <https://www.wowhead.com/protection-warrior-guide>
 
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/protection>
@@ -17,7 +13,6 @@ Wowhead Guide - <https://www.wowhead.com/protection-warrior-guide>
 __Ignore Pain Tracker__ - <https://wago.io/IgnorePainTracker>
 __Block Tracker__ - <https://wago.io/WarriorBlockTracker>
 __Spell Reflection Tracker__ - <https://wago.io/SpellReflectionTracker>
-Deafening Crash Tracker - <https://wago.io/DeafeningCrashTracker>
 
 **__FAQ__**
 
