@@ -21,4 +21,4 @@ Bladestorm is a good choice for Mythic Azhsara for more damage on the devoted ad
 **A:** There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stats.
 
 **Q:** What potion do I use?
-**A:** Potion of Unbridled Fury for most situations including single target and low target cleave, Potion of Empowered Proximity for larger scale AoE and generally used to trash in mythic plus.
+**A:** Potion of Unbridled Fury for most situations including single target and low target cleave, Potion of Empowered Proximity for larger scale AoE and generally used for trash in mythic plus.
