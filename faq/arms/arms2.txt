@@ -1,30 +1,26 @@
-**Q:** Is Mortal Strike used in the Execute phase?
-**A:** At this point no, the DPR of Execute and MS with 2 OP stacks is basically even. However in practice it's better to keep using Execute as it doesn't slow the rotation as much.
-
 **Q:** Do you wait for 40 rage to cast Execute?
 **A:** No, you want to use execute at any rage, the DPR scales linearly.
 
 **Q:** What is the general stat priority?
-**A:** Haste > Crit > Strength > Versatility > Mastery
+**A:** Haste > Crit > Vers/Mastery > Strength
 __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS__
 
 **Q:** Are there any breakpoints we need to aim for?
-**A:** No, there are tons of breakpoints that are not impactful outside of a sim. Keep getting more Haste and Crit.
+**A:** No, there are tons of breakpoints that are not impactful outside of a sim. 
 
-**Q:** Is Avatar or In for the Kill better for M+?
-**A:** In for the Kill is generally better, however Avatar can be used with Blood of the Enemy if you coordinate with your group for large pulls.
+**Q:** What talents/traits should I take for M+?
+**A:** 
+For lower keys. Your talent set up is Skullsplitter,Storm Bolt, Massacre,Defensive Stance,Warbreaker,In for the Kill and Anger Management. Paired with as many Lord of War and Gathering storm traits.  
 
-**Q:** Is Fervor of Battle viable in M+?
-**A:** No, Massacre is still much better for M+
+For Higher keys, (15+ usually) the talents are similar. However you can also opt in to use Fervor of Battle and Cleave for talents and use Test of Might traits. Generally used with Lucid Dreams as a major. In higher keys mobs tend to live longer and some pulls are bigger, which gives more potential for Cleave and Test of Might to pump out some serious AoE damage while still having decent single target.
 
-**Q:** Rend/FoB sims higher, should I use it over Massacre?
-**A:** Yes, massacre has generally fallen out of favour since 8.2 Essences. 
+__Both builds are equally viable in higher keys, it really depends on how your group pulls and the composition of said group.__
 
-**Q:** Is Second Wind Viable?
-**A:** Yes, in some cases in raid "Environmental" damage doesn't break Second Winds healing. Ex: Mythrax and Bursting/Greivous in M+.
-
-**Q:** What Potion does Arms use?
-**A:** Unbridled Fury for single target, Greater Strength for 2-3, Proximity for 4+
+**Q:** What Potions does Arms use?
+**A:** 
+Single Target: Unbridled Fury on pull with no lust. Focused Resolve if lusting on pull and ALWAYS in Lucid+Execute Window
+2-3 Target Cleave: Greater Strength
+4+ Target AoE: Proximity 
 
 **Q:** What are the best Trinkets for Arms?
 **A:** Since Titanforging makes a lot of gear relevant, you can check out the Bloodmallet list here. - <https://bloodmallet.com/index.html#warrior_arms>
@@ -33,4 +29,4 @@ __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS
 **A** The trinkets second use is best saved for the Execute + Lucid Dreams window.
 
 **Q:** How is Font of Azshara used for Arms?
-**A:** You would precast it before pull, then use it on cd with Lucid. However it is always best to save a use of it for the Lucid Dreams + Execute window. 
+**A:** You would precast it before pull, then use it on cd with Lucid. However it is always best to save it for the Lucid Dreams + Execute window. 
