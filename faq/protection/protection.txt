@@ -2,7 +2,7 @@
 
 __Icy Veins Guide__ - <https://www.icy-veins.com/wow/protection-warrior-pve-tank-guide>
 
-TankNotes (tank-specific Uldir guide) - <https://tanknotes.tk>
+TankNotes (tank-specific Raid guide) - <https://tanknotes.tk>
 
 Blockable/Reflectable Spells Sheet - <https://docs.google.com/spreadsheets/d/e/2PACX-1vRvMMhBT1xyvECDvAlxXirfLYtgzYZ18vjY3zRyA4LU7NgVg5Vmj-MroMT5W6i94q0aYNodyer0hbZ3/pubhtml>
 
