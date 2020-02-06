@@ -10,10 +10,10 @@ Wowhead Guide - <https://www.wowhead.com/fury-warrior-guide>
 
 **Q:** What are the best traits?
 **A:** 
-Single-target: 1st Unbridled Ferocity, 1st Simmering Rage, Reckless Flurry, Cold Steel Hot Blood
-AoE: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood
-Mythic+: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood
-Tier 2s: Overwhelming Power, Gutripper, Heed My Call
+Single-target: 1st Unbridled Ferocity, 1st Simmering Rage, Reckless Flurry, Cold Steel Hot Blood, Heart of Darkness
+AoE: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood, Heart of Darkness
+Mythic+: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood, Heart of Darkness
+Tier 2s: Unstable Flames, Overwhelming Power, Gutripper
 A more complete list here - <https://bloodmallet.com/index.html#warrior_fury?data_view=azerite_traits&type=itemlevel&tier=3>
 
 **Q:** With Reckless Flurry, do I delay Recklessness for Siegebreaker?
@@ -23,8 +23,7 @@ A more complete list here - <https://bloodmallet.com/index.html#warrior_fury?dat
 **A:** If you have 2 Cold Steel Hot Blood traits you do prioritize Bloodthirst over Raging Blow at all times, even during enrage and while at 2 Raging Blow stacks.
 
 **Q:** How strong is Infinite Fury?
-**A:** Assuming you have Cold Steel Hot Blood, Infinite Fury is one of the strongest traits on paper but in practice it does lose value. If you have any downtime it hurts the value of the trait a lot. Even if it does lose value on some bosses, the trait is still a good choice if it sims a good amount higher than your other choice (at least >0.5% more).
-In The Eternal Palace, Infinite Fury is generally a weaker trait and should not be used unless it far surpasses other options.
+**A:** Assuming you have Cold Steel Hot Blood, Infinite Fury is one of the strongest traits on paper but in practice it does lose a lot of value with any forced downtime off the boss. In Ny'alotha, I would heavily recommend avoiding the use of Infinite Fury as most bosses have plenty of ways to foce you away from the boss. 
 
-**Q:** What enchants do I use? 
-**A:** Deadly Navigation and Force Multiplier, however many aspects of gear affects this. Benthic, essences, geti'iiku, and trinkets can all sway enchants to things like quick and versatile navigation. In general for enchants and gems sim yourself for a complete answer.
+**Q:** What enchants/gems do I use? 
+**A:** Deadly Navigation and Versatile Navigation is often the most powerful combination of weapon enchants, and Critical Strike Ring Enchants and Gems. However enchants and gems are very subject to your specific character, and simming yourself will give you much better and accurate results.
