@@ -1,24 +1,19 @@
 -
 **Q:** How good is Geti'ikku?
-**A:** The weapon is good on single-target, however it loses value in most multitarget situations due to secondary stats being better.
+**A:** The weapon is very strong on Single Target, however do keep in mind that it loses value in multi-target situations due to the DoT being Single Target only and the weapon missing secondary stats.
 
 **Q:** Are there any alternate talents for Mythic+?
 **A:** Bladestorm is a very strong choice in Mythic+, and can lead to better results depending on pulls.
-Reckless Abandon is also very strong for more infrequent but much stronger burst. 
-Anger Management can be used to pair Recklessness with Bladestorm every time, it also works better with focusing iris as it will desync from blood of the enemy.
-Inner Rage is a good choice on specifically Explosive weeks in order to ensure you can kill the Explosive orbs.
+Reckless Abandon is also very strong for more infrequent but much stronger burst, and it pairs very well with Blood of the Enemy major essence which is a very strong and popular choice for Mythic+.
+Anger Management is another potential choice for Mythic+ as it pairs well with Bladestorm.
+Inner Rage is a good choice on specifically Explosive weeks in order to ensure you can kill the Explosive orbs, however it's overall damage is lackluster compared to Sudden Death due to how inferior Raging Blow is compared to Bloodthirst due to Cold Steel Hot Blood.
 
-**Q:** Are there alternate talents for The Eternal Palace?
-**A:** Furious Slashs generally sims higher for single target and is playable on the first 4 bosses as well as Queen's Court. On the other 3 fights Sudden Death is still ahead, and can still be an option to play on Lady Ashvane, Blackwater Behemoth, and Radiance of Azshara.
-Bladestorm is a good choice for Mythic Azhsara for more damage on the devoted adds as well as in p3, but does slightly less in p4.
-
-
+**Q:** Are there alternate talents for Ny'alotha?
+**A:** Furious Slash is a very strong Single Target talent and has use on quite a few bosses in Ny'alotha. These bosses are mainly Maut, Skitra, Xanesh, Shad'har, and Ra-den. It is also useable on Wrathion, Vexiona, Il'gynoth, and Drest'agath but it is slightly awkward due to forced downtime and/or adds and I would recommend just using Sudden Death instead.
+Bladestorm is a very strong choice on Hivemind and Carapace due to the timings on add spawns working out well for Bladestorm.
 
 **Q:** Should I use *x* trinket?
 **A:** Go to <https://bloodmallet.com/index.html#warrior_fury> for a general list. **SIM YOURSELF FOR BEST RESULTS**
 
 **Q:** Are there stat breakpoints?
-**A:** There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stats.
-
-**Q:** What potion do I use?
-**A:** Potion of Unbridled Fury for most situations including single target and low target cleave, Potion of Empowered Proximity for larger scale AoE and generally used for trash in mythic plus.
+**A:** There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stat amounts.
