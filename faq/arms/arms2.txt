@@ -1,20 +1,24 @@
-**Q:** Do you wait for 40 rage to cast Execute?
+**Q:** Do I wait for 40 rage to cast Execute?
 **A:** No, you want to use execute at any rage, the DPR scales linearly.
 
 **Q:** What is the general stat priority?
 **A:** Haste > Crit > Vers/Mastery > Strength
 __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS__
 
+**Q:** What Gems/Enchants do I use?
+**A:** Gale-Force Striking on weapon, Haste gems and enchants on ring.
+
 **Q:** Are there any breakpoints we need to aim for?
 **A:** No, there are tons of breakpoints that are not impactful outside of a sim. 
 
 **Q:** What talents/traits should I take for M+?
 **A:** 
-For lower keys. Your talent set up is Skullsplitter,Storm Bolt, Massacre,Defensive Stance,Warbreaker,In for the Kill and Anger Management. Paired with as many Lord of War and Gathering storm traits.  
 
-For Higher keys, (15+ usually) the talents are similar. However you can also opt in to use Fervor of Battle and Cleave for talents and use Test of Might traits. Generally used with Lucid Dreams as a major. In higher keys mobs tend to live longer and some pulls are bigger, which gives more potential for Cleave and Test of Might to pump out some serious AoE damage while still having decent single target.
+If you're using Cleave. The talent set up is Skullsplitter, Storm Bolt, Fervor of Battle, Defensive Stance, Cleave, In for the Kill and Anger Management. With Test of Might for Azerite traits and Mastery/Haste focused for stats. In higher keys mobs tend to live longer and some pulls are bigger, which gives more potential for Cleave and Test of Might to pump out some serious AoE damage while still having decent single target.
 
-__Both builds are equally viable in higher keys, it really depends on how your group pulls and the composition of said group.__
+For the Warbreaker build, you'd choose Massacre and Warbreaker. Paired with Lord of War and Gathering Storm traits. With focus on Crit/Vers for stats. This build excels in burst AoE but lacks single target.
+
+__Both builds are equally viable in M+, it largely depends on how your group pulls and the composition of said group.__
 
 **Q:** What Potions does Arms use?
 **A:** 
@@ -23,10 +27,7 @@ Single Target: Unbridled Fury on pull with no lust. Focused Resolve if lusting o
 4+ Target AoE: Proximity 
 
 **Q:** What are the best Trinkets for Arms?
-**A:** Since Titanforging makes a lot of gear relevant, you can check out the Bloodmallet list here. - <https://bloodmallet.com/index.html#warrior_arms>
+**A:** Typically Razor Coral and Vita-Charged Titan Shard are typically the best. You can check out the Bloodmallet for a more complete list. - <https://bloodmallet.com/index.html#warrior_arms>
 
 **Q:** How is Razor Coral used for Arms?
 **A** The trinkets second use is best saved for the Execute + Lucid Dreams window.
-
-**Q:** How is Font of Azshara used for Arms?
-**A:** You would precast it before pull, then use it on cd with Lucid. However it is always best to save it for the Lucid Dreams + Execute window. 
