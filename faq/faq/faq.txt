@@ -1,4 +1,4 @@
-**Q:** Should I play Arms or Fury in The Eternal Palce?
+**Q:** Should I play Arms or Fury in The Eternal Palace?
 **A:** Fury is currently the better spec overall in raid. However, Arms is still viable.
 
 **Q:** Should I use Pawn? What's a good Pawn string for X spec?
@@ -8,7 +8,7 @@
 **A:** Raidbots - <https://www.raidbots.com>
 
 **Q:** What's the best race for X spec?
-**A:** Whichever one you like the best. Not only are racials not particularly impactful, they're also extremely situational.
+**A:** Whichever one you like best. Not only are racials not particularly impactful, they're also extremely situational.
 
 **Q:** What's the best spec for leveling?
 **A:** You can level with similar efficiency using any spec. It *really* doesn't matter. Play what you think is the most fun.
