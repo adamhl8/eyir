@@ -1,5 +1,5 @@
 **Q:** Should I play Arms or Fury in Ny'alotha?
-**A:** Fury is currently the better spec overall in raid. However, Arms is still viable.
+**A:** Arms is currently the better spec overall in raid. However, Fury is still viable.
 
 **Q:** Should I use Pawn? What's a good Pawn string for X spec?
 **A:** Please don't use Pawn. We cannot stress this enough. Pawn does not take stat breakpoints into account and various other factors that need to be taken into consideration. Sim your character instead to determine gear upgrades.
