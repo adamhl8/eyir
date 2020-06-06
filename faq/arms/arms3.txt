@@ -1,3 +1,6 @@
+__**Check the pins in #arms for more info on Rend and Massacre**__
+
+
 **Q:** What Potions does Arms use?
 **A:** 
 Single Target: Focused Resolve on pull and ALWAYS in Lucid+Execute Window
