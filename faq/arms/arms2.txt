@@ -11,6 +11,9 @@ __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS
 **Q:** Are there any breakpoints we need to aim for?
 **A:** No, there are tons of breakpoints that are not impactful outside of a sim. 
 
+**Q:** What are the best Corruptions for Arms?
+**A:** Full Expedient is the best for Arms. You can also utilize Void Ritual/Honed Mind/Racing Pulse to stay over 25 corruption for Heart of Darkness. Stay under 40 corruption since Arms is already weak defensively.
+
 **Q:** What talents/traits should I take for M+?
 **A:** 
 
@@ -21,7 +24,7 @@ The talent set up is Skullsplitter, Storm Bolt, Fervor of Battle, Defensive Stan
 
 Massacre is best suited for quick fights to start your Lucid Execute early to get it fully off before the boss dies, or a boss that has multiple execute phases. Suggested bosses are Ilgy'noth, Skitra, Wrathion and Vexiona. Possibly more when bosses start to die much faster in the future.
 
-Fervor of Battle is best suited for fights that are more AoE oriented, or for M+.
+Fervor of Battle is best suited for fights that are more AoE oriented.
 Suggested bosses are Hivemind, Ra-den/Carapace/N'zoth are possible choices as well. Depening on how fast adds die in your raids composition.
 
 Rend is the best talent for pure single target damage and low target cleave. Suggested fights are Shad'har, Xanesh and Drest'agath.
