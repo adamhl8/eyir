@@ -1,0 +1,11 @@
+**Q:** What Potions does Arms use?
+**A:** 
+Single Target: Focused Resolve on pull and ALWAYS in Lucid+Execute Window
+2-3 Target Cleave: Greater Strength
+4+ Target AoE: Proximity 
+
+**Q:** What are the best Trinkets for Arms?
+**A:** Razor Coral and Vita-Charged Titan Shard are typically the best. You can check out the Bloodmallet for a more complete list. - <https://bloodmallet.com/index.html#warrior_arms>
+
+**Q:** How is Razor Coral used for Arms?
+**A** The trinkets second use is best saved for the Execute + Lucid Dreams window.
