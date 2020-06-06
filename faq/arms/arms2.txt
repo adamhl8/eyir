@@ -2,32 +2,32 @@
 **A:** No, you want to use execute at any rage, the DPR scales linearly.
 
 **Q:** What is the general stat priority?
-**A:** Haste > Crit > Vers/Mastery > Strength
+**A:** Haste > Crit/Mast > Vers  > Strength
 __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS__
 
 **Q:** What Gems/Enchants do I use?
-**A:** Gale-Force Striking on weapon, Haste gems and enchants on ring.
+**A:** Gale-Force Striking on weapon, Haste gems and enchants on rings.
 
 **Q:** Are there any breakpoints we need to aim for?
 **A:** No, there are tons of breakpoints that are not impactful outside of a sim. 
 
+**Q:** What are the best Corruptions for Arms?
+**A:** Full Expedient is the best for Arms. You can also utilize Void Ritual/Honed Mind/Racing Pulse to stay over 25 corruption for Heart of Darkness. Stay under 40 corruption since Arms is already weak defensively.
+
 **Q:** What talents/traits should I take for M+?
 **A:** 
 
-If you're using Cleave. The talent set up is Skullsplitter, Storm Bolt, Fervor of Battle, Defensive Stance, Cleave, In for the Kill and Anger Management. With Test of Might for Azerite traits and Mastery/Haste focused for stats. In higher keys mobs tend to live longer and some pulls are bigger, which gives more potential for Cleave and Test of Might to pump out some serious AoE damage while still having decent single target.
+The talent set up is Skullsplitter, Storm Bolt, Fervor of Battle, Defensive Stance, Cleave, In for the Kill and Anger Management. With Test of Might Azerite traits and Mastery/Haste focused for stats.  Utilizing Cleave to spread Deep Wounds combo'd with huge Test of Might windows, Arms dishes out huge aoe and single target damage with very little ramp time. 
 
-For the Warbreaker build, you'd choose Massacre and Warbreaker. Paired with Lord of War and Gathering Storm traits. With focus on Crit/Vers for stats. This build excels in burst AoE but lacks single target.
+**Q:** How do I choose between Massacre, Fervor of Battle and Rend?
+**A:** All 3 of these talents have their purpose in Nya'lotha.
 
-__Both builds are equally viable in M+, it largely depends on how your group pulls and the composition of said group.__
+Massacre is best suited for quick fights to start your Lucid Execute early to get it fully off before the boss dies, or a boss that has multiple execute phases. Suggested bosses are Ilgy'noth, Skitra, Wrathion and Vexiona. Possibly more when bosses start to die much faster in the future.
 
-**Q:** What Potions does Arms use?
-**A:** 
-Single Target: Unbridled Fury on pull with no lust. Focused Resolve if lusting on pull and ALWAYS in Lucid+Execute Window
-2-3 Target Cleave: Greater Strength
-4+ Target AoE: Proximity 
+Fervor of Battle is best suited for fights that are more AoE oriented.
+Suggested bosses are Hivemind, Ra-den/Carapace/N'zoth are possible choices as well. Depening on how fast adds die in your raids composition.
 
-**Q:** What are the best Trinkets for Arms?
-**A:** Razor Coral and Vita-Charged Titan Shard are typically the best. You can check out the Bloodmallet for a more complete list. - <https://bloodmallet.com/index.html#warrior_arms>
+Rend is the best talent for pure single target damage and low target cleave. Suggested fights are Shad'har, Xanesh and Drest'agath.
 
-**Q:** How is Razor Coral used for Arms?
-**A** The trinkets second use is best saved for the Execute + Lucid Dreams window.
+
+
