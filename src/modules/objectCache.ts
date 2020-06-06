@@ -1,6 +1,6 @@
-const ExcludedRoles = require("./excludedRoles.js");
+import {excludedRoles} from "./excludedRoles"
 
-exports.build = function(objects) {
+export const build = function(objects) {
 
     let objectCache = {};
 
@@ -21,7 +21,7 @@ exports.build = function(objects) {
         }
 
         if (!objectCache.props.excluded) {
-          objectCache.props.excluded = ExcludedRoles.roles.includes(o.name)
+          objectCache.props.excluded = excludedRoles.includes(o.name)
         }
       }
     });

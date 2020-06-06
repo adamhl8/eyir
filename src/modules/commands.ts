@@ -1,10 +1,10 @@
-const Giveaway = require("./giveaway.js");
-const Discord = require("discord.js");
-const Util = require("./util.js");
-const Main = require("../eyir");
-const fs = require("fs");
+import Discord from "discord.js";
+import fs from "fs";
+import * as Giveaway from "./giveaway";
+import * as Util from "./util";
+import * as Main from "../eyir";
 
-exports.pgiveaway = {
+export const pgiveaway = {
     reqMod: true,
     
     run: msg => {
@@ -12,7 +12,7 @@ exports.pgiveaway = {
     }
 }
 
-exports.listbots = {
+export const listbots = {
     reqMod: true,
 
     run: msg => {
@@ -35,7 +35,7 @@ let faqDirOrder = ["resources", "faq", "arms", "fury", "protection"];
 let faqSectionOrder = [];
 let initMessage = null;
 
-exports.faqinit = {
+export const faqinit = {
     reqMod: true,
 
     run: msg => {

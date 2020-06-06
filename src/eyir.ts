@@ -1,10 +1,10 @@
 require('dotenv').config({path: process.argv[2]});
 
-const Discord = require("discord.js");
-const ObjectCache = require("./modules/objectCache.js");
-const Util = require("./modules/util.js");
-const Commands = require("./modules/commands.js");
-const gaze = require("gaze");
+import Discord from "discord.js";
+import gaze from "gaze";
+import * as ObjectCache from "./modules/objectCache";
+import * as Util from "./modules/util";
+import * as Commands from "./modules/commands";
 
 const bot = new Discord.Client();
 bot.login(process.env.TOKEN);
@@ -21,7 +21,7 @@ let roleCache = null;
 
 function run() {
 
-  skyhold = bot.guilds.first();
+  skyhold = bot.guilds.cache.first();
   skyhold.fetchMembers()
   .then(g => {
     roleCache = ObjectCache.build(g.roles)
@@ -57,7 +57,7 @@ gaze("./faq/*/*", (err, watcher) => {
   });
 });
 
-exports.setFaqMessages = function(obj) {
+export const setFaqMessages = function(obj) {
   faqMessages = obj;
 }
 

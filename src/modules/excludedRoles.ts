@@ -1,4 +1,4 @@
-exports.roles = [
+export const excludedRoles = [
     "Odyn",
     "Val'kyr",
     "Theorycrafter",
