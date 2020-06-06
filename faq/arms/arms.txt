@@ -11,8 +11,7 @@ Wowhead Guide - <https://www.wowhead.com/arms-warrior-guide>
 **__FAQ__**
 
 **Q:** What are the best traits?
-**A:** 
-Single-target/ AoE: Test of Might x3 > Clockwork Heart > Heart of Darkness > Meticulous Scheming
+**A:**  Single-target/ AoE: Test of Might x3 > Clockwork Heart > Heart of Darkness > Meticulous Scheming
 
 **Q:** With only 1 Test of Might trait, do I still delay Bladestorm till the Test of Might window?
 **A:** Yes, even with 1 trait only it's still worth to delay Bladestorm. 
@@ -35,5 +34,3 @@ Single-target/ AoE: Test of Might x3 > Clockwork Heart > Heart of Darkness > Met
 
 **Q:** Is Mortal Strike used in the Execute phase?
 **A:** No, Mortal Strike is not used in Execute.
-
-
