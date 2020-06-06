@@ -12,9 +12,9 @@ Wowhead Guide - <https://www.wowhead.com/arms-warrior-guide>
 
 **Q:** What are the best traits?
 **A:** 
-Single-target/ AoE with Cleave: Test of Might x3 > Clockwork Heart >Heart of Darkness > Meticulous Scheming
+Single-target/ AoE: Test of Might x3 > Clockwork Heart > Heart of Darkness > Meticulous Scheming
 
-**Q:** With only 1 Test of Might trait, do I still delay Bladestorm till the Test of Might Window?
+**Q:** With only 1 Test of Might trait, do I still delay Bladestorm till the Test of Might window?
 **A:** Yes, even with 1 trait only it's still worth to delay Bladestorm. 
 
 **Q:** Does Crushing Assault work with Fervor of Battle?
@@ -30,15 +30,10 @@ Single-target/ AoE with Cleave: Test of Might x3 > Clockwork Heart >Heart of Dar
 **Q:** Is it ok to sit on Skullsplitter?
 **A:** Yes, the power of Skullsplitter comes from the near on demand rage. Sitting on it's cooldown during lucid or high rage is fine.
 
+**Q:** Is War Machine better at higher amounts of haste?
+**A:** Yes and No. While War Machine is only about 2-3% behind Skullsplitter. Skullsplitter's cooldown is still reduced by haste and is on demand rage. War Machine without enemies dying will generate less rage. And if enemies die, it's uncontrollable and can lead to major overcapping. Skullsplitter is definitely the more consistent choice while War Machine can be unpredictable when adds die. 
+
 **Q:** Is Mortal Strike used in the Execute phase?
 **A:** No, Mortal Strike is not used in Execute.
 
-**Q:** Do I wait for 40 rage to cast Execute?
-**A:** No, you want to use execute at any rage, the DPR scales linearly.
 
-**Q:** What is the general stat priority?
-**A:** Haste > Crit > Vers/Mastery > Strength
-__THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS__
-
-**Q:** Are there any breakpoints we need to aim for?
-**A:** No, there are tons of breakpoints that are not impactful outside of a sim. 
