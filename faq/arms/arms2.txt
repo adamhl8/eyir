@@ -17,7 +17,7 @@ __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS
 **Q:** What talents/traits should I take for M+?
 **A:** 
 
-The talent set up is Skullsplitter, Storm Bolt, Fervor of Battle, Defensive Stance, Cleave, In for the Kill and Anger Management. With Test of Might for Azerite traits and Mastery/Haste focused for stats.  Utilizing Cleave to spread Deep Wounds combo'd with huge Test of Might windows, Arms dishes out huge aoe and single target damage with very little ramp time. 
+The talent set up is Skullsplitter, Storm Bolt, Fervor of Battle, Defensive Stance, Cleave, In for the Kill and Anger Management. With Test of Might Azerite traits and Mastery/Haste focused for stats.  Utilizing Cleave to spread Deep Wounds combo'd with huge Test of Might windows, Arms dishes out huge aoe and single target damage with very little ramp time. 
 
 **Q:** How do I choose between Massacre, Fervor of Battle and Rend?
 **A:** All 3 of these talents have their purpose in Nya'lotha.
@@ -28,5 +28,6 @@ Fervor of Battle is best suited for fights that are more AoE oriented.
 Suggested bosses are Hivemind, Ra-den/Carapace/N'zoth are possible choices as well. Depening on how fast adds die in your raids composition.
 
 Rend is the best talent for pure single target damage and low target cleave. Suggested fights are Shad'har, Xanesh and Drest'agath.
+
 
 
