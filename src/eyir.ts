@@ -22,25 +22,31 @@ let roleCache = null;
 function run() {
 
   skyhold = bot.guilds.cache.first();
-  skyhold.fetchMembers()
-  .then(g => {
-    roleCache = ObjectCache.build(g.roles)
-    applyValarjar(g);
+  
+  skyhold.roles.fetch()
+  .then(roles => {
+    roleCache = ObjectCache.build(roles.cache);
   })
-  .catch(console.error)
+  .catch(console.error);
+  
+  applyValarjar();
 }
 
-function applyValarjar(g) {
+function applyValarjar() {
 
-    g.members.array().forEach(member => {
+    skyhold.members.fetch()
+    .then(members => {
+      members.array().forEach(member => {
 
-      memberRoleCache = ObjectCache.build(member.roles);
-
-      if (!memberRoleCache.props.excluded) {
-        member.addRole(roleCache["Valarjar"]);
-        console.log("Added Valarjar to " + member.user.tag);
-      }
+        memberRoleCache = ObjectCache.build(member.roles);
+  
+        if (!memberRoleCache.props.excluded) {
+          member.addRole(roleCache["Valarjar"]);
+          console.log("Added Valarjar to " + member.user.tag);
+        }
+      })
     })
+    .catch(console.error);
 }
 
 let faqMessages = null;

@@ -16,7 +16,7 @@ export const build = function(objects) {
       
       if (o.constructor.name == "Role") {
 
-        if (!objectCache.props.isMod) {          
+        if (!objectCache.props.isMod) {    
           objectCache.props.isMod = o.id == "257983573498265600" || o.id == "530658835036373004"
         }
 
