@@ -1,4 +1,5 @@
 import fs from "fs";
+import {excludedRoles} from "./excludedRoles"
 
 export const welcomeNewMember = function(member) {
   
@@ -13,8 +14,24 @@ export const welcomeNewMember = function(member) {
 }
 
 export const sass = function(msg) {
-    if (msg.content.toLowerCase().includes("eyir") && msg.content.toLowerCase().includes("sucks")) {
-        msg.channel.send("fuk u " + "<@" + msg.author.id + ">");
+    
+    respondToWords(["eyir", "sucks"], "fuk u " + "<@" + msg.author.id + ">");
+    respondToWords(["eyir", "rocks"], "thank u " + "<@" + msg.author.id + ">");
+
+    function respondToWords(words, response) {
+        
+        let shouldSend = false;
+
+        for (const word of words) {
+            if (msg.content.toLowerCase().includes(word)) {
+                shouldSend = true;
+            } else {
+                shouldSend = false;
+                break;
+            }
+        }
+
+        if (shouldSend) msg.channel.send(response);
     }
 }
 
@@ -22,4 +39,21 @@ export const faqset = function(dir, file, msg) {
     fs.readFile("./faq/" + dir + file, "utf8", (err, data) => {
         msg.edit(data);
     });
+}
+
+export const isMod = function(member) {
+    const roles = member.roles.cache;
+    return roles.has("257983573498265600") || roles.has("530658835036373004");
+}
+
+export const isExcluded = function(member) {
+    let isExcluded = false;
+    const roles = member.roles.cache;
+    for (const role of excludedRoles) {
+        if (roles.has(role)) {
+            isExcluded = true;
+            break;
+        }
+    }
+    return isExcluded;
 }

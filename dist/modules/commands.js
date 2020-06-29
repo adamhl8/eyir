@@ -61,7 +61,7 @@ exports.faqinit = {
         sendHeader();
     }
 };
-let header = new discord_js_1.default.RichEmbed();
+let header = new discord_js_1.default.MessageEmbed();
 let headerMessage = null;
 function sendHeader() {
     header.setTitle("Click a link below to jump to that section of this channel.");

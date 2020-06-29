@@ -46,7 +46,7 @@ export const faqinit = {
     }
 }
 
-let header = new Discord.RichEmbed();
+let header = new Discord.MessageEmbed();
 let headerMessage = null;
 
 function sendHeader() {

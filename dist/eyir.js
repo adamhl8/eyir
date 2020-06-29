@@ -26,7 +26,6 @@ exports.setFaqMessages = void 0;
 require('dotenv').config({ path: process.argv[2] });
 const discord_js_1 = __importDefault(require("discord.js"));
 const gaze_1 = __importDefault(require("gaze"));
-const ObjectCache = __importStar(require("./modules/objectCache"));
 const Util = __importStar(require("./modules/util"));
 const Commands = __importStar(require("./modules/commands"));
 const bot = new discord_js_1.default.Client();
@@ -39,21 +38,19 @@ let skyhold = null;
 let roleCache = null;
 function run() {
     skyhold = bot.guilds.cache.first();
-    skyhold.fetchMembers()
-        .then(g => {
-        roleCache = ObjectCache.build(g.roles);
-        applyValarjar(g);
+    applyValarjar();
+}
+function applyValarjar() {
+    skyhold.members.fetch()
+        .then(members => {
+        members.array().forEach(member => {
+            if (!Util.isExcluded(member)) {
+                member.addRole(roleCache["Valarjar"]);
+                console.log("Added Valarjar to " + member.user.tag);
+            }
+        });
     })
         .catch(console.error);
-}
-function applyValarjar(g) {
-    g.members.array().forEach(member => {
-        memberRoleCache = ObjectCache.build(member.roles);
-        if (!memberRoleCache.props.excluded) {
-            member.addRole(roleCache["Valarjar"]);
-            console.log("Added Valarjar to " + member.user.tag);
-        }
-    });
 }
 let faqMessages = null;
 gaze_1.default("./faq/*/*", (err, watcher) => {
@@ -69,7 +66,7 @@ exports.setFaqMessages = function (obj) {
 };
 bot.on("guildMemberAdd", member => {
     Util.welcomeNewMember(member);
-    member.addRole(roleCache["Valarjar"]);
+    member.roles.add("269363541570617345"); // Valarjar
 });
 bot.on("message", msg => {
     if (msg.author.bot)
@@ -84,18 +81,12 @@ bot.on("message", msg => {
         command = match[1];
     }
     if (Commands.hasOwnProperty(command)) {
-        msg.guild
-            .fetchMember(msg.author)
-            .then(member => {
-            let isMod = ObjectCache.build(member.roles).props.isMod;
-            if ((Commands[command].reqMod && isMod) || !Commands[command].reqMod) {
-                Commands[command].run(msg);
-            }
-            else {
-                msg.channel.send("You do not have the required moderator role to run this command.");
-            }
-        })
-            .catch(console.error);
+        if ((Commands[command].reqMod && Util.isMod(msg.member)) || !Commands[command].reqMod) {
+            Commands[command].run(msg);
+        }
+        else {
+            msg.channel.send("You do not have the required moderator role to run this command.");
+        }
     }
 });
 //# sourceMappingURL=eyir.js.map

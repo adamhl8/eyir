@@ -2,7 +2,6 @@ require('dotenv').config({path: process.argv[2]});
 
 import Discord from "discord.js";
 import gaze from "gaze";
-import * as ObjectCache from "./modules/objectCache";
 import * as Util from "./modules/util";
 import * as Commands from "./modules/commands";
 
@@ -22,13 +21,6 @@ let roleCache = null;
 function run() {
 
   skyhold = bot.guilds.cache.first();
-  
-  skyhold.roles.fetch()
-  .then(roles => {
-    roleCache = ObjectCache.build(roles.cache);
-  })
-  .catch(console.error);
-  
   applyValarjar();
 }
 
@@ -37,10 +29,8 @@ function applyValarjar() {
     skyhold.members.fetch()
     .then(members => {
       members.array().forEach(member => {
-
-        memberRoleCache = ObjectCache.build(member.roles);
-  
-        if (!memberRoleCache.props.excluded) {
+        
+        if (!Util.isExcluded(member)) {
           member.addRole(roleCache["Valarjar"]);
           console.log("Added Valarjar to " + member.user.tag);
         }
@@ -69,7 +59,7 @@ export const setFaqMessages = function(obj) {
 
 bot.on("guildMemberAdd", member => {
   Util.welcomeNewMember(member);
-  member.addRole(roleCache["Valarjar"]);
+  member.roles.add("269363541570617345"); // Valarjar
 });
 
 bot.on("message", msg => {
@@ -89,20 +79,14 @@ bot.on("message", msg => {
   }
 
   if (Commands.hasOwnProperty(command)) {
-
-    msg.guild
-    .fetchMember(msg.author)
-    .then(member => {
-
-      let isMod = ObjectCache.build(member.roles).props.isMod
-
-      if ((Commands[command].reqMod && isMod) || !Commands[command].reqMod)  {
-        Commands[command].run(msg)
-      }
-      else {
-        msg.channel.send("You do not have the required moderator role to run this command.");
-      }
-    })
-    .catch(console.error)
+    
+    if ((Commands[command].reqMod && Util.isMod(msg.member)) || !Commands[command].reqMod)  {
+      
+      Commands[command].run(msg)
+    }
+    
+    else {
+      msg.channel.send("You do not have the required moderator role to run this command.");
+    }
   }
 });
