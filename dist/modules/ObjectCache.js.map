@@ -1,1 +1,0 @@
-{"version":3,"file":"ObjectCache.js","sourceRoot":"","sources":["../../src/modules/ObjectCache.ts"],"names":[],"mappings":";;AAAA,MAAqB,WAAwC,SAAQ,GAAc;IAE/E,UAAU,CAAC,GAAW;QAClB,MAAM,KAAK,GAAG,IAAI,CAAC,GAAG,CAAC,GAAG,CAAC,CAAA;QAC3B,IAAI,CAAC,KAAK,EAAE;YACR,MAAM,KAAK,CAAC,qBAAqB,GAAG,iBAAiB,CAAC,CAAA;SACzD;QAED,OAAO,KAAK,CAAA;IAChB,CAAC;CACJ;AAVD,8BAUC"}
