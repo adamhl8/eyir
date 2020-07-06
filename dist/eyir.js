@@ -18,6 +18,15 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -28,27 +37,30 @@ const discord_js_1 = __importDefault(require("discord.js"));
 const gaze_1 = __importDefault(require("gaze"));
 const Util = __importStar(require("./modules/util"));
 const Commands = __importStar(require("./modules/commands"));
+const ObjectCache_1 = __importDefault(require("./modules/ObjectCache"));
 const bot = new discord_js_1.default.Client();
 bot.login(process.env.TOKEN);
 bot.on("ready", () => {
     console.log("I am ready!");
     run();
 });
-let skyhold;
-let roleCache;
+let roleCache = new ObjectCache_1.default();
 function run() {
-    skyhold = bot.guilds.cache.first();
+    const skyhold = bot.guilds.cache.first();
+    if (!skyhold) {
+        throw Error("failed to init guild");
+    }
     roleCache = Util.collectionToCacheByName(skyhold.roles.cache);
     bot.on("roleUpdate", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)));
     bot.on("roleCreate", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)));
     bot.on("roleDelete", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)));
-    applyValarjar();
+    applyValarjar(skyhold);
 }
-function applyValarjar() {
-    skyhold.members.cache.array().forEach((member) => {
+function applyValarjar(guild) {
+    guild.members.cache.array().forEach((member) => {
         if (!Util.isExcluded(member, roleCache)) {
             member.roles
-                .add(roleCache.get("Valarjar").id)
+                .add(roleCache.getOrThrow("Valarjar").id)
                 .then((member) => console.log("Added Valarjar to " + member.user.tag))
                 .catch(console.log);
         }
@@ -58,9 +70,12 @@ let faqMessages = {};
 //@ts-ignore
 gaze_1.default("./faq/*/*", (err, watcher) => {
     watcher.on("changed", (fp) => {
-        let parseFilepath = /.+faq\/(.+\/)(.+)/.exec(fp);
-        let currentDir = parseFilepath[1];
-        let currentFile = parseFilepath[2];
+        const parseFilepath = /.+faq\/(.+\/)(.+)/.exec(fp);
+        if (!parseFilepath) {
+            throw Error(`failed to parse file path: ${fp}`);
+        }
+        const currentDir = parseFilepath[1];
+        const currentFile = parseFilepath[2];
         Util.faqset(currentDir, currentFile, faqMessages[currentFile]);
     });
 });
@@ -68,10 +83,26 @@ function setFaqMessages(obj) {
     faqMessages = obj;
 }
 exports.setFaqMessages = setFaqMessages;
-bot.on("guildMemberAdd", (member) => {
-    Util.welcomeNewMember(member);
-    member.roles.add(roleCache.get("Valarjar").id).catch(console.log);
-});
+bot.on("guildMemberAdd", (member) => __awaiter(void 0, void 0, void 0, function* () {
+    if (isPartial(member)) {
+        // PartialGuildMember
+        try {
+            const m = yield member.fetch();
+            Util.welcomeNewMember(m);
+        }
+        catch (e) {
+            console.log("failed to fecth partial member on guildMemberAdd");
+        }
+    }
+    else {
+        // GuildMember
+        Util.welcomeNewMember(member);
+    }
+    member.roles.add(roleCache.getOrThrow("Valarjar").id).catch(console.log);
+}));
+function isPartial(member) {
+    return member.partial;
+}
 bot.on("message", (msg) => {
     if (msg.author.bot)
         return;
@@ -83,6 +114,9 @@ bot.on("message", (msg) => {
     let command = "none";
     if (match) {
         command = match[1];
+    }
+    if (!msg.member) {
+        throw Error(`there is no member attached to message ${msg.id}`);
     }
     const commands = Commands;
     if (commands.hasOwnProperty(command)) {

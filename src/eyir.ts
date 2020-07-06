@@ -1,10 +1,11 @@
 require("dotenv").config({ path: process.argv[2] })
 
-import Discord, { Guild, Role, Message, GuildMember } from "discord.js"
+import Discord, { Guild, Role, Message, GuildMember, PartialGuildMember } from "discord.js"
 import gaze from "gaze"
 import * as Util from "./modules/util"
 import * as Commands from "./modules/commands"
 import { Command } from "./modules/commands"
+import ObjectCache from "./modules/ObjectCache"
 
 const bot = new Discord.Client()
 bot.login(process.env.TOKEN)
@@ -15,24 +16,26 @@ bot.on("ready", () => {
   run()
 })
 
-let skyhold: Guild
-let roleCache: Map<string, Role>
+let roleCache: ObjectCache<Role> = new ObjectCache()
 
 function run() {
-  skyhold = bot.guilds.cache.first()
+  const skyhold = bot.guilds.cache.first()
+  if (!skyhold) {
+      throw Error("failed to init guild")
+  }
 
   roleCache = Util.collectionToCacheByName(skyhold.roles.cache)
   bot.on("roleUpdate", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)))
   bot.on("roleCreate", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)))
   bot.on("roleDelete", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)))
-  applyValarjar()
+  applyValarjar(skyhold)
 }
 
-function applyValarjar() {
-  skyhold.members.cache.array().forEach((member) => {
+function applyValarjar(guild: Guild) {
+  guild.members.cache.array().forEach((member) => {
     if (!Util.isExcluded(member, roleCache)) {
       member.roles
-        .add(roleCache.get("Valarjar").id)
+        .add(roleCache.getOrThrow("Valarjar").id)
         .then((member) => console.log("Added Valarjar to " + member.user.tag))
         .catch(console.log)
     }
@@ -44,9 +47,13 @@ let faqMessages: Record<string, Message> = {}
 //@ts-ignore
 gaze("./faq/*/*", (err, watcher) => {
   watcher.on("changed", (fp: string) => {
-    let parseFilepath = /.+faq\/(.+\/)(.+)/.exec(fp)
-    let currentDir = parseFilepath[1]
-    let currentFile = parseFilepath[2]
+    const parseFilepath = /.+faq\/(.+\/)(.+)/.exec(fp)
+    if (!parseFilepath) {
+      throw Error(`failed to parse file path: ${fp}`)
+    }
+
+    const currentDir = parseFilepath[1]
+    const currentFile = parseFilepath[2]
 
     Util.faqset(currentDir, currentFile, faqMessages[currentFile])
   })
@@ -56,12 +63,30 @@ export function setFaqMessages(obj: Record<string, Message>) {
   faqMessages = obj
 }
 
-bot.on("guildMemberAdd", (member: GuildMember) => {
-  Util.welcomeNewMember(member)
-  member.roles.add(roleCache.get("Valarjar").id).catch(console.log)
+bot.on("guildMemberAdd", async (member: GuildMember | PartialGuildMember) => {
+
+  if (isPartial(member)) {
+    // PartialGuildMember
+    try {
+      const m = await member.fetch()
+      Util.welcomeNewMember(m)
+    } catch (e) {
+      console.log("failed to fecth partial member on guildMemberAdd")
+    }
+  } else {
+    // GuildMember
+    Util.welcomeNewMember(member)
+  }
+  
+  member.roles.add(roleCache.getOrThrow("Valarjar").id).catch(console.log)
 })
 
+function isPartial(member: GuildMember | PartialGuildMember): member is PartialGuildMember {
+  return member.partial
+}
+
 bot.on("message", (msg: Message) => {
+
   if (msg.author.bot) return
 
   Util.sass(msg)
@@ -74,6 +99,10 @@ bot.on("message", (msg: Message) => {
   let command = "none"
   if (match) {
     command = match[1]
+  }
+
+  if (!msg.member) {
+    throw Error(`there is no member attached to message ${msg.id}`)
   }
 
   const commands: Record<string, Command> = Commands

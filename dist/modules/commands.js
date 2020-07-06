@@ -30,6 +30,9 @@ const Main = __importStar(require("../eyir"));
 exports.listbots = {
     reqMod: true,
     run: (msg) => {
+        if (!msg.guild) {
+            throw Error(`there is no guild attached to message ${msg.id}`);
+        }
         msg.guild.members.cache
             .array()
             .filter((member) => member.user.bot)
@@ -39,7 +42,7 @@ exports.listbots = {
     },
 };
 let faqMessages = {};
-let faqDirOrder = ["resources", "faq", "arms", "fury", "protection"];
+const faqDirOrder = ["resources", "faq", "arms", "fury", "protection"];
 let faqSectionOrder = [];
 let initMessage;
 exports.faqinit = {
@@ -69,14 +72,13 @@ function readFaqDirs() {
         let currentDir = handleOrder[0];
         fs_1.default.readdir("./faq/" + currentDir, (err, files) => {
             files.forEach((file) => {
-                faqMessages[file] = null;
+                faqSectionOrder.push(file);
             });
             handleOrder.shift();
             readFaqDirs();
         });
     }
     else {
-        faqSectionOrder = Object.keys(faqMessages);
         sendSections();
     }
 }

@@ -12,6 +12,11 @@ export const listbots: Command = {
   reqMod: true,
 
   run: (msg) => {
+
+    if (!msg.guild) {
+      throw Error(`there is no guild attached to message ${msg.id}`)
+    }
+
     msg.guild.members.cache
       .array()
       .filter((member) => member.user.bot)
@@ -22,7 +27,7 @@ export const listbots: Command = {
 }
 
 let faqMessages: Record<string, Message> = {}
-let faqDirOrder = ["resources", "faq", "arms", "fury", "protection"]
+const faqDirOrder = ["resources", "faq", "arms", "fury", "protection"]
 let faqSectionOrder: Array<string> = []
 let initMessage: Message
 
@@ -60,14 +65,13 @@ function readFaqDirs() {
 
     fs.readdir("./faq/" + currentDir, (err, files) => {
       files.forEach((file) => {
-        faqMessages[file] = null
+        faqSectionOrder.push(file)
       })
 
       handleOrder.shift()
       readFaqDirs()
     })
   } else {
-    faqSectionOrder = Object.keys(faqMessages)
     sendSections()
   }
 }

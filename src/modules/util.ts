@@ -1,6 +1,7 @@
 import fs from "fs"
 import { excludedRoles } from "./excludedRoles"
-import { Collection, Role, Snowflake, GuildMember, DMChannel, Message } from "discord.js"
+import { Collection, Role, Snowflake, GuildMember, DMChannel, Message, PartialGuildMember } from "discord.js"
+import ObjectCache from "./ObjectCache"
 
 export function welcomeNewMember(member: GuildMember) {
   const welcomeMessage =
@@ -44,16 +45,16 @@ export function faqset(dir: string, file: string, msg: Message) {
   })
 }
 
-export function isMod(member: GuildMember, roleCache: Map<string, Role>) {
+export function isMod(member: GuildMember, roleCache: ObjectCache<Role>) {
   const roles = member.roles.cache
-  return roles.has(roleCache.get("Val'kyr (Mod)").id)
+  return roles.has(roleCache.getOrThrow("Val'kyr (Mod)").id)
 }
 
-export function isExcluded(member: GuildMember, roleCache: Map<string, Role>) {
+export function isExcluded(member: GuildMember, roleCache: ObjectCache<Role>) {
   let isExcluded = false
   const roles = member.roles.cache
   for (const role of excludedRoles) {
-    if (roles.has(roleCache.get(role).id)) {
+    if (roles.has(roleCache.getOrThrow(role).id)) {
       isExcluded = true
       break
     }
@@ -63,9 +64,9 @@ export function isExcluded(member: GuildMember, roleCache: Map<string, Role>) {
 
 export function collectionToCacheByName<T extends { name: string }>(
   collection: Collection<Snowflake, T>
-): Map<string, T> {
+): ObjectCache<T> {
   const entries = collection.entries()
   const byName: Array<[string, T]> = Array.from(entries).map(([, item]) => [item.name, item])
 
-  return new Map(byName)
+  return new ObjectCache(byName)
 }
