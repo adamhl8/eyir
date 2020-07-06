@@ -38,6 +38,10 @@ let skyhold = null;
 let roleCache = null;
 function run() {
     skyhold = bot.guilds.cache.first();
+    roleCache = Util.collectionToCacheByName(skyhold.roles.cache);
+    bot.on('roleUpdate', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
+    bot.on('roleCreate', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
+    bot.on('roleDelete', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
     applyValarjar();
 }
 function applyValarjar() {
@@ -45,7 +49,7 @@ function applyValarjar() {
         .then(members => {
         members.array().forEach(member => {
             if (!Util.isExcluded(member)) {
-                member.addRole(roleCache["Valarjar"]);
+                member.roles.add(roleCache.get("Valarjar").id);
                 console.log("Added Valarjar to " + member.user.tag);
             }
         });
@@ -53,6 +57,7 @@ function applyValarjar() {
         .catch(console.error);
 }
 let faqMessages = null;
+//@ts-ignore
 gaze_1.default("./faq/*/*", (err, watcher) => {
     watcher.on("changed", fp => {
         let parseFilepath = /.+faq\/(.+\/)(.+)/.exec(fp);
@@ -66,7 +71,7 @@ exports.setFaqMessages = function (obj) {
 };
 bot.on("guildMemberAdd", member => {
     Util.welcomeNewMember(member);
-    member.roles.add("269363541570617345"); // Valarjar
+    member.roles.add(roleCache.get("Valarjar").id);
 });
 bot.on("message", msg => {
     if (msg.author.bot)
@@ -81,7 +86,7 @@ bot.on("message", msg => {
         command = match[1];
     }
     if (Commands.hasOwnProperty(command)) {
-        if ((Commands[command].reqMod && Util.isMod(msg.member)) || !Commands[command].reqMod) {
+        if ((Commands[command].reqMod && Util.isMod(msg.member, roleCache)) || !Commands[command].reqMod) {
             Commands[command].run(msg);
         }
         else {

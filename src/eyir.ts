@@ -1,6 +1,6 @@
 require('dotenv').config({path: process.argv[2]});
 
-import Discord from "discord.js";
+import Discord, { Guild, Role } from "discord.js";
 import gaze from "gaze";
 import * as Util from "./modules/util";
 import * as Commands from "./modules/commands";
@@ -15,35 +15,39 @@ bot.on('ready', () => {
   run();
 });
 
-let skyhold = null;
-let roleCache = null;
+let skyhold: Guild;
+let roleCache: Map<string, Role>;
 
 function run() {
 
   skyhold = bot.guilds.cache.first();
+  
+  roleCache = Util.collectionToCacheByName(skyhold.roles.cache);
+  bot.on('roleUpdate', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
+  bot.on('roleCreate', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
+  bot.on('roleDelete', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
   applyValarjar();
 }
 
 function applyValarjar() {
-
-    skyhold.members.fetch()
-    .then(members => {
-      members.array().forEach(member => {
-        
-        if (!Util.isExcluded(member)) {
-          member.addRole(roleCache["Valarjar"]);
-          console.log("Added Valarjar to " + member.user.tag);
-        }
-      })
-    })
-    .catch(console.error);
+  
+  skyhold.members.cache
+    .array()
+    .forEach(member => {
+      if (!Util.isExcluded(member)) {
+        member.roles.add(roleCache.get("Valarjar").id)
+          .catch(console.log);
+        console.log("Added Valarjar to " + member.user.tag);
+    }
+  })
 }
 
-let faqMessages = null;
+let faqMessages: Record<string, string>;
 
+//@ts-ignore
 gaze("./faq/*/*", (err, watcher) => {
 
-  watcher.on("changed", fp => {
+  watcher.on("changed", (fp: string) => {
 
     let parseFilepath = /.+faq\/(.+\/)(.+)/.exec(fp);
     let currentDir = parseFilepath[1];
@@ -53,13 +57,13 @@ gaze("./faq/*/*", (err, watcher) => {
   });
 });
 
-export const setFaqMessages = function(obj) {
+export function setFaqMessages(obj: Record<string, string>) {
   faqMessages = obj;
 }
 
 bot.on("guildMemberAdd", member => {
   Util.welcomeNewMember(member);
-  member.roles.add("269363541570617345"); // Valarjar
+  member.roles.add(roleCache.get("Valarjar").id);
 });
 
 bot.on("message", msg => {
@@ -68,7 +72,7 @@ bot.on("message", msg => {
 
   Util.sass(msg);
 
-  let prefix = "!";
+  const prefix = "!";
 
   if (!msg.content.startsWith(prefix)) return;
 
@@ -80,13 +84,10 @@ bot.on("message", msg => {
 
   if (Commands.hasOwnProperty(command)) {
     
-    if ((Commands[command].reqMod && Util.isMod(msg.member)) || !Commands[command].reqMod)  {
-      
-      Commands[command].run(msg)
-    }
-    
-    else {
+    if ((Commands[command].reqMod && !Util.isMod(msg.member, roleCache)))  {
       msg.channel.send("You do not have the required moderator role to run this command.");
+    } else {
+      Commands[command].run(msg)
     }
   }
 });

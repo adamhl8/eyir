@@ -5,4 +5,4 @@ export const excludedRoles = [
     "197179529360310272", // Theorycrafter
     "475726900019331092", // Bot
     "269363541570617345" // Valarjar
-    ]
+]

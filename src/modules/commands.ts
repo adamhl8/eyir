@@ -1,39 +1,41 @@
-import Discord from "discord.js";
+import Discord, { Message, Collection, GuildMember } from "discord.js";
 import fs from "fs";
 import * as Giveaway from "./giveaway";
 import * as Util from "./util";
 import * as Main from "../eyir";
 
-export const pgiveaway = {
+interface Command {
+    reqMod: boolean
+    run: (msg: Message) => void
+}
+
+const pgiveaway: Command = {
     reqMod: true,
     
-    run: msg => {
+    run: (msg: Message) => {
         Giveaway.draw(msg);
     }
 }
 
-export const listbots = {
+const listbots: Command = {
     reqMod: true,
 
-    run: msg => {
+    run: (msg: Message) => {
 
-        msg.guild
-        .fetchMembers()
-        .then(g => g.members.array())
-        .then(members => members.filter(member => member.user.bot))
-        .then(bots => {
-            bots.forEach(bot => {
+        msg.guild.members.cache
+            .array()
+            .filter(member => member.user.bot)
+            .forEach(bot => {
                 msg.channel.send("<@" + bot.user.id + ">")
+                    .catch(console.log)
             })
-        })
-        .catch(console.error);
     }
 }
 
 let faqMessages = {};
 let faqDirOrder = ["resources", "faq", "arms", "fury", "protection"];
-let faqSectionOrder = [];
-let initMessage = null;
+let faqSectionOrder: Array<string> = [];
+let initMessage: Message;
 
 export const faqinit = {
     reqMod: true,
