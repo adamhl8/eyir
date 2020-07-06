@@ -1,93 +1,90 @@
-require('dotenv').config({path: process.argv[2]});
+require("dotenv").config({ path: process.argv[2] })
 
-import Discord, { Guild, Role } from "discord.js";
-import gaze from "gaze";
-import * as Util from "./modules/util";
-import * as Commands from "./modules/commands";
+import Discord, { Guild, Role, Message, GuildMember } from "discord.js"
+import gaze from "gaze"
+import * as Util from "./modules/util"
+import * as Commands from "./modules/commands"
+import { Command } from "./modules/commands"
 
-const bot = new Discord.Client();
-bot.login(process.env.TOKEN);
+const bot = new Discord.Client()
+bot.login(process.env.TOKEN)
 
-bot.on('ready', () => {
-  
-  console.log('I am ready!');
+bot.on("ready", () => {
+  console.log("I am ready!")
 
-  run();
-});
+  run()
+})
 
-let skyhold: Guild;
-let roleCache: Map<string, Role>;
+let skyhold: Guild
+let roleCache: Map<string, Role>
 
 function run() {
+  skyhold = bot.guilds.cache.first()
 
-  skyhold = bot.guilds.cache.first();
-  
-  roleCache = Util.collectionToCacheByName(skyhold.roles.cache);
-  bot.on('roleUpdate', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
-  bot.on('roleCreate', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
-  bot.on('roleDelete', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
-  applyValarjar();
+  roleCache = Util.collectionToCacheByName(skyhold.roles.cache)
+  bot.on("roleUpdate", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)))
+  bot.on("roleCreate", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)))
+  bot.on("roleDelete", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)))
+  applyValarjar()
 }
 
 function applyValarjar() {
-  
-  skyhold.members.cache
-    .array()
-    .forEach(member => {
-      if (!Util.isExcluded(member)) {
-        member.roles.add(roleCache.get("Valarjar").id)
-          .catch(console.log);
-        console.log("Added Valarjar to " + member.user.tag);
+  skyhold.members.cache.array().forEach((member) => {
+    if (!Util.isExcluded(member, roleCache)) {
+      member.roles
+        .add(roleCache.get("Valarjar").id)
+        .then((member) => console.log("Added Valarjar to " + member.user.tag))
+        .catch(console.log)
     }
   })
 }
 
-let faqMessages: Record<string, string>;
+let faqMessages: Record<string, Message> = {}
 
 //@ts-ignore
 gaze("./faq/*/*", (err, watcher) => {
-
   watcher.on("changed", (fp: string) => {
+    let parseFilepath = /.+faq\/(.+\/)(.+)/.exec(fp)
+    let currentDir = parseFilepath[1]
+    let currentFile = parseFilepath[2]
 
-    let parseFilepath = /.+faq\/(.+\/)(.+)/.exec(fp);
-    let currentDir = parseFilepath[1];
-    let currentFile = parseFilepath[2];
+    Util.faqset(currentDir, currentFile, faqMessages[currentFile])
+  })
+})
 
-    Util.faqset(currentDir, currentFile, faqMessages[currentFile]);
-  });
-});
-
-export function setFaqMessages(obj: Record<string, string>) {
-  faqMessages = obj;
+export function setFaqMessages(obj: Record<string, Message>) {
+  faqMessages = obj
 }
 
-bot.on("guildMemberAdd", member => {
-  Util.welcomeNewMember(member);
-  member.roles.add(roleCache.get("Valarjar").id);
-});
+bot.on("guildMemberAdd", (member: GuildMember) => {
+  Util.welcomeNewMember(member)
+  member.roles.add(roleCache.get("Valarjar").id).catch(console.log)
+})
 
-bot.on("message", msg => {
+bot.on("message", (msg: Message) => {
+  if (msg.author.bot) return
 
-  if (msg.author.bot) return;
+  Util.sass(msg)
 
-  Util.sass(msg);
+  const prefix = "!"
 
-  const prefix = "!";
+  if (!msg.content.startsWith(prefix)) return
 
-  if (!msg.content.startsWith(prefix)) return;
-
-  let match = /!(\S+)/g.exec(msg.content);
-  let command = "none";
+  let match = /!(\S+)/g.exec(msg.content)
+  let command = "none"
   if (match) {
-    command = match[1];
+    command = match[1]
   }
 
-  if (Commands.hasOwnProperty(command)) {
-    
-    if ((Commands[command].reqMod && !Util.isMod(msg.member, roleCache)))  {
-      msg.channel.send("You do not have the required moderator role to run this command.");
+  const commands: Record<string, Command> = Commands
+
+  if (commands.hasOwnProperty(command)) {
+    if (commands[command].reqMod && !Util.isMod(msg.member, roleCache)) {
+      msg.channel
+        .send("You do not have the required moderator role to run this command.")
+        .catch(console.log)
     } else {
-      Commands[command].run(msg)
+      commands[command].run(msg)
     }
   }
-});
+})

@@ -17,12 +17,14 @@
     "start": "pm2 start ecosystem.config.js --only eyir",
     "skyhold-test": "pm2 start ecosystem.config.js --only skyhold-test",
     "eyir-test": "pm2 start ecosystem.config.js --only eyir-test",
+    "restart": "yarn compile && pm2 restart all",
     "compile": "tsc",
     "format": "prettier --write src"
   },
   "devDependencies": {
     "@types/gaze": "^1.1.0",
     "@types/node": "^14.0.11",
+    "@types/ws": "^7.2.6",
     "pm2": "^4.4.0",
     "prettier": "^2.0.5",
     "typescript": "^3.9.5"

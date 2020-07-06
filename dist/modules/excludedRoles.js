@@ -3,9 +3,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.excludedRoles = void 0;
 exports.excludedRoles = [
-    "257983573498265600",
-    "197179529360310272",
-    "475726900019331092",
-    "269363541570617345" // Valarjar
+    "Val'kyr (Mod)",
+    "Theorycrafter",
+    "Bot",
+    "Valarjar",
 ];
 //# sourceMappingURL=excludedRoles.js.map

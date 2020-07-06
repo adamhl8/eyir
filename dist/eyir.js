@@ -23,61 +23,60 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.setFaqMessages = void 0;
-require('dotenv').config({ path: process.argv[2] });
+require("dotenv").config({ path: process.argv[2] });
 const discord_js_1 = __importDefault(require("discord.js"));
 const gaze_1 = __importDefault(require("gaze"));
 const Util = __importStar(require("./modules/util"));
 const Commands = __importStar(require("./modules/commands"));
 const bot = new discord_js_1.default.Client();
 bot.login(process.env.TOKEN);
-bot.on('ready', () => {
-    console.log('I am ready!');
+bot.on("ready", () => {
+    console.log("I am ready!");
     run();
 });
-let skyhold = null;
-let roleCache = null;
+let skyhold;
+let roleCache;
 function run() {
     skyhold = bot.guilds.cache.first();
     roleCache = Util.collectionToCacheByName(skyhold.roles.cache);
-    bot.on('roleUpdate', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
-    bot.on('roleCreate', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
-    bot.on('roleDelete', () => roleCache = Util.collectionToCacheByName(skyhold.roles.cache));
+    bot.on("roleUpdate", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)));
+    bot.on("roleCreate", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)));
+    bot.on("roleDelete", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)));
     applyValarjar();
 }
 function applyValarjar() {
-    skyhold.members.fetch()
-        .then(members => {
-        members.array().forEach(member => {
-            if (!Util.isExcluded(member)) {
-                member.roles.add(roleCache.get("Valarjar").id);
-                console.log("Added Valarjar to " + member.user.tag);
-            }
-        });
-    })
-        .catch(console.error);
+    skyhold.members.cache.array().forEach((member) => {
+        if (!Util.isExcluded(member, roleCache)) {
+            member.roles
+                .add(roleCache.get("Valarjar").id)
+                .then((member) => console.log("Added Valarjar to " + member.user.tag))
+                .catch(console.log);
+        }
+    });
 }
-let faqMessages = null;
+let faqMessages = {};
 //@ts-ignore
 gaze_1.default("./faq/*/*", (err, watcher) => {
-    watcher.on("changed", fp => {
+    watcher.on("changed", (fp) => {
         let parseFilepath = /.+faq\/(.+\/)(.+)/.exec(fp);
         let currentDir = parseFilepath[1];
         let currentFile = parseFilepath[2];
         Util.faqset(currentDir, currentFile, faqMessages[currentFile]);
     });
 });
-exports.setFaqMessages = function (obj) {
+function setFaqMessages(obj) {
     faqMessages = obj;
-};
-bot.on("guildMemberAdd", member => {
+}
+exports.setFaqMessages = setFaqMessages;
+bot.on("guildMemberAdd", (member) => {
     Util.welcomeNewMember(member);
-    member.roles.add(roleCache.get("Valarjar").id);
+    member.roles.add(roleCache.get("Valarjar").id).catch(console.log);
 });
-bot.on("message", msg => {
+bot.on("message", (msg) => {
     if (msg.author.bot)
         return;
     Util.sass(msg);
-    let prefix = "!";
+    const prefix = "!";
     if (!msg.content.startsWith(prefix))
         return;
     let match = /!(\S+)/g.exec(msg.content);
@@ -85,12 +84,15 @@ bot.on("message", msg => {
     if (match) {
         command = match[1];
     }
-    if (Commands.hasOwnProperty(command)) {
-        if ((Commands[command].reqMod && Util.isMod(msg.member, roleCache)) || !Commands[command].reqMod) {
-            Commands[command].run(msg);
+    const commands = Commands;
+    if (commands.hasOwnProperty(command)) {
+        if (commands[command].reqMod && !Util.isMod(msg.member, roleCache)) {
+            msg.channel
+                .send("You do not have the required moderator role to run this command.")
+                .catch(console.log);
         }
         else {
-            msg.channel.send("You do not have the required moderator role to run this command.");
+            commands[command].run(msg);
         }
     }
 });
