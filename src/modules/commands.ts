@@ -12,7 +12,6 @@ export const listbots: Command = {
   reqMod: true,
 
   run: (msg) => {
-
     if (!msg.guild) {
       throw Error(`there is no guild attached to message ${msg.id}`)
     }

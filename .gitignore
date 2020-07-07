@@ -3,4 +3,4 @@ coverage/
 .vscode
 .env*
 logs/
-.dist
+dist

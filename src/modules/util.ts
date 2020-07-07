@@ -1,6 +1,14 @@
 import fs from "fs"
 import { excludedRoles } from "./excludedRoles"
-import { Collection, Role, Snowflake, GuildMember, DMChannel, Message, PartialGuildMember } from "discord.js"
+import {
+  Collection,
+  Role,
+  Snowflake,
+  GuildMember,
+  DMChannel,
+  Message,
+  PartialGuildMember,
+} from "discord.js"
 import ObjectCache from "./ObjectCache"
 
 export function welcomeNewMember(member: GuildMember) {
