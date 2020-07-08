@@ -7,9 +7,13 @@ import {
   GuildMember,
   DMChannel,
   Message,
-  PartialGuildMember,
 } from "discord.js"
 import ObjectCache from "./ObjectCache"
+
+// set up global error handlers
+process.on("unhandledRejection", (error) => {
+  console.log("unhandledRejection: ", error)
+})
 
 export function welcomeNewMember(member: GuildMember) {
   const welcomeMessage =
