@@ -1,7 +1,19 @@
 import fs from "fs"
 import { excludedRoles } from "./excludedRoles"
-import { Collection, Role, Snowflake, GuildMember, DMChannel, Message, PartialGuildMember } from "discord.js"
+import {
+  Collection,
+  Role,
+  Snowflake,
+  GuildMember,
+  DMChannel,
+  Message,
+} from "discord.js"
 import ObjectCache from "./ObjectCache"
+
+// set up global error handlers
+process.on("unhandledRejection", (error) => {
+  console.log("unhandledRejection: ", error)
+})
 
 export function welcomeNewMember(member: GuildMember) {
   const welcomeMessage =
@@ -22,6 +34,7 @@ export function welcomeNewMember(member: GuildMember) {
 export function sass(msg: Message) {
   respondToWords(["eyir", "sucks"], "fuk u " + "<@" + msg.author.id + ">")
   respondToWords(["eyir", "rocks"], "thank u " + "<@" + msg.author.id + ">")
+  respondToWords(["eyir", "socks"], "🧦")
 
   function respondToWords(words: Array<string>, response: string) {
     let shouldSend = false

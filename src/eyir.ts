@@ -21,7 +21,7 @@ let roleCache: ObjectCache<Role> = new ObjectCache()
 function run() {
   const skyhold = bot.guilds.cache.first()
   if (!skyhold) {
-      throw Error("failed to init guild")
+    throw Error("failed to init guild")
   }
 
   roleCache = Util.collectionToCacheByName(skyhold.roles.cache)
@@ -64,7 +64,6 @@ export function setFaqMessages(obj: Record<string, Message>) {
 }
 
 bot.on("guildMemberAdd", async (member: GuildMember | PartialGuildMember) => {
-
   if (isPartial(member)) {
     // PartialGuildMember
     try {
@@ -77,7 +76,7 @@ bot.on("guildMemberAdd", async (member: GuildMember | PartialGuildMember) => {
     // GuildMember
     Util.welcomeNewMember(member)
   }
-  
+
   member.roles.add(roleCache.getOrThrow("Valarjar").id).catch(console.log)
 })
 
@@ -86,7 +85,6 @@ function isPartial(member: GuildMember | PartialGuildMember): member is PartialG
 }
 
 bot.on("message", (msg: Message) => {
-
   if (msg.author.bot) return
 
   Util.sass(msg)
