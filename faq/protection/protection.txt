@@ -10,9 +10,9 @@ Wowhead Guide - <https://www.wowhead.com/protection-warrior-guide>
 
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/protection>
 
-__Ignore Pain Tracker__ - <https://wago.io/ByEbmw6mX>
-__Block Tracker__ - <https://wago.io/Byac1F3QQ>
-__Spell Reflection Tracker__ - <https://wago.io/zcY0ZrS0d>
+__Ignore Pain Tracker__ - <https://wago.io/IgnorePainTracker>
+__Block Tracker__ - <https://wago.io/WarriorBlockTracker>
+__Spell Reflection Tracker__ - <https://wago.io/SpellReflectionTracker>
 
 **__FAQ__**
 
