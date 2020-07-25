@@ -16,7 +16,7 @@ bot.on("ready", () => {
   run()
 })
 
-let roleCache: ObjectCache<Role> = new ObjectCache()
+let roleCache = ObjectCache.empty<Role>()
 
 function run() {
   const skyhold = bot.guilds.cache.first()
@@ -24,10 +24,10 @@ function run() {
     throw Error("failed to init guild")
   }
 
-  roleCache = Util.collectionToCacheByName(skyhold.roles.cache)
-  bot.on("roleUpdate", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)))
-  bot.on("roleCreate", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)))
-  bot.on("roleDelete", () => (roleCache = Util.collectionToCacheByName(skyhold.roles.cache)))
+  roleCache = ObjectCache.fromCollection(skyhold.roles.cache)
+  bot.on("roleUpdate", () => (roleCache = ObjectCache.fromCollection(skyhold.roles.cache)))
+  bot.on("roleCreate", () => (roleCache = ObjectCache.fromCollection(skyhold.roles.cache)))
+  bot.on("roleDelete", () => (roleCache = ObjectCache.fromCollection(skyhold.roles.cache)))
   applyValarjar(skyhold)
 }
 
