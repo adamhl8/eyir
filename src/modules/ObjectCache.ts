@@ -1,6 +1,8 @@
 import { Collection } from "discord.js"
 
-type CacheableValue = { name: string }
+interface CacheableValue {
+  name: string
+}
 
 export default class ObjectCache<V extends CacheableValue> extends Map<string, V> {
   static empty<V extends CacheableValue>(): ObjectCache<V> {
