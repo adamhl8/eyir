@@ -25,6 +25,14 @@ export const listbots: Command = {
   },
 }
 
+export const sarriFact: Command = {
+  reqMod: false,
+
+  run: async (msg) => {
+    await msg.channel.send("@<139773837121159168>").catch(console.error)
+  }
+}
+
 let faqMessages: Record<string, Message> = {}
 const faqDirOrder = ["resources", "faq", "arms", "fury", "protection"]
 let faqSectionOrder: Array<string> = []

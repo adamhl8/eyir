@@ -7,7 +7,7 @@
   "author": "Marok",
   "license": "UNLICENSED",
   "dependencies": {
-    "discord.js": "^12.2.0",
+    "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
     "gaze": "^1.1.3",
     "moment-timer": "^1.3.0",
@@ -15,18 +15,17 @@
   },
   "scripts": {
     "start": "pm2 start ecosystem.config.js --only eyir",
-    "skyhold-test": "pm2 start ecosystem.config.js --only skyhold-test",
-    "eyir-test": "pm2 start ecosystem.config.js --only eyir-test",
-    "restart": "yarn compile && pm2 restart all",
-    "compile": "tsc",
-    "format": "prettier --write src"
+    "test": "pm2 start ecosystem.config.js --only eyir-test",
+    "restart": "yarn compile && pm2 restart eyir",
+    "retest": "yarn compile && pm2 restart eyir-test",
+    "compile": "tsc"
   },
   "devDependencies": {
     "@types/gaze": "^1.1.0",
-    "@types/node": "^14.0.14",
-    "@types/ws": "^7.2.6",
-    "pm2": "^4.4.0",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.6"
+    "@types/node": "^14.11.2",
+    "@types/node-persist": "^3.1.0",
+    "@types/ws": "^7.2.7",
+    "@yarnpkg/pnpify": "^2.3.1",
+    "typescript": "^4.0.3"
   }
 }
