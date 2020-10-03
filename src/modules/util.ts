@@ -1,13 +1,6 @@
 import fs from "fs"
 import { excludedRoles } from "./excludedRoles"
-import {
-  Collection,
-  Role,
-  Snowflake,
-  GuildMember,
-  DMChannel,
-  Message,
-} from "discord.js"
+import { Collection, Role, Snowflake, GuildMember, DMChannel, Message } from "discord.js"
 import ObjectCache from "./ObjectCache"
 
 // set up global error handlers
@@ -34,6 +27,7 @@ export function welcomeNewMember(member: GuildMember) {
 export function sass(msg: Message) {
   respondToWords(["eyir", "sucks"], "fuk u " + "<@" + msg.author.id + ">")
   respondToWords(["eyir", "rocks"], "thank u " + "<@" + msg.author.id + ">")
+  respondToWords(["eyir", "socks"], "🧦")
   respondToWords(["eyir", "socks"], "🧦")
 
   function respondToWords(words: Array<string>, response: string) {
@@ -73,13 +67,4 @@ export function isExcluded(member: GuildMember, roleCache: ObjectCache<Role>) {
     }
   }
   return isExcluded
-}
-
-export function collectionToCacheByName<T extends { name: string }>(
-  collection: Collection<Snowflake, T>
-): ObjectCache<T> {
-  const entries = collection.entries()
-  const byName: Array<[string, T]> = Array.from(entries).map(([, item]) => [item.name, item])
-
-  return new ObjectCache(byName)
 }
