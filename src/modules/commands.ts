@@ -29,7 +29,7 @@ export const sarriFact: Command = {
   reqMod: false,
 
   run: async (msg) => {
-    await msg.channel.send("@<139773837121159168>").catch(console.error)
+    await msg.channel.send("<@139773837121159168>").catch(console.error)
   }
 }
 
