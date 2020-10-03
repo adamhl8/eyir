@@ -28,7 +28,6 @@ export function sass(msg: Message) {
   respondToWords(["eyir", "sucks"], "fuk u " + "<@" + msg.author.id + ">")
   respondToWords(["eyir", "rocks"], "thank u " + "<@" + msg.author.id + ">")
   respondToWords(["eyir", "socks"], "🧦")
-  respondToWords(["eyir", "socks"], "🧦")
 
   function respondToWords(words: Array<string>, response: string) {
     let shouldSend = false
