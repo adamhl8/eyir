@@ -1,4 +1,4 @@
-**Q:** Should I play Arms or Fury in Ny'alotha?
+**Q:** Should I play Arms or Fury in Castle Nathria?
 **A:** Arms is currently the better spec overall in raid. However, Fury is still viable.
 
 **Q:** Should I use Pawn? What's a good Pawn string for X spec?
@@ -16,10 +16,3 @@
 **Q:** What professions should I have?
 **A:** This depends on your goals and the types of content you do. Check out this page for an overview of the professions and pick the ones that most interest you. <https://www.wowhead.com/professions-in-battle-for-azeroth>
 
-**Q:** What stacks for Azerite traits?
-**A:** Stat increases, damage additions, and healing additions.
-
-**Q:** What doesn’t stack for Azerite traits?
-**A:** Duration increases / multipliers, proc chances, number of targets, etc.
-
-There *are* exceptions to these rules and it varies trait by trait.
