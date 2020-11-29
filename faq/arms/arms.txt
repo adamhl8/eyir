@@ -1,6 +1,7 @@
 **Guides/Resources:**
 
 __Icy Veins Guide__ - <https://www.icy-veins.com/wow/arms-warrior-pve-dps-guide>
+__WoWhead Guide__ - <https://www.wowhead.com/arms-warrior-guide>
 
 Video guides by <@144870911969853440> - <https://www.youtube.com/corejo>
 
@@ -10,27 +11,35 @@ Wowhead Guide - <https://www.wowhead.com/arms-warrior-guide>
 
 **__FAQ__**
 
-**Q:** What are the best traits?
-**A:**  Single-target/ AoE: Test of Might x3 > Clockwork Heart > Heart of Darkness > Meticulous Scheming
+**Q:** What is the best Covenant?
+**A:** At this moment, **Venthyr** is the best covenant for raiding. However **Night Fae** and **Kyrian** are still very much viable in raids, and much better for AoE and M+. 
 
-**Q:** With only 1 Test of Might trait, do I still delay Bladestorm till the Test of Might window?
-**A:** Yes, even with 1 trait only it's still worth to delay Bladestorm. 
+**Q:** What are the best Potency Conduits?
+**A:** Single Target: Ashen Juggernaut (Venthyr) > Crash the Ramparts > Ashen Juggernaut (Non-Venthyr) > Mortal Combo > Covenant Conduits
+       Aoe/M+: Crash the Ramparts > Piercing Verdict (Kyrian) = Destructive Reverberations (Nightfae) > Merciless Bonegrinder > Veterans Rpute (Necrolord) Mortal Combo > Rest
 
-**Q:** Does Crushing Assault work with Fervor of Battle?
-**A:** Yes, the trait reduces the rage cost of Whirlwind by 20 and increases the Slam cast damage.
+**Q:** What are the best Soulbindings?
+**A:** Venthyr: Theotar > Nadjia > Draven
+       Night Fae: Niya > > Korayn > Dreamweaver
+       Kyrian: Pelagos > > Forgelite > Kleia
+       Necrolord: Bonesmith > Plague Deviser > Emeni
 
-**Q:** When do I use the Crushing Assault proc?
-**A:** Before Execute use it like you would use Slam/Whirlwind. In Execute you want to use Slam even with Fervor of Battle selected, it as soon as it procs.
+**Q:** What are the best Legendary Effects and what gear slot should they be crafted on?
+**A:** Single Target: Signet of Tormented Kings > Judgement of the Arbiter > Enduring Blow > Unhinged > Explolter > Battlelord
+       AoE: Signet of Tormented Kings > Seismic Reverberation > Unhinged > Rest
+       Legendaries should be crafted on gear with the most strength. This can vary from person to person.
 
-**Q:** What are the best Essences for Arms?
-**A:** Single Target: Lucid Dreams major, Breath of the Dying/Iris/Conflict & Strife minors.
-**A:** M+: Blood/Lucid Major, Lucid/Breath/Blood/Conflict/Iris minors.
+**Q:** What is the general stat priority?
+**A:** Strength > Critical Strike > Haste to 20% > Mastery > Versatility > Haste
+__THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS__
 
-**Q:** Is it ok to sit on Skullsplitter?
-**A:** Yes, the power of Skullsplitter comes from the near on demand rage. Sitting on it's cooldown during lucid or high rage is fine.
 
-**Q:** Is War Machine better at higher amounts of haste?
-**A:** Yes and No. While War Machine is only about 2-3% behind Skullsplitter. Skullsplitter's cooldown is still reduced by haste and is on demand rage. War Machine without enemies dying will generate less rage. And if enemies die, it's uncontrollable and can lead to major overcapping. Skullsplitter is definitely the more consistent choice while War Machine can be unpredictable when adds die. 
+**Q:** What Consumables does Arms use?
+**A:** Potions: Phantom Fire on single target, Empowered Exorcisms for AoE
+       Weapon Oil: Shadowcore Oil. Sharpening stones are not worth using.
+       Food: Feast of Gluttonous Hedonism Feast. Spinefine Souffle and Fries if mainstat feasts aren't available. 
 
-**Q:** Is Mortal Strike used in the Execute phase?
-**A:** No, Mortal Strike is not used in Execute.
+**Q:** What are the best Trinkets for Arms?
+**A:** Spare Meat Hook and Incrustable Quantum Device are the current best 2. You can check out the Bloodmallet for a more complete list. 
+
+
