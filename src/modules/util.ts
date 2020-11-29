@@ -1,6 +1,6 @@
 import fs from "fs"
 import { excludedRoles } from "./excludedRoles"
-import { Collection, Role, Snowflake, GuildMember, DMChannel, Message } from "discord.js"
+import { Role, GuildMember, DMChannel, Message } from "discord.js"
 import ObjectCache from "./ObjectCache"
 
 // set up global error handlers
@@ -28,6 +28,7 @@ export function sass(msg: Message) {
   respondToWords(["eyir", "sucks"], "fuk u " + "<@" + msg.author.id + ">")
   respondToWords(["eyir", "rocks"], "thank u " + "<@" + msg.author.id + ">")
   respondToWords(["eyir", "socks"], "🧦")
+  respondToWords(["eyir", "cocks"], "<:yep:703420923625078804>")
 
   function respondToWords(words: Array<string>, response: string) {
     let shouldSend = false
