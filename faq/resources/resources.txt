@@ -1,11 +1,8 @@
-<http://www.icy-veins.com> - Class/Spec guides
-
 <https://raidbots.com/simbot> - An online, easy-to-use tool for simming your character with SimulationCraft
 <https://www.herodamage.com/warrior> - A centralized base for SimulationCraft results for every class
 <https://bloodmallet.com> - SimluationCraft results for every class, similar to Hero Damage
 
 <https://mythicpl.us> - Current Mythic+ affixes and other useful M+ info
-<https://questionablyepic.com/mythic-plus> - Mythic+ Compendium (Dungeon routes and more)
 
 <https://wago.io> - WeakAuras resource
 
@@ -13,10 +10,8 @@
 <https://raider.io> - Great Mythic+ tools, guild rankings, and more
 <https://www.warcraftlogs.com> - Analyze your own or other players' logs, see raid statistics, and more
 
-<https://azerite.info> - Easy to use database for finding Azerite gear/traits
-
 <http://www.wowhead.com> - Database, News, Guides, Talent Calculator, and much, much more
-<http://www.wowdb.com> - Database, Talent/Artifact Calculator
+<http://www.icy-veins.com> - Class/Spec guides, News and more.
 
 <https://www.curseforge.com/wow/addons> - AddOns
 <https://www.wowinterface.com/addons.php> - AddOns
