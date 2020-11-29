@@ -1,33 +1,28 @@
-**Q:** Do I wait for 40 rage to cast Execute?
-**A:** No, you want to use execute at any rage, the DPR scales linearly.
+**Q:** What are the best Talents? Please note the level 40 row has no effect on pure single target.
+**A:** Venthyr: Sudden Death | Double Time default, Stormbolt for CC | Massacre | Defensive Stance | Deadly Calm or Avatar for AoE | Dreadnaught 
+       Non-Venthyr Sudden Death | Double Time default, Stormbolt for CC |Rend for Single target, Fervor for AoE | Defensive Stance| Avatar | Dreadnaught
+       Level 40 row for all Covenants: Collateral for 2 target, Warbreaker for Burst and Cleave for sustained AoE/Frequent pulls
 
-**Q:** What is the general stat priority?
-**A:** Haste > Crit/Mast > Vers  > Strength
-__THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS__
+**Q:** Is Mortal Strike used in the Execute/Condemn phase?
+**A:** Yes, only if Deep Wounds is about to fall off.
+
+**Q:** Do I wait for 40 rage to cast Execute/Condemn?
+**A:** No, you want to use Execute/Condemn at any rage, the DPR scales linearly.
+
+**Q:** How is Deadly Calm used?
+**A:** Deadly Calm is typically used on cooldown. Lining with Colossus Smash whenever possible. You can pre-cast Deadly Calm about 10-12s before the pull, and the second Deadly Calm use will line up with the second Colossus Smash naturally.
+
+**Q:** Does Shattering Throw have any use in PVE?
+**A:** Yes! The ability deals 500% increased damage to any absorbtion shield. Making it a very strong ability to burn shields very quickly.
 
 **Q:** What Gems/Enchants do I use?
-**A:** Gale-Force Striking on weapon, Haste gems and enchants on rings.
+**A:** Chest: Eternal Skirmish for single target, Eternal stats for AoE.
+       Weapon: Sinful Revelation for single target, Lightless force for AoE.
+       Rings: Tenet of Haste/Crit/Mast. This can vary greatly from person to person, sim yourself for the most accurate results.
+       Gloves: Eternal Strength
+       Gems: Leviathan's Eye of Strength > Krakens Eye of Strength > Deadly Jewel Cluster
 
-**Q:** Are there any breakpoints we need to aim for?
-**A:** No, there are tons of breakpoints that are not impactful outside of a sim. 
-
-**Q:** What are the best Corruptions for Arms?
-**A:** Full Expedient is the best for Arms. You can also utilize Void Ritual/Honed Mind/Racing Pulse to stay over 25 corruption for Heart of Darkness. Stay under 40 corruption since Arms is already weak defensively.
-
-**Q:** What talents/traits should I take for M+?
-**A:** 
-
-The talent set up is Skullsplitter, Storm Bolt, Fervor of Battle, Defensive Stance, Cleave, In for the Kill and Anger Management. With Test of Might Azerite traits and Mastery/Haste focused for stats.  Utilizing Cleave to spread Deep Wounds combo'd with huge Test of Might windows, Arms dishes out huge aoe and single target damage with very little ramp time. 
-
-**Q:** How do I choose between Massacre, Fervor of Battle and Rend?
-**A:** All 3 of these talents have their purpose in Nya'lotha.
-
-Massacre is best suited for quick fights to start your Lucid Execute early to get it fully off before the boss dies, or a boss that has multiple execute phases. Suggested bosses are Ilgy'noth, Skitra, Wrathion and Vexiona. Possibly more when bosses start to die much faster in the future.
-
-Fervor of Battle is best suited for fights that are more AoE oriented.
-Suggested bosses are Hivemind, Ra-den/Carapace/N'zoth are possible choices as well. Depening on how fast adds die in your raids composition.
-
-Rend is the best talent for pure single target damage and low target cleave. Suggested fights are Shad'har, Xanesh and Drest'agath.
-
-
-
+**Q:** What Consumables does Arms use?
+**A:** Potions: Phantom Fire on single target, Empowered Exorcisms for AoE
+       Weapon Oil: Shadowcore Oil. Sharpening stones are not worth using.
+       Food: Feast of Gluttonous Hedonism Feast. Spinefine Souffle and Fries if mainstat feasts aren't available. 
