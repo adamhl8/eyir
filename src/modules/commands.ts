@@ -1,7 +1,7 @@
 import Discord, { Message, Collection, GuildMember } from "discord.js"
 import fs from "fs"
 import * as Util from "./util"
-import * as Main from "../eyir"
+import * as Main from "../index"
 
 export interface Command {
   reqMod: boolean
@@ -30,7 +30,7 @@ export const sarriFact: Command = {
 
   run: async (msg) => {
     await msg.channel.send("<@139773837121159168>").catch(console.error)
-  }
+  },
 }
 
 let faqMessages: Record<string, Message> = {}
@@ -41,7 +41,13 @@ let initMessage: Message
 export const faqinit: Command = {
   reqMod: true,
 
-  run: (msg) => {
+  run: async msg => {
+    if (msg.channel.type != "text") return
+    if (msg.channel.name != "guides-resources-faq") return await msg.channel.send("!faqinit cannot be run in this channel.").catch(console.error)
+    const messages = await msg.channel.messages.fetch()
+    messages.each(async message => {
+      await message.delete().catch(console.error)
+    })
     initMessage = msg
     handleOrder = faqDirOrder
     sendHeader()
@@ -123,7 +129,6 @@ function sendSections() {
 }
 
 function editHeader() {
-  console.log(faqMessages)
   header.setDescription(
     "[Resources](https://discordapp.com/channels/148872210742771712/268491842637660160/" +
       faqMessages["resources.png"].id +
