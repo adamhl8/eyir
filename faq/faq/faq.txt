@@ -13,6 +13,3 @@
 **Q:** What's the best spec for leveling?
 **A:** You can level with similar efficiency using any spec. It *really* doesn't matter. Play what you think is the most fun.
 
-**Q:** What professions should I have?
-**A:** This depends on your goals and the types of content you do. Check out this page for an overview of the professions and pick the ones that most interest you. <https://www.wowhead.com/professions-in-battle-for-azeroth>
-
