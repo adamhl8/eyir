@@ -34,12 +34,4 @@ Wowhead Guide - <https://www.wowhead.com/arms-warrior-guide>
 __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS__
 
 
-**Q:** What Consumables does Arms use?
-**A:** Potions: Phantom Fire on single target, Empowered Exorcisms for AoE
-       Weapon Oil: Shadowcore Oil. Sharpening stones are not worth using.
-       Food: Feast of Gluttonous Hedonism Feast. Spinefine Souffle and Fries if mainstat feasts aren't available. 
-
-**Q:** What are the best Trinkets for Arms?
-**A:** Spare Meat Hook and Incrustable Quantum Device are the current best 2. You can check out the Bloodmallet for a more complete list. 
-
 
