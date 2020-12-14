@@ -34,7 +34,7 @@ export const sarriFact: Command = {
 }
 
 let faqMessages: Record<string, Message> = {}
-const faqDirOrder = ["resources", "faq", "arms", "fury", "protection"]
+const faqDirOrder = ["resources", "faq", "arms", "fury", "protection", "pvp"]
 let faqSectionOrder: Array<string> = []
 let initMessage: Message
 
@@ -130,21 +130,12 @@ function sendSections() {
 
 function editHeader() {
   header.setDescription(
-    "[Resources](https://discordapp.com/channels/148872210742771712/268491842637660160/" +
-      faqMessages["resources.png"].id +
-      ")\n\
-    [FAQ](https://discordapp.com/channels/148872210742771712/268491842637660160/" +
-      faqMessages["faq.png"].id +
-      ")\n\
-    [Arms](https://discordapp.com/channels/148872210742771712/268491842637660160/" +
-      faqMessages["arms.png"].id +
-      ")\n\
-    [Fury](https://discordapp.com/channels/148872210742771712/268491842637660160/" +
-      faqMessages["fury.png"].id +
-      ")\n\
-    [Protection](https://discordapp.com/channels/148872210742771712/268491842637660160/" +
-      faqMessages["protection.png"].id +
-      ")"
+    `[Resources](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["resources.png"].id})
+    [FAQ](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["faq.png"].id})
+    [Arms](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["arms.png"].id})
+    [Fury](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["fury.png"].id})
+    [Protection](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["protection.png"].id})
+    [PvP](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["pvp.png"].id})`
   )
   headerMessage.edit(header)
 }
