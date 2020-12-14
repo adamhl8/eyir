@@ -1,6 +1,4 @@
-**PvP Info**
-
-**FAQ**
+**__FAQ__**
 
 **Q**: Should I play Arms or Fury for arena?
 **A**: Arms is currently one of the best melees for competitive PvP, while fury is unfortunately among the weakest. 
