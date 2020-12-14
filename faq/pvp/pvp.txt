@@ -1,1 +1,31 @@
-PvP info
+**PvP Info**
+
+**FAQ**
+
+**Q**: Should I play Arms or Fury for arena?
+**A**: Arms is currently one of the best melees for competitive PvP, while fury is unfortunately among the weakest. 
+
+**Q**: What is best covenant for PvP?
+**A**: Kyrian is the best for all PvP content, the burst damage and tether of spear reigns supreme and phial adds a much desired defensive option in the current meta
+       Kyrian > Night Fae >= Venthyr > Necrolords
+
+**Q**: What is the best legendary?
+**A**: Unhinged, Misshapen Mirror and Sephuz are the three competitive legendaries, each gaining more value depending on what your matchup is.
+       Unhinged = General legendary, good in almostt any situation
+       Misshapen Mirror = Good vs caster cleaves such as MLX, Shadowplay, Scatter Cleave or ele+boomkin
+       Sephuz = For defensive plays where stalling is key and you're the kill target, for an example vs RMP.
+
+**Q**: What are the stats I should go for?
+**A**: Versatility > 30% haste > Mastery > Critical Strike > Haste
+
+**Q**: I have reason to stick with another covenant/legendary, will this prevent me from reaching my rating goals?
+**A**: You can reach at least gladiator with any covenant as arms, and obtain the elite set as both arms and fury with any covenant. If you're interested in pushing high end gladiator or rank 1, it's recommended you switch covenant to Kyrian.
+
+**Q**: How do I simulate my character for PvP?
+**A**: You cannot simulate for PvP, the nature of PvP is too dynamic and have too many variables to be able to produce any useable results.
+
+**Q**: I can't find any PvP content on Youtube, what resources do I have available?
+**A**: All PvP guides written by respected warriors are pinned in the #pvp channel. We recommend watching streamers on Twitch.tv for the best learning experience.
+       High rated and good warriors to watch are Magnusz, Zhrey, Smexxin, Bajheera, Nalipls, Dekel and Blizo.
+
+
