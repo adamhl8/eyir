@@ -1,1 +1,11 @@
 
+**Q**: Can I play double dps as warrior in 2v2?
+**A**: Ideally, double dps comps requires a lot of crowd control and great sustained healing, something which warrior  doesn't have.
+       It's heavily recommended to play with a healer.
+
+**Q**: What healers should I play with in 2v2?
+**A**: Resto sham, holy pala and disc priest are currently the best healers
+
+**Q**: What compositions are currently the best for 3v3?
+**A**: Turbo cleave / WMP(ala) / Ret+arms / WW+arms / arms+SP+Rsham
+       TSG, despite popular belief, is only a mediocre comp, mainly due to the DK's poor survivability in the current meta
