@@ -22,8 +22,4 @@
 **Q**: How do I simulate my character for PvP?
 **A**: You cannot simulate for PvP, the nature of PvP is too dynamic and have too many variables to be able to produce any useable results.
 
-**Q**: I can't find any PvP content on Youtube, what resources do I have available?
-**A**: All PvP guides written by respected warriors are pinned in the #pvp channel. We recommend watching streamers on Twitch.tv for the best learning experience.
-       High rated and good warriors to watch are Magnusz, Zhrey, Smexxin, Bajheera, Nalipls, Dekel and Blizo.
-
 
