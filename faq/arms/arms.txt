@@ -5,8 +5,6 @@ __WoWhead Guide__ - <https://www.wowhead.com/arms-warrior-guide>
 
 Video guides by <@144870911969853440> - <https://www.youtube.com/corejo>
 
-Wowhead Guide - <https://www.wowhead.com/arms-warrior-guide>
-
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/arms>
 
 **__FAQ__**
@@ -15,17 +13,17 @@ Wowhead Guide - <https://www.wowhead.com/arms-warrior-guide>
 **A:** At this moment, **Venthyr** is the best covenant for raiding. However **Night Fae** and **Kyrian** are still very much viable in raids, and much better for AoE and M+. 
 
 **Q:** What are the best Potency Conduits?
-**A:** Single Target: Ashen Juggernaut (Venthyr) > Crash the Ramparts > Ashen Juggernaut (Non-Venthyr) > Mortal Combo > Covenant Conduits
-       Aoe/M+: Crash the Ramparts > Piercing Verdict (Kyrian) = Destructive Reverberations (Nightfae) > Merciless Bonegrinder > Veterans Rpute (Necrolord) Mortal Combo > Rest
+**A:** Single Target: Ashen Juggernaut (Venthyr) > Mortal Combo > Crash the Ramparts >Ashen Juggernaut (Non-Venthyr) > Covenant Conduits
+       Aoe/M+: Crash the Ramparts > Covenant Conduits > Mortal Combo > Rest
 
 **Q:** What are the best Soulbindings?
-**A:** Venthyr: Theotar > Nadjia > Draven
-       Night Fae: Niya > > Korayn > Dreamweaver
-       Kyrian: Pelagos > > Forgelite > Kleia
-       Necrolord: Bonesmith > Plague Deviser > Emeni
+**A:** Venthyr: Nadjia ~= Theotar > Draven
+       Night Fae: Niya > Korayn ~= Dreamweaver
+       Kyrian: Pelagos > Forgelite ~= Kleia
+       Necrolord: Plague Deviser > Bonesmith > Emeni
 
 **Q:** What are the best Legendary Effects and what gear slot should they be crafted on?
-**A:** Single Target: Signet of Tormented Kings > Judgement of the Arbiter > Enduring Blow > Unhinged > Explolter > Battlelord
+**A:** Single Target: Signet of Tormented Kings > Unhinged> Enduring Blow > Explolter > Battlelord
        AoE: Signet of Tormented Kings > Seismic Reverberation > Unhinged > Rest
        Legendaries should be crafted on gear with the most strength. This can vary from person to person.
 
