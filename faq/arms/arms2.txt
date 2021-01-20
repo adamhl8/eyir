@@ -1,6 +1,6 @@
 **Q:** What are the best Talents? Please note the level 40 row has no effect on pure single target.
-**A:** Venthyr: Sudden Death | Double Time default, Stormbolt for CC | Massacre | Defensive Stance | Deadly Calm or Avatar for AoE | Dreadnaught 
-       Non-Venthyr Sudden Death | Double Time default, Stormbolt for CC |Rend for Single target, Fervor for AoE | Defensive Stance| Avatar | Dreadnaught
+**A:** Venthyr: Skullsplitter, Double Time or Stormbolt for CC, Massacre, Defensive Stance, Avatar, Ravager for ST, Dread for AoE.
+       Non-Venthyr Sudden Death, Double Time or Stormbolt for CC, Rend for Single Target, Massacre/Fervor AoE,d Avatar, Dreadnaught
        Level 40 row for all Covenants: Collateral for 2 target, Warbreaker for Burst and Cleave for sustained AoE/Frequent pulls
 
 **Q:** Is Mortal Strike used in the Execute/Condemn phase?
@@ -9,20 +9,20 @@
 **Q:** Do I wait for 40 rage to cast Execute/Condemn?
 **A:** No, you want to use Execute/Condemn at any rage, the DPR scales linearly.
 
-**Q:** How is Deadly Calm used?
-**A:** Deadly Calm is typically used on cooldown. Lining with Colossus Smash whenever possible. You can pre-cast Deadly Calm about 10-12s before the pull, and the second Deadly Calm use will line up with the second Colossus Smash naturally.
-
 **Q:** Does Shattering Throw have any use in PVE?
 **A:** Yes! The ability deals 500% increased damage to any absorbtion shield. Making it a very strong ability to burn shields very quickly.
+
+**Q:** What can I use Spell Reflect on?
+**A:** This google doc sheet shows what you can and can't reflect. https://tinyurl.com/ReflectGuide .
 
 **Q:** What Gems/Enchants do I use?
 **A:** Chest: Eternal Skirmish for single target, Eternal stats for AoE.
        Weapon: Sinful Revelation for single target, Lightless force for AoE.
        Rings: Tenet of Haste/Crit/Mast. This can vary greatly from person to person, sim yourself for the most accurate results.
        Gloves: Eternal Strength
-       Gems: Leviathan's Eye of Strength > Krakens Eye of Strength > Deadly Jewel Cluster
+       Gems: Crit, Haste or Mastery. This can vary greatly from person to person, sim yourself for the most accurate results.
 
 **Q:** What Consumables does Arms use?
-**A:** Potions: Phantom Fire on single target, Empowered Exorcisms for AoE
-       Weapon Oil: Shadowcore Oil. Sharpening stones are not worth using.
+**A:** Potions: Potion of Spectral Strength
+       Weapon Oil: Shaded Sharpening Stone.
        Food: Feast of Gluttonous Hedonism Feast. Spinefine Souffle and Fries if mainstat feasts aren't available. 
