@@ -1,19 +1,32 @@
 -
-**Q:** How good is Geti'ikku?
-**A:** The weapon is very strong on Single Target, however do keep in mind that it loses value in multi-target situations due to the DoT being Single Target only and the weapon missing secondary stats.
+**Q:** What are the best talents?
+**A:** ST Venthyr: Sudden Death, Massacre, Cruelty, Dragon Roar, Siegebreaker/AM
+ST non-Venthyr: Sudden Death, Frenzy, Cruelty, Dragon Roar, Reckless Abandon
+M+ Talents: Fresh Meat, Massacre, Cruelty, Bladestorm, Anger Management (Use Signet of Tormented Kings legendary)
 
-**Q:** Are there any alternate talents for Mythic+?
-**A:** Bladestorm is a very strong choice in Mythic+, and can lead to better results depending on pulls.
-Reckless Abandon is also very strong for more infrequent but much stronger burst, and it pairs very well with Blood of the Enemy major essence which is a very strong and popular choice for Mythic+.
-Anger Management is another potential choice for Mythic+ as it pairs well with Bladestorm.
-Inner Rage is a good choice on specifically Explosive weeks in order to ensure you can kill the Explosive orbs, however it's overall damage is lackluster compared to Sudden Death due to how inferior Raging Blow is compared to Bloodthirst due to Cold Steel Hot Blood.
+**Q:** Should I be enraged before using Recklessness if I have Signet?
+**A:** Yes, try and get enraged before using Recklessness. The biggest tip is if you have Signet, try and use Recklessness during your GCD downtime after a Rampage/Fresh Meat Bloodthirst. This is because even if you are in a GCD, if Reck procs Bladestorm it will still trigger and you lose nothing, and your GCD downtime is being eaten by the Bladestorm.
 
-**Q:** Are there alternate talents for Ny'alotha?
-**A:** Furious Slash is a very strong Single Target talent and has use on quite a few bosses in Ny'alotha. These bosses are mainly Maut, Skitra, Xanesh, Shad'har, and Ra-den. It is also useable on Wrathion, Vexiona, Il'gynoth, and Drest'agath but it is slightly awkward due to forced downtime and/or adds and I would recommend just using Sudden Death instead.
-Bladestorm is a very strong choice on Hivemind and Carapace due to the timings on add spawns working out well for Bladestorm.
+**Q:** Do I cancel Bladestorm on Single Target if Signet procs it?
+**A:** Generally no, if Signet procs Bladestorm it is almost always worth it to just let it channel.
+
+**Q:** What can I use Spell Reflect on?
+**A:** This google doc sheet shows what you can and can't reflect. https://tinyurl.com/ReflectGuide.
 
 **Q:** Should I use *x* trinket?
-**A:** Go to <https://bloodmallet.com/index.html#warrior_fury> for a general list. **SIM YOURSELF FOR BEST RESULTS**
+**A:** Go to <https://bloodmallet.com/chart/warrior/fury/trinkets/castingpatchwerk> for a general list. **SIM YOURSELF FOR BEST RESULTS**
+
+**Q:** What Gems/Enchants do I use?
+**A:** Chest: Eternal Skirmish for single target, Eternal Stats for AoE.
+       Weapon: Sinful Revelation+Celestial Guidance for single target, Lightless Force+Celestial Guidance for AoE.
+       Rings: Tenet of Haste
+       Gloves: Eternal Strength
+       Gems: Haste
+
+**Q:** What Consumables does Fury use?
+**A:** Potions: Potion of Shadowfire for ST, Potion of Spectral Strength for AoE
+       Weapon Oil: 1 Shadowcore Oil + 1 Sharpening Stone for ST, Double Stone for AoE.
+       Food: Feast of Gluttonous Hedonism Feast
 
 **Q:** Are there stat breakpoints?
 **A:** There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stat amounts.
