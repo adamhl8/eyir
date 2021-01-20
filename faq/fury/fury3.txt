@@ -1,9 +1,1 @@
--
-**Q:** What potion do I use? 
-**A:** Potion of Unbridled Fury for primarily Single Target, Superior Battle of Strength for low target AoE/Cleave, and Potion of Empowered Proximity for larger AoE/Cleave.
 
-**Q:** How does Heart of Darkness work?
-**A:** Heart of Darkness is the new Azerite Trait on raid pieces. Heart of Darkness gives secondary stats as long as you have 25 or more active corruption on your character. This means after all your corruption resistance is calculated you still need 25 or more corruption.
-
-**Q:** How much corruption is safe to wear?
-**A:** Up to 39 corruption is generally very safe, as the Eye of Corruption is fairly easy to move out of and doesn't do that much damage unless you let it stack too high. The slow is somewhat dangerous if it procs at a bad time but you can play around it with leap or charge, and in a last resort use your cape. Starting at 40 corruption is when you can proc Grand Delusions which summons a Thing from Beyond to chase you and hit you for damage when it reachs you. This is potentially risky on prog fights due to it being a potentially sudden burst of damage. If you're confident in your play though, 40-50 corruption isn't that scary due to how tanky Fury is. I would only go above 40-50 corruption if it results in a large DPS increase. In addition, speccing Storm Bolt when in this corruption range is a very real choice due to it being able to stun the Thing from Beyond, and you can also use Intimidating Shout to great effect. Past 50 and especially 60+ is very risky on progression and I wouldn't recommend.
