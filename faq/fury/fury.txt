@@ -26,8 +26,3 @@ AoE = Depths of Insanity > Convenant Conduits
 Night Fae: Niya > Korayn > Dreamweaver
 Kyrian: Pelagos > Forgelite > Kleia
 Necrolord: :warrior:
-
-**Q:** What enchants/weapon enhancements do I use? 
-**A:** Sinful Revelation + Celestial Guidance for ST, Lightless Force replaces Sinful Revelation for AoE. 
-1 Oil/1 Sharpening Stone tends to be the best for ST, can sim yourself via Raidbots. Double Sharpening Stone for M+. 
-Haste Rings Enchants and Gems tend to sim highest.
