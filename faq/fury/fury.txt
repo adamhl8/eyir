@@ -8,22 +8,26 @@ Wowhead Guide - <https://www.wowhead.com/fury-warrior-guide>
 
 **__FAQ__**
 
-**Q:** What are the best traits?
+__**FOR THE MOST ACCURATE ANSWER TO ANY OF THESE QUESTIONS, ALWAYS SIM YOURSELF**__
+
+**Q:** What is the best Covenant?
+**A:** :Condemn: **Ven'thyr** is the best overall covenant in PvE. It performs the best by a good margin in the raid and still performs very well in M+ due to Fury's ability to cleave Condemn. :Aftershock: **Night Fae** is close behind on ST and ahead on AoE, although it does suffer from inconsistency if the mobs move out of the AoE. :Spear: **Kyrian** is a behind Night Fae on both ST and AoE but it is easy to use, and :fuckingtrash: **Necrolord** is not worth considering. 
+
+**Q:** What are the best Potency Conduits?
 **A:** 
-Single-target: 1st Unbridled Ferocity, 1st Simmering Rage, Reckless Flurry, Cold Steel Hot Blood, Heart of Darkness
-AoE: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood, Heart of Darkness
-Mythic+: 1st Unbridled Ferocity, 1st Simmering Rage, Cold Steel Hot Blood, Heart of Darkness
-Tier 2s: Unstable Flames, Overwhelming Power, Gutripper
-A more complete list here - <https://bloodmallet.com/index.html#warrior_fury?data_view=azerite_traits&type=itemlevel&tier=3>
+**Potency Conduits**: ST = Ashen Juggernaut (if Venthyr) > Depths of Insanity > Jugg (Non Venthyr)Vicious Contempt > Covenant Conduits
+AoE = Depths of Insanity > Convenant Conduits
 
-**Q:** With Reckless Flurry, do I delay Recklessness for Siegebreaker?
-**A:** Holding Recklessness is the marginally better choice in most situations.
+**Q:** What is the best Legendary? 
+**A:** **Deathmaker** is the strong for Single Target and sustained 2 target cleave. **Signet of Tormented Kings** is the best at 3+ targets and is always your choice in M+. Generally craft Deathmaker on Legs, and Signet on Ring. Haste/Mastery are the most consistent stats for the legendaries.
 
-**Q:** If I have Cold Steel Hot Blood do I prioritize Bloodthirst over Raging Blow?
-**A:** If you have 2 Cold Steel Hot Blood traits you do prioritize Bloodthirst over Raging Blow at all times, even during enrage and while at 2 Raging Blow stacks.
+**Q:** What are the best soulbinds?
+**A:** Venthyr: Nadjia > Theotar > Draven
+Night Fae: Niya > Korayn > Dreamweaver
+Kyrian: Pelagos > Forgelite > Kleia
+Necrolord: :warrior:
 
-**Q:** How strong is Infinite Fury?
-**A:** Assuming you have Cold Steel Hot Blood, Infinite Fury is one of the strongest traits on paper but in practice it does lose a lot of value with any forced downtime off the boss. In Ny'alotha, I would heavily recommend avoiding the use of Infinite Fury as most bosses have plenty of ways to foce you away from the boss. 
-
-**Q:** What enchants/gems do I use? 
-**A:** Deadly Navigation and Versatile Navigation is often the most powerful combination of weapon enchants, and Critical Strike Ring Enchants and Gems. However enchants and gems are very subject to your specific character, and simming yourself will give you much better and accurate results.
+**Q:** What enchants/weapon enhancements do I use? 
+**A:** Sinful Revelation + Celestial Guidance for ST, Lightless Force replaces Sinful Revelation for AoE. 
+1 Oil/1 Sharpening Stone tends to be the best for ST, can sim yourself via Raidbots. Double Sharpening Stone for M+. 
+Haste Rings Enchants and Gems tend to sim highest.
