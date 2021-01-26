@@ -1,1 +1,3 @@
 
+**Q:** Titan's Grip vs Single-Minded Fury?
+**A:** Titan's Grip tends to be slightly better, but the margin depends on the item level of the weapon. The difference is less than 1% all things equal until you get to item level 220 weapons or higher, where Titan's Grip pulls ahead by further than 1%, and ends up being around 2% ahead at 233.
