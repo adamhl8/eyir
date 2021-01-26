@@ -11,7 +11,7 @@ Wowhead Guide - <https://www.wowhead.com/fury-warrior-guide>
 __**FOR THE MOST ACCURATE ANSWER TO ANY OF THESE QUESTIONS, ALWAYS SIM YOURSELF**__
 
 **Q:** What is the best Covenant?
-**A:** <:condemn:742631092279967785> **Ven'thyr** is the best overall covenant in PvE. It performs the best by a good margin in the raid and still performs very well in M+ due to Fury's ability to cleave Condemn. <:Aftershock:803582572989775873> **Night Fae** is close behind on ST and ahead on AoE, although it does suffer from inconsistency if the mobs move out of the AoE. <:Spear:803582572989775873> **Kyrian** is a behind Night Fae on both ST and AoE but it is easy to use, and <:fuckingtrash:803582572989775873> **Necrolord** is not worth considering. 
+**A:** <:condemn:742631092279967785> **Ven'thyr** is the best overall covenant in PvE. It performs the best by a good margin in the raid and still performs very well in M+ due to Fury's ability to cleave Condemn. <:Aftershock:742631092326236282> **Night Fae** is close behind on ST and ahead on AoE, although it does suffer from inconsistency if the mobs move out of the AoE. <:Spear:742631092711981106> **Kyrian** is a behind Night Fae on both ST and AoE but it is easy to use, and <:fuckingtrash:742631092229767220> **Necrolord** is not worth considering. 
 
 **Q:** What are the best Potency Conduits?
 **A:** 
@@ -25,4 +25,4 @@ AoE = Depths of Insanity > Convenant Conduits
 **A:** Venthyr: Nadjia > Theotar > Draven
 Night Fae: Niya > Korayn > Dreamweaver
 Kyrian: Pelagos > Forgelite > Kleia
-Necrolord: <:warrior:803582572989775873>
+Necrolord: <:warrior:761040892970139649>
