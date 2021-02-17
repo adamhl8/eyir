@@ -14,10 +14,10 @@
 **A**: All PvP guides written by respected warriors are pinned in the #pvp channel. We recommend watching streamers on Twitch.tv for the best learning experience.
        High rated and good warriors to watch are:
        
-       Magnusz: https://www.twitch.tv/magnusz
-       Zhrey: https://www.twitch.tv/zhreytv
-       Smexxin: https://www.twitch.tv/smexxin
-       Bajheera: https://www.twitch.tv/bajheera
-       Nalipls: https://www.twitch.tv/nalipls
-       Dekel: https://www.twitch.tv/dekel
-       Trille: https://www.twitch.tv/trillebartom
+       Magnusz: <https://www.twitch.tv/magnusz>
+       Zhrey: <https://www.twitch.tv/zhreytv>
+       Smexxin: <https://www.twitch.tv/smexxin>
+       Bajheera: <https://www.twitch.tv/bajheera>
+       Nalipls: <https://www.twitch.tv/nalipls>
+       Dekel: <https://www.twitch.tv/dekel>
+       Trille: <https://www.twitch.tv/trillebartom>
