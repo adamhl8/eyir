@@ -8,7 +8,7 @@ M+ Talents: Fresh Meat, Massacre, Cruelty, Bladestorm, Anger Management (Use Sig
 **A:** Yes, try and get enraged before using Recklessness. The biggest tip is if you have Signet, try and use Recklessness during your GCD downtime after a Rampage/Fresh Meat Bloodthirst. This is because even if you are in a GCD, if Reck procs Bladestorm it will still trigger and you lose nothing, and your GCD downtime is being eaten by the Bladestorm.
 
 **Q:** Do I cancel Bladestorm on Single Target if Signet procs it?
-**A:** Generally no, if Signet procs Bladestorm it is almost always worth it to just let it channel.
+**A:** You want to cancel Bladestorm, proc or natural cast, if you have Condemn available to press or are above 90 rage.
 
 **Q:** What can I use Spell Reflect on?
 **A:** This google doc sheet shows what you can and can't reflect. https://tinyurl.com/ReflectGuide.
