@@ -5,11 +5,19 @@
 Your gear and stats are a lot less meaningful to tanking than your actual play. So, if you're struggling on appropriately geared content, it's because you are playing poorly. Read the guide, learn the spec, and learn to make your own decisions.
 
 **Q:** I’m having trouble keeping aggro on enemies, why is that?
-**A:** Make sure you're using your damaging cooldowns like Avatar as often as possible while also following the proper ability priority order. Protection has extremely high damage output and as a result extremely high threat output. If you are having threat issues you are likely making mistakes.
+**A:** Make sure you're using your damaging cooldowns like Avatar as often as possible while also following the proper ability priority order. Protection has solid damage output and as a result threat should not be a issue. If you are having threat issues you are likely making mistakes.
 
 **Q:** What Legendary should I use for Raids / Mythic+?
-**A:** For raids you should use The Wall for the increased Rage generation and Shield Wall reduction. For Mythic+ where you can constantly hit 2+ enemies with Thunder Clap you should use Thunderlords together with Booming Voice.
+**A:** For raids you should use The Wall for the increased Rage generation and Shield Wall reduction. For Mythic+ you should be mainly looking to use Reprisal. Both of these legendaries can be alternatives to eachother in Raids/Mythic+.
 
 **Q:** What is the best Covenant choice?
 **A:** Whichever Covenant you choose you can still do all your dailiy activities. For general purposes the order would be Kyrian >= Night Fae > Necrolord/Venthyr.
 This order is not set in stone as Covenants are prone to be buffed and nerfed throughout Shadowlands.
+
+
+**Q:** Protection Warrior streamers?
+**A:**
+     Plka: <https://www.twitch.tv/plkatv>
+     Tattman: <https://www.twitch.tv/tattman>
+     Nomeratur: <https://www.twitch.tv/nomeratur>
+     Sense: <https://www.twitch.tv/snse>
