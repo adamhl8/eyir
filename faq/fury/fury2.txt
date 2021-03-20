@@ -1,14 +1,13 @@
 -
 **Q:** What are the best talents?
-**A:** ST Venthyr: Sudden Death, Massacre, Cruelty, Dragon Roar, Siegebreaker/AM
-ST non-Venthyr: Sudden Death, Frenzy, Cruelty, Dragon Roar, Reckless Abandon
-M+ Talents: Fresh Meat, Massacre, Cruelty, Bladestorm, Anger Management (Use Signet of Tormented Kings legendary)
+**A:** Signet ST: Sudden Death, Massacre as Venthyr/Frenzy as non-Venthyr, Cruelty, Bladestorm, AM
+M+ Talents: Fresh Meat, Massacre, Cruelty, Bladestorm, Anger Management
 
 **Q:** Should I be enraged before using Recklessness if I have Signet?
 **A:** Yes, try and get enraged before using Recklessness. The biggest tip is if you have Signet, try and use Recklessness during your GCD downtime after a Rampage/Fresh Meat Bloodthirst. This is because even if you are in a GCD, if Reck procs Bladestorm it will still trigger and you lose nothing, and your GCD downtime is being eaten by the Bladestorm.
 
 **Q:** Do I cancel Bladestorm on Single Target if Signet procs it?
-**A:** You want to cancel Bladestorm, proc or natural cast, if you have Condemn available to press or are above 90 rage.
+**A:** You want to cancel Bladestorm, both the proc and natural cast, on Single Target if you are in an Execute phase with Massacre talented or are Venthyr. You cancel if you can Rampage or can Condemn.
 
 **Q:** What can I use Spell Reflect on?
 **A:** This google doc sheet shows what you can and can't reflect. https://tinyurl.com/ReflectGuide.
@@ -24,8 +23,8 @@ M+ Talents: Fresh Meat, Massacre, Cruelty, Bladestorm, Anger Management (Use Sig
        Gems: Haste
 
 **Q:** What Consumables does Fury use?
-**A:** Potions: Potion of Shadowfire for ST, Potion of Spectral Strength for AoE
-       Weapon Oil: 1 Shadowcore Oil + 1 Sharpening Stone for ST, Double Stone for AoE.
+**A:** Potions: Potion of Spectral Strength
+       Weapon Enhancement: 2 Sharpening Stone
        Food: Feast of Gluttonous Hedonism Feast
 
 **Q:** Are there stat breakpoints?
