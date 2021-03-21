@@ -8,7 +8,7 @@ Wowhead Guide - <https://www.wowhead.com/fury-warrior-guide>
 
 **__FAQ__**
 
-__**FOR THE MOST ACCURATE ANSWER TO ANY OF THESE QUESTIONS, ALWAYS SIM YOURSELF**__
+__**FOR THE MOST ACCURATE ANSWER TO ANY QUESTIONS, ALWAYS SIM YOURSELF**__
 
 **Q:** What is the best Covenant?
 **A:** <:condemn:742631092279967785> **Ven'thyr** is the best overall covenant in PvE. It performs the best in a Mythic prog raid environment and still performs very well in M+ due to Fury's ability to cleave Condemn. <:Aftershock:742631092326236282> **Night Fae** is very close behind on ST and ahead on AoE, making it by far the best option for M+ and even when on farm for the raid. <:Spear:742631092711981106> **Kyrian** is behind Night Fae on both ST and AoE but it is easy to use, and <:whyisthisgood:742631092229767220> **Necrolord** is in theory the strongest option for overall group damage however not every group can get the best value out of it. 
@@ -19,7 +19,7 @@ __**FOR THE MOST ACCURATE ANSWER TO ANY OF THESE QUESTIONS, ALWAYS SIM YOURSELF*
 AoE = Depths of Insanity > Convenant Conduits
 
 **Q:** What is the best Legendary? 
-**A:** **Signet of Tormented Kings** is the best legendary in every situation for Fury Warriors. It is your best for single target, with Bladestorm and Anger Management being the talent choices, and by far the strongest on AoE. Signet on Ring with Haste/Mastery is generally the best crafting option, although other stat combinations such as Crit/Haste or Crit/Mastery are fairly close.
+**A:** **Signet of Tormented Kings** is the best legendary in every situation. It is your best for single target, with Bladestorm and Anger Management being the talent choices, and by far the strongest on AoE. Signet on Ring with Haste/Mastery is generally the best crafting option.
 
 **Q:** What are the best soulbinds?
 **A:** Venthyr: Nadjia (Dauntless Duelist for ST) > Theotar > Draven
