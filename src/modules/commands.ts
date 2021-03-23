@@ -33,6 +33,14 @@ export const sarriFact: Command = {
   },
 }
 
+export const thoughtsOnXeos: Command = {
+  reqMod: false,
+
+  run: async (msg) => {
+    await msg.channel.send(`free austin "candy seller" chase michaels`).catch(console.error)
+  },
+}
+
 let faqMessages: Record<string, Message> = {}
 const faqDirOrder = ["resources", "faq", "arms", "fury", "protection", "pvp"]
 let faqSectionOrder: Array<string> = []
