@@ -10,26 +10,24 @@ Video guides by <@144870911969853440> - <https://www.youtube.com/corejo>
 **__FAQ__**
 
 **Q:** What is the best Covenant?
-**A:** At this moment, **Venthyr** is the best covenant for raiding. However **Night Fae** and **Kyrian** are still very much viable in raids, and much better for AoE and M+. 
+**A:** At this moment, <:condemn:742631092279967785> **Venthyr** is the best covenant for raiding. However <:Aftershock:742631092326236282> **Night Fae** is very competitive on single target and is much better for AoE/M+. <:Spear:742631092711981106> **Kyrian** is a bit weaker than Night Fae but still viable for Raid/M+. <:whyisthisgood:742631092229767220> **Necrolord** is in theory the strongest option for overall group damage however not every group can get the best value out of it. 
 
 **Q:** What are the best Potency Conduits?
-**A:** Single Target: Ashen Juggernaut (Venthyr) > Mortal Combo > Crash the Ramparts >Ashen Juggernaut (Non-Venthyr) > Covenant Conduits
+**A:** Single Target: Ashen Juggernaut (Venthyr) > Mortal Combo > Crash the Ramparts ~= Veteran's Repute (Necrolord) > Ashen Juggernaut (Non-Venthyr) > Covenant Conduits
        Aoe/M+: Crash the Ramparts > Covenant Conduits > Mortal Combo > Rest
 
 **Q:** What are the best Soulbindings?
-**A:** Venthyr: Nadjia ~= Theotar > Draven
-       Night Fae: Niya > Korayn ~= Dreamweaver
+**A:** Venthyr: Nadjia > Theotar > Draven
+       Night Fae: Niya > Korayn > Dreamweaver (Niya is best on single target, however Korayn's "First Strike" for AoE is much better than Niya)
        Kyrian: Pelagos > Forgelite ~= Kleia
-       Necrolord: Plague Deviser > Bonesmith > Emeni
+       Necrolord: Emeni > Bonesmith > Plague Deviser 
 
-**Q:** What are the best Legendary Effects and what gear slot should they be crafted on?
-**A:** Single Target: Signet of Tormented Kings > Unhinged> Enduring Blow > Explolter > Battlelord
-       AoE: Signet of Tormented Kings > Seismic Reverberation > Unhinged > Rest
-       Legendaries should be crafted on gear with the most strength. This can vary from person to person.
+**Q:** What are the best Legendary Effectss and what gear slot should they be crafted on?
+**A:** Single Target: Signet of Tormented Kings (Venthyr) > Enduring Blow (Non-venthyr) > Unhinged > Battlelord > Exploiter 
+       AoE: Signet of Tormented Kings (All Covenants) > Seismic Reverberation > Unhinged > Rest
+       Legendaries are typically crafted on gear with the most strength. This can vary from person to person. Due to Raid and M+ drops.
 
-**Q:** What is the general stat priority?
-**A:** Strength > Critical Strike > Haste to 20% > Mastery > Versatility > Haste
-__THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS.__
+
 
 
 
