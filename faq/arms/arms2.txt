@@ -1,7 +1,11 @@
-**Q:** What are the best Talents? Please note the level 40 row has no effect on pure single target.
+**Q:** What is the general stat priority?
+**A:** Strength > Critical Strike > Mastery > Versatility > Haste
+__THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS.__
+
+**Q:** What are the best Talents? **Please note the level 40 row has no effect on pure single target.**
 **A:** Venthyr: Skullsplitter, Double Time or Stormbolt for CC, Massacre, Defensive Stance, Avatar, Ravager for ST, Dread for AoE.
-       Non-Venthyr Sudden Death, Double Time or Stormbolt for CC, Rend for Single Target, Massacre/Fervor AoE,d Avatar, Dreadnaught
-       Level 40 row for all Covenants: Collateral for 2 target, Warbreaker for Burst and Cleave for sustained AoE/Frequent pulls
+       Non-Venthyr Sudden Death/Skullsplitter, Double Time or Stormbolt for CC, Rend for Single Target, Massacre for AoE, Avatar, Dreadnaught
+       Level 40 row for all Covenants: Warbreaker is typically the choice for all content. Collateral Damage does have some value in 2 target scenarios. And Cleave isn't typically needed with Arms's kit.
 
 **Q:** Is Mortal Strike used in the Execute/Condemn phase?
 **A:** Yes, only if Deep Wounds is about to fall off.
@@ -22,7 +26,3 @@
        Gloves: Eternal Strength
        Gems: Crit, Haste or Mastery. This can vary greatly from person to person, sim yourself for the most accurate results.
 
-**Q:** What Consumables does Arms use?
-**A:** Potions: Potion of Spectral Strength
-       Weapon Oil: Shaded Sharpening Stone.
-       Food: Feast of Gluttonous Hedonism Feast. Spinefine Souffle and Fries if mainstat feasts aren't available. 
