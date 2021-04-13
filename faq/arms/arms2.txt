@@ -5,10 +5,10 @@ __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS
 **Q:** What are the best Talents? **Please note the level 40 row has no effect on pure single target.**
 **A:** Venthyr: Skullsplitter, Double Time or Stormbolt for CC, Massacre, Defensive Stance, Avatar, Ravager for ST, Dread for AoE.
        Non-Venthyr Sudden Death/Skullsplitter, Double Time or Stormbolt for CC, Rend for Single Target, Massacre for AoE, Avatar, Dreadnaught
-       Level 40 row for all Covenants: Warbreaker is typically the choice for all content. Collateral Damage does have some value in 2 target scenarios. And Cleave isn't typically needed with Arms's kit.
+       Level 40 row for all Covenants: Warbreaker is typically the choice for all content. Collateral Damage does have some value in 2 target scenarios. And Cleave isn't very good at the moment.
 
 **Q:** Is Mortal Strike used in the Execute/Condemn phase?
-**A:** Yes, only if Deep Wounds is about to fall off.
+**A:** Yes. If you have the Enduring Blow legendary, you'd Mortal Strike on cooldown the entire fight. If you have the Battlelord Legendary, you'd Mortal Strike when that legendary would proc. Without either legendary you would only Mortal Strike to keep up Deep Wounds.
 
 **Q:** Do I wait for 40 rage to cast Execute/Condemn?
 **A:** No, you want to use Execute/Condemn at any rage, the DPR scales linearly.
@@ -20,9 +20,9 @@ __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS
 **A:** This google doc sheet shows what you can and can't reflect. https://tinyurl.com/ReflectGuide .
 
 **Q:** What Gems/Enchants do I use?
-**A:** Chest: Eternal Skirmish for single target, Eternal stats for AoE.
+**A:** Chest: Eternal stats.
        Weapon: Sinful Revelation for single target, Lightless force for AoE.
-       Rings: Tenet of Haste/Crit/Mast. This can vary greatly from person to person, sim yourself for the most accurate results.
+       Rings: Crit/Mast. This can vary greatly from person to person, sim yourself for the most accurate results.
        Gloves: Eternal Strength
-       Gems: Crit, Haste or Mastery. This can vary greatly from person to person, sim yourself for the most accurate results.
+       Gems: Crit/Mast. This can vary greatly from person to person, sim yourself for the most accurate results.
 
