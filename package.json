@@ -1,40 +1,41 @@
 {
   "name": "eyir",
   "version": "0.3.0",
-  "description": "Discord bot for the Warrior discord server, Skyhold.",
-  "repository": "https://github.com/adamhl8/eyir",
-  "author": "Marok",
+  "repository": "https://github.com/Genshii8/eyir",
+  "author": "Genshii8",
   "license": "MIT",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "type": "module",
   "scripts": {
-    "start": "yarn build && pm2 start ecosystem.config.js --only eyir",
-    "test": "yarn build && pm2 start ecosystem.config.js --only test-eyir",
+    "start": "yarn build && pm2 start ecosystem.config.yaml --only eyir",
+    "test": "yarn build && pm2 start ecosystem.config.yaml --only test-eyir",
     "restart": "yarn build && pm2 restart eyir",
     "retest": "yarn build && pm2 restart test-eyir",
     "build": "tsc",
-    "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "xo",
+    "fix": "xo --fix"
   },
   "dependencies": {
-    "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.2",
     "gaze": "^1.1.3",
-    "moment-timer": "^1.3.0",
     "node-persist": "^3.1.0"
   },
   "devDependencies": {
-    "@types/eslint": "^7.2.5",
-    "@types/eslint-config-prettier": "^6.11.0",
     "@types/gaze": "^1.1.0",
-    "@types/node": "^14.14.10",
-    "@types/node-persist": "^3.1.0",
-    "@types/prettier": "^2.1.5",
-    "@types/ws": "^7.4.0",
-    "@typescript-eslint/eslint-plugin": "^4.8.2",
-    "@typescript-eslint/parser": "^4.8.2",
-    "eslint": "^7.14.0",
-    "eslint-config-prettier": "^6.15.0",
-    "prettier": "^2.2.1",
-    "typescript": "^4.1.2",
+    "@types/node": "^15.3.0",
+    "@types/node-persist": "^3.1.1",
+    "@types/ws": "^7.4.4",
+    "typescript": "^4.2.4",
+    "xo": "^0.40.1",
     "yarn-upgrade-all": "^0.5.4"
+  },
+  "xo": {
+    "semicolon": false,
+    "prettier": true
+  },
+  "prettier": {
+    "printWidth": 100
   }
 }

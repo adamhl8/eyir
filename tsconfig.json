@@ -1,19 +1,15 @@
 {
   "include": ["src/**/*"],
-  "exclude": ["node_modules"],
 
   "compilerOptions": {
+    "outDir": "dist",
     "target": "ESNext",
-    "module": "CommonJS",
+    "module": "ESNext",
     "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "allowSyntheticDefaultImports": true,
-    "importHelpers": true,
-    "isolatedModules": true,
-    "sourceMap": true,
-    "outDir": "dist"
+    "skipLibCheck": true,
+    "sourceMap": true
   }
 }

@@ -1,11 +1,12 @@
-require("dotenv").config({ path: process.argv[2] })
-
+import dotenv from 'dotenv'
 import Discord, { Guild, Role, Message, GuildMember, PartialGuildMember } from "discord.js"
 import gaze from "gaze"
-import * as Util from "./modules/util"
-import * as Commands from "./modules/commands"
-import { Command } from "./modules/commands"
-import ObjectCache from "./modules/ObjectCache"
+import * as Util from "./modules/util.js"
+import * as Commands from "./modules/commands.js"
+import { Command } from "./modules/commands.js"
+import ObjectCache from "./modules/object-cache.js"
+
+dotenv.config({ path: process.argv[2] })
 
 const bot = new Discord.Client()
 bot.login(process.env.TOKEN)
@@ -25,9 +26,10 @@ function run() {
   }
 
   roleCache = ObjectCache.fromCollection(skyhold.roles.cache)
-  bot.on("roleUpdate", () => (roleCache = ObjectCache.fromCollection(skyhold.roles.cache)))
-  bot.on("roleCreate", () => (roleCache = ObjectCache.fromCollection(skyhold.roles.cache)))
-  bot.on("roleDelete", () => (roleCache = ObjectCache.fromCollection(skyhold.roles.cache)))
+  bot.on("roleUpdate", () => {roleCache = ObjectCache.fromCollection(skyhold.roles.cache)}
+    )
+  bot.on("roleCreate", () => {roleCache = ObjectCache.fromCollection(skyhold.roles.cache)})
+  bot.on("roleDelete", () => {roleCache = ObjectCache.fromCollection(skyhold.roles.cache)})
   applyValarjar(skyhold)
 }
 

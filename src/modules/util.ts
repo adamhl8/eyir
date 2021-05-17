@@ -1,7 +1,7 @@
 import fs from "fs"
-import { excludedRoles } from "./excludedRoles"
+import { excludedRoles } from "./excludedRoles.js"
 import { Role, GuildMember, DMChannel, Message } from "discord.js"
-import ObjectCache from "./ObjectCache"
+import ObjectCache from "./object-cache.js"
 
 // set up global error handlers
 process.on("unhandledRejection", (error) => {
