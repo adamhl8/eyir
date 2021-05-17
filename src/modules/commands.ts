@@ -1,149 +1,152 @@
-import Discord, { Message, Collection, GuildMember } from "discord.js"
-import fs from "fs"
-import * as Util from "./util.js"
-import * as Main from "../index.js"
+import fs from 'fs'
+import Discord, {Message} from 'discord.js'
+import * as Main from '../index.js'
+import * as Util from './util.js'
 
 export interface Command {
-  reqMod: boolean
-  run: (msg: Message) => void
+	reqMod: boolean
+	run: (message: Message) => void
 }
 
 export const listbots: Command = {
-  reqMod: true,
+	reqMod: true,
 
-  run: (msg) => {
-    if (!msg.guild) {
-      throw Error(`there is no guild attached to message ${msg.id}`)
-    }
+	run: (message) => {
+		if (!message.guild) {
+			throw new Error(`there is no guild attached to message ${message.id}`)
+		}
 
-    msg.guild.members.cache
-      .array()
-      .filter((member) => member.user.bot)
-      .forEach((bot) => {
-        msg.channel.send("<@" + bot.user.id + ">").catch(console.log)
-      })
-  },
+		for (const bot of message.guild.members.cache.array().filter((member) => member.user.bot)) {
+			message.channel.send('<@' + bot.user.id + '>').catch(console.log)
+		}
+	}
 }
 
 export const sarriFact: Command = {
-  reqMod: false,
+	reqMod: false,
 
-  run: async (msg) => {
-    await msg.channel.send("<@139773837121159168>").catch(console.error)
-  },
+	run: async (message) => {
+		await message.channel.send('<@139773837121159168>').catch(console.error)
+	}
 }
 
 export const thoughtsOnXeos: Command = {
-  reqMod: false,
+	reqMod: false,
 
-  run: async (msg) => {
-    await msg.channel.send(`free austin "candy seller" chase michaels`).catch(console.error)
-  },
+	run: async (message) => {
+		await message.channel.send(`free austin "candy seller" chase michaels`).catch(console.error)
+	}
 }
 
-let faqMessages: Record<string, Message> = {}
-const faqDirOrder = ["resources", "faq", "arms", "fury", "protection", "pvp"]
-let faqSectionOrder: Array<string> = []
+const faqMessages: Record<string, Message> = {}
+const faqDirOrder = ['resources', 'faq', 'arms', 'fury', 'protection', 'pvp']
+const faqSectionOrder: string[] = []
 let initMessage: Message
 
 export const faqinit: Command = {
-  reqMod: true,
+	reqMod: true,
 
-  run: async msg => {
-    if (msg.channel.type != "text") return
-    if (msg.channel.name != "guides-resources-faq") return await msg.channel.send("!faqinit cannot be run in this channel.").catch(console.error)
-    const messages = await msg.channel.messages.fetch()
-    messages.each(async message => {
-      await message.delete().catch(console.error)
-    })
-    initMessage = msg
-    handleOrder = faqDirOrder
-    sendHeader()
-  },
+	run: async (message) => {
+		if (message.channel.type !== 'text') return
+		if (message.channel.name !== 'guides-resources-faq') {
+			await message.channel.send('!faqinit cannot be run in this channel.').catch(console.error)
+			return
+		}
+
+		const messages = await message.channel.messages.fetch()
+		messages.each(async (message) => {
+			await message.delete().catch(console.error)
+		})
+		initMessage = message
+		handleOrder = faqDirOrder
+		sendHeader()
+	}
 }
 
-let header = new Discord.MessageEmbed()
+const header = new Discord.MessageEmbed()
 let headerMessage: Message
 
 function sendHeader() {
-  header.setTitle("Click a link below to jump to that section of this channel.")
-  header.setColor("#fcc200")
+	header.setTitle('Click a link below to jump to that section of this channel.')
+	header.setColor('#fcc200')
 
-  initMessage.channel
-    .send(header)
-    .then((msg) => {
-      headerMessage = msg
-      readFaqDirs()
-    })
-    .catch(console.error)
+	initMessage.channel
+		.send(header)
+		.then(async (message) => {
+			headerMessage = message
+			await readFaqDirs()
+		})
+		.catch(console.error)
 }
 
-let handleOrder: Array<string>
+let handleOrder: string[]
 
-function readFaqDirs() {
-  if (handleOrder.length > 0) {
-    let currentDir = handleOrder[0]
+async function readFaqDirs() {
+	if (handleOrder.length > 0) {
+		const currentDir = handleOrder[0]
 
-    fs.readdir("./faq/" + currentDir, (err, files) => {
-      files.forEach((file) => {
-        faqSectionOrder.push(file)
-      })
+		fs.readdir('./faq/' + currentDir, async (error, files: string[]) => {
+			for (const file of files) {
+				faqSectionOrder.push(file)
+			}
 
-      handleOrder.shift()
-      readFaqDirs()
-    })
-  } else {
-    sendSections()
-  }
+			handleOrder.shift()
+			await readFaqDirs()
+		})
+	} else {
+		await sendSections()
+	}
 }
 
-function sendSections() {
-  if (faqSectionOrder.length > 0) {
-    let currentSection = faqSectionOrder[0]
-    let currentDir = currentSection.match(/[a-zA-Z]+/) + "/"
+async function sendSections() {
+	if (faqSectionOrder.length > 0) {
+		const currentSection = faqSectionOrder[0]
+		const currentDirArray = /[a-zA-Z]+/.exec(currentSection)
+		if (!currentDirArray) return
+		const currentDir = `${currentDirArray[0]}/`
 
-    if (currentSection.endsWith(".png")) {
-      initMessage.channel
-        .send({
-          files: [
-            {
-              attachment: "./faq/" + currentDir + currentSection,
-              name: currentSection,
-            },
-          ],
-        })
-        .then((msg) => {
-          faqMessages[currentSection] = msg
-          faqSectionOrder.shift()
-          sendSections()
-        })
-        .catch(console.error)
-    } else {
-      initMessage.channel
-        .send(currentSection)
-        .then((msg) => {
-          faqMessages[currentSection] = msg
-          Util.faqset(currentDir, currentSection, faqMessages[currentSection])
-          faqSectionOrder.shift()
-          sendSections()
-        })
-        .catch(console.error)
-    }
-  } else {
-    Main.setFaqMessages(faqMessages)
-    editHeader()
-    initMessage.channel.send(header).catch(console.error)
-  }
+		if (currentSection.endsWith('.png')) {
+			initMessage.channel
+				.send({
+					files: [
+						{
+							attachment: './faq/' + currentDir + currentSection,
+							name: currentSection
+						}
+					]
+				})
+				.then(async (message) => {
+					faqMessages[currentSection] = message
+					faqSectionOrder.shift()
+					await sendSections()
+				})
+				.catch(console.error)
+		} else {
+			initMessage.channel
+				.send(currentSection)
+				.then(async (message) => {
+					faqMessages[currentSection] = message
+					Util.faqset(currentDir, currentSection, faqMessages[currentSection])
+					faqSectionOrder.shift()
+					await sendSections()
+				})
+				.catch(console.error)
+		}
+	} else {
+		Main.setFaqMessages(faqMessages)
+		await editHeader()
+		await initMessage.channel.send(header).catch(console.error)
+	}
 }
 
-function editHeader() {
-  header.setDescription(
-    `[Resources](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["resources.png"].id})
-    [FAQ](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["faq.png"].id})
-    [Arms](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["arms.png"].id})
-    [Fury](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["fury.png"].id})
-    [Protection](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["protection.png"].id})
-    [PvP](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages["pvp.png"].id})`
-  )
-  headerMessage.edit(header)
+async function editHeader() {
+	header.setDescription(
+		`[Resources](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages['resources.png'].id})
+    [FAQ](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages['faq.png'].id})
+    [Arms](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages['arms.png'].id})
+    [Fury](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages['fury.png'].id})
+    [Protection](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages['protection.png'].id})
+    [PvP](https://discordapp.com/channels/148872210742771712/268491842637660160/${faqMessages['pvp.png'].id})`
+	)
+	await headerMessage.edit(header)
 }
