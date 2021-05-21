@@ -1,5 +1,5 @@
 **Q:** Should I play Arms or Fury in Castle Nathria?
-**A:** Arms is currently slightly better, but Fury is very close. Play the one you prefer.
+**A:** Fury is currently slightly better, but Arms is very close. Play the one you prefer.
 
 **Q:** Should I use Pawn? What's a good Pawn string for X spec?
 **A:** Please don't use Pawn. We cannot stress this enough. Pawn does not take stat breakpoints into account and various other factors that need to be taken into consideration. Sim your character instead to determine gear upgrades.
