@@ -1,8 +1,8 @@
 {
   "name": "eyir",
   "version": "0.3.0",
-  "repository": "https://github.com/Genshii8/eyir",
-  "author": "Genshii8",
+  "repository": "https://github.com/adamhl8/eyir",
+  "author": "adamhl8",
   "license": "MIT",
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
@@ -18,17 +18,17 @@
   },
   "dependencies": {
     "discord.js": "^12.5.3",
-    "dotenv": "^9.0.2",
+    "dotenv": "^10.0.0",
     "gaze": "^1.1.3",
     "node-persist": "^3.1.0"
   },
   "devDependencies": {
     "@types/gaze": "^1.1.0",
-    "@types/node": "^15.3.0",
+    "@types/node": "^15.12.2",
     "@types/node-persist": "^3.1.1",
     "@types/ws": "^7.4.4",
-    "typescript": "^4.2.4",
-    "xo": "^0.40.1",
+    "typescript": "^4.3.2",
+    "xo": "^0.40.2",
     "yarn-upgrade-all": "^0.5.4"
   },
   "xo": {
