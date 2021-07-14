@@ -1,0 +1,20 @@
+{
+  "cSpell.words": [
+    "Cacheable",
+    "Skyhold",
+    "Theorycrafter",
+    "Val'kyr",
+    "Valarjar",
+    "Xeos",
+    "eyir",
+    "faqset",
+    "michaels",
+    "sarri"
+  ],
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/yarn.lock": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}

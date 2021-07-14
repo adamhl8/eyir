@@ -1,6 +1,6 @@
 # eyir
 
-Bot for the Warrior Discord Community, [Skyhold](https://discord.gg/Skyhold).
+A Discord bot for the Warrior Discord Community, [Skyhold](https://discord.gg/Skyhold).
 
 ## Installation
 
@@ -13,7 +13,7 @@ npm install -g yarn pm2
 2. Clone the repo.
 
 ```
-git clone https://github.com/Genshii8/eyir.git
+git clone https://github.com/adamhl8/eyir.git
 ```
 
 3. Install dependencies.
@@ -23,10 +23,12 @@ yarn install
 ```
 
 4. Create a [Discord Developer Application](https://discord.com/developers/applications) for your bot.
-    - Make sure to turn on Server Members Intent in the Bot menu.
+
+   - Make sure to turn on Server Members Intent in the Bot menu.
 
 5. Add the bot to your server using this link: `https://discord.com/api/oauth2/authorize?client_id=APP_ID&permissions=8&scope=bot`
-    - Replace "APP_ID" in the URL with your bot's Application ID (General Information menu).
+
+   - Replace "APP_ID" in the URL with your bot's Application ID (General Information menu).
 
 6. Create a file named `.env` in the root of the project directory and paste your bot's token (found in the Bot menu) in the file like this:
 
@@ -45,7 +47,7 @@ yarn start
 Most of the following is hardcoded and not easily configurable. You should be able to pretty easily change what you need to in the source though. I'll make it more configurable eventually (maybe). :)
 
 - Automatically applies the Valarjar role to all server members, both retroactively and to new members. See `applyValarjar()` and the `guildMemberAdd` event in `index.tx`.
-    - Members with *any* role from `excluded-roles.ts` will be skipped.
+  - Members with _any_ role from `excluded-roles.ts` will be skipped.
 - Sends a welcome message (DM) to new server members. See `welcomeNewMember()` in `util.ts`.
 - Responds to pre-defined words with pre-defined responses. See `sass()` in `util.ts`.
 - Allows you to set up a channel where the bot will read .txt files and images from a folder and push it to a channel. Primarily used for maintaining a FAQ/resources channel. See the Commands section for more info.
