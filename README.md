@@ -4,10 +4,10 @@ A Discord bot for the Warrior Discord Community, [Skyhold](https://discord.gg/Sk
 
 ## Installation
 
-1. Install prerequisites. [Yarn](https://classic.yarnpkg.com/lang/en/) is used as the package manager. [pm2](https://github.com/Unitech/pm2) is used to handle running the Node process.
+1. Install prerequisites. [pnpm](https://pnpm.io) is used as the package manager. [pm2](https://github.com/Unitech/pm2) is used to handle running the Node process.
 
 ```
-npm install -g yarn pm2
+npm install -g pnpm pm2
 ```
 
 2. Clone the repo.
@@ -19,7 +19,7 @@ git clone https://github.com/adamhl8/eyir.git
 3. Install dependencies.
 
 ```
-yarn install
+pnpm i
 ```
 
 4. Create a [Discord Developer Application](https://discord.com/developers/applications) for your bot.
@@ -39,7 +39,7 @@ TOKEN=yourtokenhere
 7. Start the bot.
 
 ```
-yarn start
+pnpm start
 ```
 
 ## Features
@@ -54,11 +54,11 @@ Most of the following is hardcoded and not easily configurable. You should be ab
 
 ## Commands
 
-- `!listbots` - Prints a list of all the bots in the server.
+- `!listBots` - Prints a list of all the bots in the server.
 
 ### faqinit
 
-- `!faqinit`
+- `!faqInit`
 
 Needs to be run in a channel named `guides-resources-faq`. Every time the command is run, all previous messages in the channel are deleted.
 
