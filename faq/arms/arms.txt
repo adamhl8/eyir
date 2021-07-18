@@ -10,23 +10,23 @@ Video guides by <@144870911969853440> - <https://www.youtube.com/corejo>
 **__FAQ__**
 
 **Q:** What is the best Covenant?
-**A:** At this moment, <:condemn:742631092279967785> **Venthyr** is the best covenant for raiding. However <:Aftershock:742631092326236282> **Night Fae** is very competitive on single target and is much better for AoE/M+. <:Spear:742631092711981106> **Kyrian** is a bit weaker than Night Fae but still viable for Raid/M+. <:whyisthisgood:742631092229767220> **Necrolord** is in theory the strongest option for overall group damage however not every group can get the best value out of it. 
+**A:** At this moment, <:Aftershock:742631092326236282> **Night Fae** is the best covenant for raiding with <:Spear:742631092711981106> **Kyrian** being a close second. <:whyisthisgood:742631092229767220> **Necrolord** is in theory a strong option too for overall group damage however not every group can get the best value out of it. 
+<:condemn:742631092279967785> **Venthyr** is the worst covenant overall with the lowest single target and aoe/cleave damage.
 
 **Q:** What are the best Potency Conduits?
-**A:** Single Target: Ashen Juggernaut (Venthyr) > Mortal Combo > Crash the Ramparts ~= Veteran's Repute (Necrolord) > Ashen Juggernaut (Non-Venthyr) > Covenant Conduits
-       Aoe/M+: Crash the Ramparts > Covenant Conduits > Mortal Combo > Rest
+**A:** Single Target:  Mortal Combo > Crash the Ramparts ~= Veteran's Repute (Necrolord) > Ashen Juggernaut > Covenant Conduits
+       Aoe/M+: Crash the Ramparts > Covenant Conduits > Adaptive Armour Fragment > Rest
 
 **Q:** What are the best Soulbindings?
 **A:** Venthyr: Nadjia > Theotar > Draven
-       Night Fae: Niya > Korayn > Dreamweaver (Niya is best on single target, however Korayn's "First Strike" for AoE is much better than Niya)
-       Kyrian: Pelagos > Forgelite ~= Kleia
-       Necrolord: Emeni > Bonesmith > Plague Deviser 
+       Night Fae: Niya > Korayn > Dreamweaver (Niya is best on single target, however Korayn's "First Strike" for AoE is best)
+       Kyrian: Mikanikos ~= Pelegos ~= Kleia. Mikanikos is the best on AoE with Effusive Anima Accelerator
+       Necrolord: Bonesmith > Emeni > Plague Deviser 
 
 **Q:** What are the best Legendary Effectss and what gear slot should they be crafted on?
-**A:** Single Target: Signet of Tormented Kings (Venthyr) > Enduring Blow (Non-venthyr) > Unhinged > Battlelord > Exploiter 
-       AoE: Signet of Tormented Kings (All Covenants) > Seismic Reverberation > Unhinged > Rest
-       Legendaries are typically crafted on gear with the most strength. This can vary from person to person. Due to Raid and M+ drops.
-
+**A:** Single Target: Enduring Blow > Covenant Legenaries > Battlelord > rest
+       AoE: Elysian Might > Signet of Tormented Kings (Non-Kyrian) > rest 
+       Enduring Blow goes on waist. Signet on Ring. 
 
 
 
