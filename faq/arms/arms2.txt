@@ -2,10 +2,9 @@
 **A:** Strength > Critical Strike > Mastery > Versatility > Haste
 __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS.__
 
-**Q:** What are the best Talents? **Please note the level 40 row has no effect on pure single target.**
-**A:** Venthyr: Skullsplitter, Double Time or Stormbolt for CC, Massacre, Defensive Stance, Avatar, Ravager for ST, Dread for AoE.
-       Non-Venthyr Sudden Death/Skullsplitter, Double Time or Stormbolt for CC, Rend for Single Target, Massacre for AoE, Avatar, Dreadnaught
-       Level 40 row for all Covenants: Warbreaker is typically the choice for all content. Collateral Damage does have some value in 2 target scenarios. And Cleave isn't very good at the moment.
+**Q:** What are the best Talents?
+**A:** Sudden Death/Skullsplitter, Double Time or Stormbolt for CC, Rend for Single Target, Massacre for AoE, Avatar, Dreadnaught
+     Level 40 row: Warbreaker for M+/AoE. Collateral Damage for 2 target / Single target. Warbreaker at the moment overwrites Enduring Blow procs, while Colossus Smash extends the debuff. It's reccomended to **not** use Warbreaker in pure single target at the moment.
 
 **Q:** Is Mortal Strike used in the Execute/Condemn phase?
 **A:** Yes. If you have the Enduring Blow legendary, you'd Mortal Strike on cooldown the entire fight. If you have the Battlelord Legendary, you'd Mortal Strike when that legendary would proc. Without either legendary you would only Mortal Strike to keep up Deep Wounds.
@@ -22,7 +21,7 @@ __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS
 **Q:** What Gems/Enchants do I use?
 **A:** Chest: Eternal stats.
        Weapon: Sinful Revelation for single target, Lightless force for AoE.
-       Rings: Crit/Mast. This can vary greatly from person to person, sim yourself for the most accurate results.
+       Rings: Crit/Haste. This can vary greatly from person to person, sim yourself for the most accurate results.
        Gloves: Eternal Strength
-       Gems: Crit/Mast. This can vary greatly from person to person, sim yourself for the most accurate results.
+       Gems: Crit/Haste. This can vary greatly from person to person, sim yourself for the most accurate results.
 
