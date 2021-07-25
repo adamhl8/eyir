@@ -1,6 +1,5 @@
 import { DMChannel, GuildMember, Message, Role } from 'discord.js'
-// eslint-disable-next-line unicorn/prefer-node-protocol
-import fs from 'fs'
+import fs from 'node:fs'
 import { excludedRoles } from './excluded-roles'
 import ObjectCache from './object-cache'
 

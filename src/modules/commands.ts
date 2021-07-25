@@ -1,6 +1,5 @@
 import Discord, { Message } from 'discord.js'
-// eslint-disable-next-line unicorn/prefer-node-protocol
-import fs from 'fs'
+import fs from 'node:fs'
 import * as Main from '../index'
 import * as Util from './util'
 

@@ -56,7 +56,7 @@ Most of the following is hardcoded and not easily configurable. You should be ab
 
 - `!listBots` - Prints a list of all the bots in the server.
 
-### faqinit
+### faqInit
 
 - `!faqInit`
 
