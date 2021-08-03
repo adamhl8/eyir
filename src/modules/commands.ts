@@ -53,7 +53,15 @@ export const faqInit: Command = {
       return
     }
 
-    await message.channel.bulkDelete(await message.channel.messages.fetch())
+    try {
+      await message.channel.bulkDelete(await message.channel.messages.fetch())
+    } catch {
+      const messages = await message.channel.messages.fetch()
+      messages.each((message) => {
+        void message.delete().catch(console.error)
+      })
+    }
+
     initMessage = message
     handleOrder = faqDirectoryOrder
     sendHeader()
