@@ -4,22 +4,22 @@
 **A**: Arms is currently one of the best melees for competitive PvP, while fury is unfortunately among the weakest. 
 
 **Q**: What is best covenant for PvP?
-**A**: Venthyr and Kyrian are tied in power generally. Venthyr has a slight advantage in 2v2.
-       Venthyr = Kyrian > Night Fae > Necrolord
+**A**: Kyrian pulls out ahead with Elysian Might and the general best choice for all brackets.
+       Kyrian >= Venthyr >= Necrolord > Night Fae
 
 **Q**: What is the best legendary?
 **A**:
-       Unhinged = General legendary, good in almostt any situation
-       Misshapen Mirror = Good vs caster cleaves such as MLX, Shadowplay, Scatter Cleave or ele+boomkin
-       Sephuz = For defensive plays where stalling is key and you're the kill target, for an example vs RMP
-       Exploiter = Great alternative to Unhinged for Venthyr warriors
+       Elysian Might = Best legendary to use as Kyrian
+       Misshapen Mirror = Good vs magic setup comps like hunters and mages
+       Exploiter = Go to legendary for Venthyr warriors
+       Battlelord / Enduring Blow = Both are fine and act as the best damage option for Necrolord and Night Fae.
 
 **Q**: What are the stats I should go for?
-**A**: Versatility > 30% haste > Mastery > Critical Strike > Haste
-       If you play Venthyr with Exploiter, your stat priority can also be Versatility > Critical Strike > Mastery > Haste
+**A**: Versatility > Critical Strike > Mastery >= Haste
+       Battlelord and Enduring Blow users can optimise for more haste if they see fit.
 
 **Q**: I have reason to stick with another covenant/legendary, will this prevent me from reaching my rating goals?
-**A**: You can reach at least gladiator with any covenant as arms, and obtain the elite set as both arms and fury with any covenant. If you're interested in pushing high end gladiator or rank 1, it's recommended you switch covenant to Kyrian.
+**A**: You can reach at least gladiator with any covenant as arms, and obtain the elite set as both arms and fury with any covenant.
 
 **Q**: How do I simulate my character for PvP?
 **A**: You cannot simulate for PvP, the nature of PvP is too dynamic and have too many variables to be able to produce any useable results.
