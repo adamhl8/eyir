@@ -2,12 +2,13 @@
 **Q**: Can I play double dps as warrior in 2v2?
 **A**: Ideally, double dps comps requires a lot of crowd control and great sustained healing, something which warrior  doesn't have.
        It's heavily recommended to play with a healer.
+       Ret+arms and enh+arms can see some form of success at higher skill levels.
 
 **Q**: What healers should I play with in 2v2?
-**A**: Resto sham, holy pala and disc priest are currently the best healers
+**A**: Resto sham and resto druid are currently the best healers.
 
 **Q**: What compositions are currently the best for 3v3?
-**A**: Turbo cleave / WMP(ala) / Ret+arms / WW+arms / arms+SP+Rsham
+**A**: Turbo cleave / WMP(ala) / Ret+arms / WW+arms / Arms+SP+Rsham / TSG
        
        
 **Q**: I can't find any PvP content on Youtube, what resources do I have available?
@@ -21,3 +22,4 @@
        Trille: <https://www.twitch.tv/trillebartom>
        Warroid: <https://www.twitch.tv/warroidxyz>
        Truckbenny: <https://www.twitch.tv/truckbenny>
+       Mud: <https://www.twitch.tv/mudcx>
