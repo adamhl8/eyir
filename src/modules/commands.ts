@@ -1,7 +1,7 @@
 import Discord, { Message } from 'discord.js'
 import fs from 'node:fs'
-import * as Main from '../index'
-import * as Util from './util'
+import * as Main from '../index.js'
+import * as Util from './util.js'
 
 export interface Command {
   reqMod: boolean

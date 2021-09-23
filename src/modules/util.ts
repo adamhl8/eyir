@@ -1,7 +1,7 @@
 import { DMChannel, GuildMember, Message, Role } from 'discord.js'
 import fs from 'node:fs'
-import { excludedRoles } from './excluded-roles'
-import ObjectCache from './object-cache'
+import { excludedRoles } from './excluded-roles.js'
+import ObjectCache from './object-cache.js'
 
 // Set up global error handlers
 process.on('unhandledRejection', (error) => {

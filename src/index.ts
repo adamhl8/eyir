@@ -1,9 +1,9 @@
 import Discord, { Guild, GuildMember, Message, PartialGuildMember, Role } from 'discord.js'
 import dotenv from 'dotenv'
 import { Gaze } from 'gaze'
-import * as Commands from './modules/commands'
-import ObjectCache from './modules/object-cache'
-import * as Util from './modules/util'
+import * as Commands from './modules/commands.js'
+import ObjectCache from './modules/object-cache.js'
+import * as Util from './modules/util.js'
 
 dotenv.config()
 
