@@ -1,20 +1,32 @@
-import Discord, { Guild, GuildMember, Message, PartialGuildMember, Role } from 'discord.js'
-import dotenv from 'dotenv'
+import { Client, ClientOptions, Intents } from 'discord.js'
 import { Gaze } from 'gaze'
 import * as Commands from './modules/commands.js'
 import ObjectCache from './modules/object-cache.js'
 import * as Util from './modules/util.js'
 
-dotenv.config()
+import { registerCommands } from './commands.js'
+import registerEvents from './events.js'
 
-const bot = new Discord.Client()
-void bot.login(process.env.TOKEN)
+const botToken = process.env.BOT_TOKEN || ''
+const clientId = process.env.CLIENT_ID || ''
+const guildId = process.env.GUILD_ID || ''
 
-bot.on('ready', () => {
-  console.log('I am ready!')
+const botIntents: ClientOptions = {
+  intents: [
+    Intents.FLAGS.GUILDS,
+    Intents.FLAGS.GUILD_MEMBERS,
+    Intents.FLAGS.GUILD_MESSAGES,
+    Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
+  ],
+  partials: ['REACTION'],
+}
 
-  run()
-})
+const bot = new Client(botIntents)
+void registerCommands(botToken, clientId, guildId)
+void registerEvents()
+void bot.login(botToken)
+
+export default bot
 
 let roleCache = ObjectCache.empty<Role>()
 
