@@ -1,87 +1,52 @@
-import Discord, { Message } from 'discord.js'
-import fs from 'node:fs'
-import * as Main from '../index.js'
-import * as Util from './util.js'
-
-export interface Command {
-  reqMod: boolean
-  run: (message: Message) => void
-}
-
-export const listBots: Command = {
-  reqMod: true,
-
-  run: (message) => {
-    if (!message.guild) {
-      throw new Error(`there is no guild attached to message ${message.id}`)
-    }
-
-    for (const bot of message.guild.members.cache.array().filter((member) => member.user.bot)) {
-      message.channel.send('<@' + bot.user.id + '>').catch(console.log)
-    }
-  },
-}
-
-export const sarriFact: Command = {
-  reqMod: false,
-
-  run: async (message) => {
-    await message.channel.send('<@139773837121159168>').catch(console.error)
-  },
-}
-
-export const thoughtsOnXeos: Command = {
-  reqMod: false,
-
-  run: async (message) => {
-    await message.channel.send(`free austin "candy seller" chase michaels`).catch(console.error)
-  },
-}
+import { SlashCommandBuilder } from '@discordjs/builders'
+import { Command, getGuildCache } from 'discord-bot-shared'
+import { CommandInteraction, Message, MessageEmbed, TextChannel } from 'discord.js'
+import fsp from 'node:fs/promises'
+import { moderatorRole } from '../util.js'
 
 const faqMessages: Record<string, Message> = {}
 const faqDirectoryOrder = ['resources', 'faq', 'arms', 'fury', 'protection', 'pvp']
 const faqSectionOrder: string[] = []
-let initMessage: Message
+let faqChannel: TextChannel
 
 export const faqInit: Command = {
-  reqMod: true,
+  requiredRoles: [moderatorRole],
+  command: new SlashCommandBuilder().setName('faq-init').setDescription('Initialize the FAQ channel.'),
+  run: async (interaction: CommandInteraction) => {
+    const guildCache = await getGuildCache()
+    if (!guildCache) throw new Error('Unable to get guild cache.')
+    const { channels } = guildCache
 
-  run: async (message) => {
-    if (message.channel.type !== 'text') return
-    if (message.channel.name !== 'guides-resources-faq') {
-      await message.channel.send('!faqInit cannot be run in this channel.').catch(console.error)
-      return
-    }
+    const getFaqChannel = channels.find((channel) => channel.name === 'guides-resources-faq')
+    if (!getFaqChannel || getFaqChannel.type !== 'GUILD_TEXT') throw new Error('Unable to get faq channel.')
+    faqChannel = getFaqChannel
+
+    const faqChannelMessages = await faqChannel.messages.fetch()
 
     try {
-      await message.channel.bulkDelete(await message.channel.messages.fetch())
+      await faqChannel.bulkDelete(faqChannelMessages, true)
     } catch {
-      const messages = await message.channel.messages.fetch()
-      messages.each((message) => {
-        void message.delete().catch(console.error)
-      })
+      faqChannelMessages.each((message) => void message.delete().catch(console.error))
     }
 
-    initMessage = message
     handleOrder = faqDirectoryOrder
-    sendHeader()
+    await sendHeader()
+    await interaction.reply(`Initialized ${faqChannel.name}`)
   },
 }
 
-const header = new Discord.MessageEmbed()
+const header = new MessageEmbed()
 let headerMessage: Message
 
-function sendHeader() {
+async function sendHeader() {
   header.setTitle('Click a link below to jump to that section of this channel.')
   header.setColor('#fcc200')
 
-  initMessage.channel
-    .send(header)
-    .then(async (message) => {
-      headerMessage = message
-      await readFaqDirectories()
-    })
-    .catch(console.error)
+  const message = await faqChannel.send({ embeds: [header] }).catch(console.error)
+  if (!message) return
+  headerMessage = message
+
+  await readFaqDirectories()
 }
 
 let handleOrder: string[] = []
@@ -98,13 +63,9 @@ async function handleDirectoryFiles(files: string[]) {
 async function readFaqDirectories() {
   if (handleOrder.length > 0) {
     const currentDirectory = handleOrder[0]
-
-    fs.readdir('./faq/' + currentDirectory, (error, files: string[]) => {
-      void handleDirectoryFiles(files)
-    })
-  } else {
-    await sendSections()
-  }
+    const files = await fsp.readdir('../../faq/' + currentDirectory)
+    void handleDirectoryFiles(files)
+  } else await sendSections()
 }
 
 async function sendSections() {
@@ -115,7 +76,7 @@ async function sendSections() {
     const currentDirectory = `${currentDirectoryArray[0]}/`
 
     if (currentSection.endsWith('.png')) {
-      initMessage.channel
+      const message = await faqChannel
         .send({
           files: [
             {
@@ -124,14 +85,14 @@ async function sendSections() {
             },
           ],
         })
-        .then(async (message) => {
-          faqMessages[currentSection] = message
-          faqSectionOrder.shift()
-          await sendSections()
-        })
         .catch(console.error)
+      if (!message) return
+
+      faqMessages[currentSection] = message
+      faqSectionOrder.shift()
+      await sendSections()
     } else {
-      initMessage.channel
+      faqChannel
         .send(currentSection)
         .then(async (message) => {
           faqMessages[currentSection] = message

@@ -1,4 +1,6 @@
-FROM node:latest
+FROM node:slim
+
+LABEL org.opencontainers.image.source https://github.com/adamlh8/eyir
 
 ENV BOT_TOKEN=
 ENV CLIENT_ID=
@@ -6,9 +8,7 @@ ENV GUILD_ID=
 
 WORKDIR /app
 
-COPY package*.json ./
-RUN npm install
-
 COPY . .
+RUN npm ci --omit=dev
 
 CMD node --loader ts-node/esm ./src/index.ts
