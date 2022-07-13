@@ -17,28 +17,28 @@
     "@discordjs/builders": "^0.15.0",
     "@discordjs/rest": "^0.5.0",
     "chokidar": "^3.5.3",
-    "discord-api-types": "^0.36.0",
-    "discord-bot-shared": "^0.1.3",
+    "discord-api-types": "^0.36.1",
+    "discord-bot-shared": "file:../discord-bot-shared",
     "discord.js": "^13.8.1",
     "node-json-db": "^1.6.0",
-    "ts-node": "^10.8.1",
+    "ts-node": "^10.8.2",
     "typescript": "^4.7.4"
   },
   "devDependencies": {
     "@types/eslint": "^8.4.5",
-    "@types/node": "^18.0.0",
+    "@types/node": "^18.0.3",
     "@types/prettier": "^2.6.3",
-    "@typescript-eslint/eslint-plugin": "^5.30.3",
-    "@typescript-eslint/parser": "^5.30.3",
-    "eslint": "^8.18.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-formatter-pretty": "^4.1.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-sonarjs": "^0.13.0",
-    "eslint-plugin-unicorn": "^43.0.0",
+    "eslint-plugin-unicorn": "^43.0.1",
     "prettier": "^2.7.1",
     "prettier-plugin-organize-imports": "^3.0.0",
-    "prettier-plugin-pkg": "^0.14.1",
-    "prettier-plugin-sh": "^0.12.4"
+    "prettier-plugin-pkg": "^0.16.0",
+    "prettier-plugin-sh": "^0.12.6"
   }
 }
