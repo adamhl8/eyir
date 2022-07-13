@@ -11,6 +11,7 @@ const faqMessages: Record<string, Message> = {}
 const faqDirectoryOrder = ['resources', 'faq', 'arms', 'fury', 'protection', 'pvp']
 const faqSectionOrder: string[] = []
 let faqChannel: TextChannel
+let commandInteraction: CommandInteraction
 let guildId: string
 
 export const faqInit: Command = {
@@ -25,6 +26,9 @@ export const faqInit: Command = {
     if (!getFaqChannel || getFaqChannel.type !== 'GUILD_TEXT') throw new Error('Unable to get faq channel.')
     faqChannel = getFaqChannel
 
+    await interaction.deferReply()
+    commandInteraction = interaction
+
     guildId = guild.id
     await faqChannel.permissionOverwrites.create(guildId, { VIEW_CHANNEL: false }).catch(console.error)
 
@@ -34,7 +38,6 @@ export const faqInit: Command = {
 
     handleOrder = [...faqDirectoryOrder]
     await sendHeader()
-    await interaction.reply(`Initialized ${faqChannel.toString()}`)
   },
 }
 
@@ -107,6 +110,7 @@ async function sendSections() {
     await faqChannel.send({ embeds: [header] }).catch(console.error)
     // eslint-disable-next-line unicorn/no-null
     await faqChannel.permissionOverwrites.edit(guildId, { VIEW_CHANNEL: null }).catch(console.error)
+    await commandInteraction.editReply(`Initialized ${faqChannel.toString()}`).catch(console.error)
   }
 }
 
