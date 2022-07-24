@@ -1,9 +1,8 @@
 import login from 'discord-bot-shared'
-import { ClientOptions, Intents } from 'discord.js'
+import { ClientOptions, GatewayIntentBits as Intents } from 'discord.js'
 
 const botIntents: ClientOptions = {
-  intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MEMBERS, Intents.FLAGS.GUILD_MESSAGES],
-  partials: ['USER'],
+  intents: [Intents.Guilds, Intents.GuildMembers, Intents.GuildMessages, Intents.MessageContent],
 }
 
 const bot = await login(botIntents, import.meta.url)

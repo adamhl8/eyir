@@ -1,6 +1,5 @@
-import { SlashCommandBuilder } from '@discordjs/builders'
 import { Command } from 'discord-bot-shared'
-import { CommandInteraction } from 'discord.js'
+import { CommandInteraction, SlashCommandBuilder } from 'discord.js'
 
 const sarriFact: Command = {
   command: new SlashCommandBuilder().setName('sarrifact').setDescription('Get a fun fact from Sarri.'),
