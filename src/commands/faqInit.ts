@@ -20,7 +20,7 @@ export const faqInit: Command = {
     if (!isTextChannel(faqChannel)) throwError('Channel is not a text channel.')
 
     await interaction.deferReply({ ephemeral: true })
-    await faqChannel.permissionOverwrites.create(guild.id, { ViewChannel: false })
+    await faqChannel.permissionOverwrites.edit(guild.id, { ViewChannel: false })
 
     const faqChannelMessages = await faqChannel.messages.fetch()
     faqChannelMessages.each((message) => void message.delete().catch(console.error))
