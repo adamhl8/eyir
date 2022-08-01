@@ -8,12 +8,11 @@ Your gear and stats are a lot less meaningful to tanking than your actual play. 
 **A:** Make sure you're using your damaging cooldowns like Avatar as often as possible while also following the proper ability priority order. Protection has solid damage output and as a result threat should not be a issue. If you are having threat issues you are likely making mistakes.
 
 **Q:** What Legendary should I use for Raids / Mythic+?
-**A:** For raids you should use The Wall for the increased Rage generation and Shield Wall reduction together with your Covenant Legendary. For Mythic+ you should be mainly looking to use Reprisal together with your Covenant Legendary. Both of these legendaries can be alternatives to eachother in Raids/Mythic+.
+**A:** Reprisal is your main legendary for both Raids and Mythic+. You can swap it out for The Wall in raids if the encounter does not allow for proper Charge weaving to get the full benefit of Reprisal.
 
 **Q:** What is the best Covenant choice?
-**A:** All of the 4 Covenants are completely viable for Protection Warriors. 
-For general purposes the order would be Kyrian = Night Fae >= Necrolord >> Venthyr.
-Kyrian, Night Fae and Necrolord are really close to eachother in power once you obtain two Legendaries and the tier set.
+**A:** For general purposes the order would be Necrolord >> Kyrian = NightFae >> Venthyr.
+While Necrolord is the best Covenant, it does take effort to play it correctly. Kyrian and Night Fae are really close to eachother in power, but behind a properly played Necrolord - and a lot easier to play than Necrolord. Venthyr unfortunately is our odd-one-out and not worth picking currently.
 
 
 **Q:** Protection Warrior streamers?
