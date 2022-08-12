@@ -1,6 +1,6 @@
 -
 **Q:** How much of <insert stat here> do I need? How do my stats look?
-**A:** You do not need a certain amount of any particular stat, nor do you need or want a certain distribution of stats. You simply want the most amount of total stats possible. That means going for item level.
+**A:** You do not need a certain amount of any particular stat, nor do you need or want a certain distribution of stats. You simply want the most amount of total stats possible. That means going for item level. If you have to choose between items of the same ilvl the stat priority is Haste >> Vers >= Crit > Mastery.
 
 Your gear and stats are a lot less meaningful to tanking than your actual play. So, if you're struggling on appropriately geared content, it's because you are playing poorly. Read the guide, learn the spec, and learn to make your own decisions.
 

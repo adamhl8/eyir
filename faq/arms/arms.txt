@@ -3,8 +3,6 @@
 __Icy Veins Guide__ - <https://www.icy-veins.com/wow/arms-warrior-pve-dps-guide>
 __WoWhead Guide__ - <https://www.wowhead.com/arms-warrior-guide>
 
-Video guides by <@144870911969853440> - <https://www.youtube.com/corejo>
-
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/arms>
 
 **__FAQ__**

@@ -3,7 +3,7 @@
 __THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS.__
 
 **Q:** What are the best Talents?
-**A:** Sudden Death/Skullsplitter, Double Time or Stormbolt for CC, Rend for Single Target, Massacre for AoE, Avatar, Dreadnaught
+**A:** Sudden Death, Double Time or Stormbolt for CC, Rend for Single Target, Massacre for AoE, Avatar, Dreadnaught
      Level 40 row: Warbreaker for M+/AoE. Collateral Damage for 2 target / Single target. Warbreaker at the moment overwrites Enduring Blow procs, while Colossus Smash extends the debuff. It's reccomended to **not** use Warbreaker in pure single target at the moment.
 
 **Q:** Is Mortal Strike used in the Execute/Condemn phase?

@@ -1,9 +1,3 @@
-**Q:** What Domination Socket bonus is best?
-**A:** Currently the Unholy set bonus is the best for every situation.
-
-**Q:** Is Jaithys BiS? Is it worth feeding it to rank 5?
-**A:** Yes. A rank 5 Jaithys bis for all types of content. https://discord.com/channels/148872210742771712/148898720803586048/862071911188791306 this pinned message goes over it in greater detail.
-
 **Q:** What Consumables does Arms use?
 **A:** Potions: Potion of Spectral Strength
        Weapon Oil: Shaded Sharpening Stone.

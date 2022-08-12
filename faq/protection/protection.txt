@@ -17,4 +17,4 @@ __Spell Reflection Tracker__ - <https://wago.io/SpellReflectionTracker>
 **__FAQ__**
 
 **Q:** Is Protection viable for end-game M+ / raid progression?
-**A:** Yes. While our damage numbers might be mediocre we are still very strong defensively, particularly in situations where the majority of the damage is blockable. Regardless, what tank you play isn't going to dictate your overall success. Tank balance right now is in a good spot and the minor differences between the different tank specs won't make a difference for most. What matters is your individual skill and how familiar you are with a particular spec.
+**A:** Yes. We are currently the strongest offensive tank in raid and we are very strong defensively if played correctly, particularly in situations where the majority of the damage is blockable. Regradless of that, what tank you play isn't going to dictate your overall success. Tank balance right now is in a decent spot and the minor differences between the different tank specs won't make a difference for most. What matters is your individual skill and how familiar you are with a particular spec.
