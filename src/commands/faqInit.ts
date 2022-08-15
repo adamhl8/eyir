@@ -13,13 +13,14 @@ export const faqInit: Command = {
   requiredRoles: [moderatorRole],
   command: new SlashCommandBuilder().setName('faq-init').setDescription('Initialize the FAQ channel.'),
   run: async (interaction) => {
+    await interaction.deferReply()
+
     const { channels, guild } = (await getGuildCache()) || throwError('Unable to get guild cache.')
 
     const faqChannel =
       channels.find((channel) => channel.name === 'guides-resources-faq') || throwError('Unable to get faq channel.')
     if (!isTextChannel(faqChannel)) throwError('Channel is not a text channel.')
 
-    await interaction.deferReply({ ephemeral: true })
     await faqChannel.permissionOverwrites.edit(guild.id, { ViewChannel: false })
 
     const faqChannelMessages = await faqChannel.messages.fetch()
