@@ -17,7 +17,7 @@
     "@discordjs/rest": "^1.0.1",
     "chokidar": "^3.5.3",
     "discord-api-types": "^0.37.3",
-    "discord-bot-shared": "^0.4.0",
+    "discord-bot-shared": "^0.4.1",
     "discord.js": "^14.2.0",
     "node-json-db": "^2.1.0",
     "ts-node": "^10.9.1",
