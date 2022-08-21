@@ -1,5 +1,5 @@
 import chokidar from 'chokidar'
-import { Command, getChannelByName, getGuildCache, throwError } from 'discord-bot-shared'
+import { Command, getChannel, getGuildCache, throwError } from 'discord-bot-shared'
 import { ChannelType, EmbedBuilder, Message, SlashCommandBuilder, TextChannel } from 'discord.js'
 import fsp from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
@@ -20,7 +20,7 @@ export const faqInit: Command = {
     const { guild } = (await getGuildCache()) || throwError('Unable to get guild cache.')
 
     const faqChannel =
-      (await getChannelByName<TextChannel>('guides-resources-faq', ChannelType.GuildText)) || throwError('Unable to get faq channel.')
+      (await getChannel<TextChannel>('guides-resources-faq', ChannelType.GuildText)) || throwError('Unable to get faq channel.')
 
     await faqChannel.permissionOverwrites.edit(guild.id, { ViewChannel: false })
 
@@ -69,9 +69,9 @@ const watcher = chokidar.watch(`${faqDirectory}*/*`)
 
 // eslint-disable-next-line @typescript-eslint/no-misused-promises
 watcher.on('change', async (path) => {
-  const stormforgedChannel = await getChannelByName<TextChannel>('stormforged', ChannelType.GuildText)
+  const stormforgedChannel = await getChannel<TextChannel>('stormforged', ChannelType.GuildText)
   if (!stormforgedChannel) return console.error('Unable to get stormforged channel.')
-  const faqChannel = await getChannelByName<TextChannel>('guides-resources-faq', ChannelType.GuildText)
+  const faqChannel = await getChannel<TextChannel>('guides-resources-faq', ChannelType.GuildText)
   if (!faqChannel) return console.error('Unable to get faq channel.')
 
   const file = path.split('/').pop()
