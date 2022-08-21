@@ -1,13 +1,13 @@
 -
 **Q:** What are the best talents?
-**A:** Signet ST: Sudden Death, Massacre as Venthyr/Frenzy as non-Venthyr, Cruelty, Bladestorm, AM
+**A:** ST: Sudden Death, Massacre as Venthyr/Frenzy as non-Venthyr, Cruelty, Dragon Roar, Reckless Abandon
 M+ Talents: Fresh Meat, Massacre, Cruelty, Bladestorm, Anger Management
 
 **Q:** Should I be enraged before using Recklessness if I have Signet?
-**A:** Yes, try and get enraged before using Recklessness. The biggest tip is if you have Signet, try and use Recklessness during your GCD downtime after a Rampage/Fresh Meat Bloodthirst. This is because even if you are in a GCD, if Reck procs Bladestorm it will still trigger and you lose nothing, and your GCD downtime is being eaten by the Bladestorm.
+**A:** Yes, try and get enraged before using Recklessness. With Elysian Might and Signet, press recklessness immediately after throwing your Spear of Bastion, so you can potentially gain the bonus damage on your spear from Avatar. If you have Signet, try and use Recklessness during your GCD downtime after a Rampage/Fresh Meat Bloodthirst. This is because even if you are in a GCD, if Reck procs Bladestorm it will still trigger and you lose nothing, and your GCD downtime is being eaten by the Bladestorm. 
 
 **Q:** Do I cancel Bladestorm on Single Target if Signet procs it?
-**A:** You want to cancel Bladestorm, both the proc and natural cast, on Single Target if you are in an Execute phase with Massacre talented or are Venthyr. You cancel if you can Rampage or can Condemn.
+**A:** You want to cancel Bladestorm, both the proc and natural cast, on Single Target if you are in an Execute phase with Massacre talented or are Venthyr. You cancel if you can Rampage or can Condemn. Bladestorm should not be canceled in AoE.
 
 **Q:** What can I use Spell Reflect on?
 **A:** This google doc sheet shows what you can and can't reflect. https://tinyurl.com/ReflectGuide.
@@ -15,17 +15,9 @@ M+ Talents: Fresh Meat, Massacre, Cruelty, Bladestorm, Anger Management
 **Q:** Should I use *x* trinket?
 **A:** Go to <https://bloodmallet.com/chart/warrior/fury/trinkets/castingpatchwerk> for a general list. **SIM YOURSELF FOR BEST RESULTS**
 
-**Q:** What Gems/Enchants do I use?
+**Q:** What Gems/Enchants do I use? **SIM YOURSELF FOR BEST RESULTS**
 **A:** Chest: Eternal Skirmish for single target, Eternal Stats for AoE.
        Weapon: Sinful Revelation+Celestial Guidance for single target, Lightless Force+Celestial Guidance for AoE.
-       Rings: Tenet of Haste
+       Rings: Tenet of Haste or
        Gloves: Eternal Strength
        Gems: Haste
-
-**Q:** What Consumables does Fury use?
-**A:** Potions: Potion of Spectral Strength
-       Weapon Enhancement: 2 Sharpening Stone
-       Food: Feast of Gluttonous Hedonism Feast
-
-**Q:** Are there stat breakpoints?
-**A:** There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stat amounts.

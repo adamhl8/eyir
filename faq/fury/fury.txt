@@ -1,28 +1,22 @@
+**Updated for Season 4**
 **Guides/Resources:**
 
-__Icy Veins Guide__ - <https://www.icy-veins.com/wow/fury-warrior-pve-dps-guide>
+Icy Veins Guide - <https://www.icy-veins.com/wow/fury-warrior-pve-dps-guide>
 
 Wowhead Guide - <https://www.wowhead.com/fury-warrior-guide>
 
-**WeakAuras:** <https://wago.io/weakauras/classes/warrior/fury>
+WeakAuras: <https://wago.io/weakauras/classes/warrior/fury>
 
-**__FAQ__**
+**Legendaries**: **Deathmaker** (Back) is the reccomended legendary for most raid encounters. It is the standard single target legendary. **Signet of Tormented Kings** is recomended for AoE heavy raid fights and Mythic+. 
+Unity should be crafted on wrists, or your worst slot that doesn't compete with tier. 
+Legendaries should be crafted with haste/mastery.
+
+**Covenants**: <:Spear:742631092711981106> **Kyrian** is the best overall PvE covenant. It is the best covenant in Mythic+ and most raid encounters. <:Aftershock:742631092326236282> **Night Fae** is even with Kyrian on single target, but worse on AoE. <:condemn:742631092279967785> **Venthyr** is the best covenant for single target, however in practice it performs lower than the other covenants due to the strict uptime requirements of it's covenant legendary. 
+
+**Soulbinds**
+<:Spear:742631092711981106> **Kyrian** Kleia for ST, with Hack'n'Slash, Depths of Insanity, and Pointed Courage. Mikanikos for AoE, with Merciless Bonegrinder, Hack'n'Slash, and Hammer of Genesis.
+<:Aftershock:742631092326236282> **Night Fae** Dreamweaver Hack'n'Slash, Depths of Insanity, and Adaptive Armour Fragment. Replace Depths of Insanity with Merciless Bonegrinder for AoE/M+. 
+
+**__FAQ__** 
 
 __**FOR THE MOST ACCURATE ANSWER TO ANY QUESTIONS, ALWAYS SIM YOURSELF**__
-
-**Q:** What is the best Covenant?
-**A:** <:condemn:742631092279967785> **Ven'thyr** is the best overall covenant in PvE. It performs the best in a Mythic prog raid environment and still performs very well in M+ due to Fury's ability to cleave Condemn. <:Aftershock:742631092326236282> **Night Fae** is very close behind on ST and ahead on AoE, making it by far the best option for M+ and even when on farm for the raid. <:Spear:742631092711981106> **Kyrian** is behind Night Fae on both ST and AoE but it is easy to use, and <:whyisthisgood:742631092229767220> **Necrolord** is in theory the strongest option for overall group damage however not every group can get the best value out of it. 
-
-**Q:** What are the best Potency Conduits?
-**A:** 
-**Potency Conduits**: ST = Ashen Juggernaut (if Venthyr)/Veteran's Repute (Necrolord) > Depths of Insanity > Jugg (Non Venthyr)Vicious Contempt > Covenant Conduits
-AoE = Depths of Insanity > Convenant Conduits
-
-**Q:** What is the best Legendary? 
-**A:** **Signet of Tormented Kings** is the best legendary in every situation. It is your best for single target, with Bladestorm and Anger Management being the talent choices, and by far the strongest on AoE. Signet on Ring with Haste/Mastery is generally the best crafting option.
-
-**Q:** What are the best soulbinds?
-**A:** Venthyr: Nadjia (Dauntless Duelist for ST) > Theotar > Draven
-Night Fae: Niya with Burrs is the strongest option for ST. Korayn is insanely strong in M+ or AoE with the First Strike trait.
-Kyrian: Pelagos > Forgelite > Kleia
-Necrolord: Emeni > Bonesmith > Plague Deviser

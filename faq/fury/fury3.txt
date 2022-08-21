@@ -1,3 +1,22 @@
+**Q:** What Consumables does Fury use?
+**A:** Potions: Potion of Spectral Strength
+       Weapon Enhancement: 2 Sharpening Stone/Shaded Weightstone
+       Food: Feast
+
+**Q:** Are there stat breakpoints?
+**A:** There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stat amounts.
 
 **Q:** Titan's Grip vs Single-Minded Fury?
-**A:** Titan's Grip tends to be slightly better, but the margin depends on the item level of the weapon. The difference is less than 1% all things equal until you get to item level 220 weapons or higher, where Titan's Grip pulls ahead by further than 1%, and ends up being around 2% ahead at 233.
+**A:** Titan's Grip is significantly better with the powerful 2-handed weapons from the raid. Single-Minded fury is only slightly behind Titan's Grip without them. 
+
+**Q:** What stat should I take as my bounty in Mythic+?
+**A:** Haste or Crit. 
+
+**Q:** Do I always use Reckless Abandon with the tier set bonus?
+**A:** No. With Signet of Tormented kings you want to use Anger Management and Bladestorm. 
+
+**Q:** What should I spend my Puzzling Cartel Dinar's on?
+**A:** Gavel of the First Arbiter > Jaithys > Old Warrior's Soul > First Sigil/Scars of Fraternal Strife.
+
+**Q:** Should I upgrade my Jaithys all the way to rank 5 or stop earlier? 
+**A:** Upgrade it all the way to rank 5. 
