@@ -25,7 +25,3 @@ __WoWhead Guide__ - <https://www.wowhead.com/arms-warrior-guide>
 **A:** Single Target: Enduring Blow > Covenant Legenaries > Battlelord > rest
        AoE: Elysian Might > Signet of Tormented Kings (Non-Kyrian) > rest 
        Enduring Blow goes on waist. Signet on Ring. 
-
-
-
-

@@ -1,12 +1,12 @@
 **Guides/Resources:**
 
-__Icy Veins Guide__ - <https://www.icy-veins.com/wow/protection-warrior-pve-tank-guide>
+Icy Veins Guide - <https://www.icy-veins.com/wow/protection-warrior-pve-tank-guide>
+Wowhead Guide - <https://www.wowhead.com/protection-warrior-guide>
 
 TankNotes (tank-specific Raid and Mythic+ guide) - <https://tanknotes.com>
 
 Blockable/Reflectable Spells Sheet - <https://tinyurl.com/ReflectGuide>
 
-Wowhead Guide - <https://www.wowhead.com/protection-warrior-guide>
 
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/protection>
 
