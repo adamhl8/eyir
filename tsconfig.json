@@ -3,11 +3,18 @@
 
   "compilerOptions": {
     "outDir": "dist",
-    "target": "ES2020",
+    "baseUrl": "src",
+    "target": "ESNext",
     "module": "NodeNext",
+    "sourceMap": true,
     "strict": true,
-    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "sourceMap": true
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true
+  },
+
+  "ts-node": {
+    "esm": true,
+    "swc": true
   }
 }

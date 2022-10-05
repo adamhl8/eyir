@@ -1,15 +1,15 @@
-import { getGuildCache, throwError } from 'discord-bot-shared'
-import { GuildMember } from 'discord.js'
-import bot from '../index.js'
+import { getGuildCache, throwError } from "discord-bot-shared"
+import { GuildMember } from "discord.js"
+import bot from "index.js"
 
-bot.on('guildMemberAdd', (member: GuildMember) => {
+bot.on("guildMemberAdd", (member: GuildMember) => {
   void welcomeNewMember(member).catch(console.error)
   void applyValarjar(member).catch(console.error)
 })
 
 async function applyValarjar(member: GuildMember) {
-  const { roles } = (await getGuildCache()) || throwError('Unable to get guild cache.')
-  const valarjarRole = roles.find((role) => role.name === 'Valarjar')
+  const { roles } = (await getGuildCache()) || throwError("Unable to get guild cache.")
+  const valarjarRole = roles.find((role) => role.name === "Valarjar")
   if (!valarjarRole) return
   await member.roles.add(valarjarRole)
 }
