@@ -1,6 +1,6 @@
 import { getGuildCache, throwError } from "discord-bot-shared"
-import bot from "index.js"
-import { isExcluded } from "util.js"
+import bot from "../index.js"
+import { isExcluded } from "../util.js"
 
 bot.once("ready", () => {
   void applyValarjarToAll().catch(console.error)

@@ -1,6 +1,6 @@
 import { Command, getGuildCache, throwError } from "discord-bot-shared"
 import { CommandInteraction, SlashCommandBuilder } from "discord.js"
-import { moderatorRole } from "util.js"
+import { moderatorRole } from "../util.js"
 
 const listBots: Command = {
   requiredRoles: [moderatorRole],

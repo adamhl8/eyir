@@ -1,5 +1,5 @@
 import { Message } from "discord.js"
-import bot from "index.js"
+import bot from "../index.js"
 
 bot.on("messageCreate", (message: Message) => {
   void sass(message).catch(console.error)

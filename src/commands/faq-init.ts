@@ -3,14 +3,14 @@ import { Command, getChannel, getGuildCache, throwError } from "discord-bot-shar
 import { ChannelType, EmbedBuilder, Message, SlashCommandBuilder, TextChannel } from "discord.js"
 import fsp from "node:fs/promises"
 import { fileURLToPath } from "node:url"
-import { moderatorRole } from "util.js"
+import { moderatorRole } from "../util.js"
 
 const faqDirectory = fileURLToPath(new URL("../../faq", import.meta.url)) + "/"
 const faqDirectoryOrder = ["resources", "faq", "arms", "fury", "protection", "pvp"]
 const faqMessages: Record<string, Message> = {}
 let faqChannelIsInitialized = false
 
-export const faqInit: Command = {
+const faqInit: Command = {
   requiredRoles: [moderatorRole],
   command: new SlashCommandBuilder().setName("faq-init").setDescription("Initialize the FAQ channel."),
   run: async (interaction) => {

@@ -3,10 +3,9 @@
 
   "compilerOptions": {
     "outDir": "dist",
-    "baseUrl": "src",
     "target": "ESNext",
     "module": "NodeNext",
-    "sourceMap": true,
+    "inlineSourceMap": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "exactOptionalPropertyTypes": true,

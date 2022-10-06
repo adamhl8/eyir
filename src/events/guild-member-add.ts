@@ -1,6 +1,6 @@
 import { getGuildCache, throwError } from "discord-bot-shared"
 import { GuildMember } from "discord.js"
-import bot from "index.js"
+import bot from "../index.js"
 
 bot.on("guildMemberAdd", (member: GuildMember) => {
   void welcomeNewMember(member).catch(console.error)
