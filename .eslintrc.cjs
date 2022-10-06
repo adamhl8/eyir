@@ -1,13 +1,9 @@
 module.exports = {
   root: true,
-  env: {
-    node: true,
-    es2020: true,
-  },
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "./tsconfig.json",
-    ecmaVersion: "es2020",
+    ecmaVersion: "latest",
   },
   plugins: ["@typescript-eslint/eslint-plugin", "unicorn", "sonarjs", "eslint-comments"],
   extends: [
@@ -19,15 +15,5 @@ module.exports = {
     "plugin:eslint-comments/recommended",
     "prettier",
   ],
-  rules: {
-    "unicorn/filename-case": [
-      "error",
-      {
-        cases: {
-          kebabCase: true,
-          camelCase: true,
-        },
-      },
-    ],
-  },
+  ignorePatterns: [".eslintrc.cjs", "dist"],
 }

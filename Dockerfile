@@ -11,4 +11,4 @@ WORKDIR /app
 COPY . .
 RUN npm ci --omit=dev
 
-CMD node --loader ts-node/esm ./src/index.ts
+CMD node --enable-source-maps ./dist/index.js

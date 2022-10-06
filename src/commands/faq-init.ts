@@ -56,12 +56,12 @@ export const faqInit: Command = {
 
 function editHeader(header: EmbedBuilder) {
   header.setDescription(
-    `[Resources](${faqMessages["resources.png"].url})
-    [FAQ](${faqMessages["faq.png"].url})
-    [Arms](${faqMessages["arms.png"].url})
-    [Fury](${faqMessages["fury.png"].url})
-    [Protection](${faqMessages["protection.png"].url})
-    [PvP](${faqMessages["pvp.png"].url})`,
+    `[Resources](${faqMessages["resources.png"]?.url ?? ""})
+    [FAQ](${faqMessages["faq.png"]?.url ?? ""})
+    [Arms](${faqMessages["arms.png"]?.url ?? ""})
+    [Fury](${faqMessages["fury.png"]?.url ?? ""})
+    [Protection](${faqMessages["protection.png"]?.url ?? ""})
+    [PvP](${faqMessages["pvp.png"]?.url ?? ""})`,
   )
 }
 
@@ -97,7 +97,7 @@ watcher.on("change", async (path) => {
       )
       .catch(console.error)
 
-  await faqMessages[file].edit(data).catch(console.error)
+  await faqMessages[file]?.edit(data).catch(console.error)
 })
 
 export default faqInit
