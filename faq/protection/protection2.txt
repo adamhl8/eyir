@@ -1,19 +1,22 @@
 -
 **Q:** How much of <insert stat here> do I need? How do my stats look?
-**A:** You do not need a certain amount of any particular stat, nor do you need or want a certain distribution of stats. You simply want the most amount of total stats possible. That means going for item level. If you have to choose between items of the same ilvl the stat priority is Haste >> Vers >= Crit > Mastery.
+**A:** You do not need a certain amount of any particular stat, nor do you need or want a certain distribution of stats. You simply want the most amount of total stats possible. That means going for item level. If you have to choose between items of the same ilvl the stat priority is Haste >> Crit >= Vers  > Mastery.
 
 Your gear and stats are a lot less meaningful to tanking than your actual play. So, if you're struggling on appropriately geared content, it's because you are playing poorly. Read the guide, learn the spec, and learn to make your own decisions.
 
 **Q:** I’m having trouble keeping aggro on enemies, why is that?
 **A:** Make sure you're using your damaging cooldowns like Avatar as often as possible while also following the proper ability priority order. Protection has solid damage output and as a result threat should not be a issue. If you are having threat issues you are likely making mistakes.
 
-**Q:** What Legendary should I use for Raids / Mythic+?
-**A:** Reprisal is your main legendary for both Raids and Mythic+. You can swap it out for The Wall in raids if the encounter does not allow for proper Charge weaving to get the full benefit of Reprisal.
+**Q:** Which Embellishments should I use/Spark should I craft on??
+**A:** The power target for Embellishments seems to be around 1% power gain over having none at all, so theyre not that important to have the ABSOLUTE best one.
 
-**Q:** What is the best Covenant choice?
-**A:** For general purposes the order would be Necrolord >> Kyrian = NightFae >> Venthyr.
-While Necrolord is the best Covenant, it does take effort to play it correctly. Kyrian and Night Fae are really close to eachother in power, but behind a properly played Necrolord - and a lot easier to play than Necrolord. Venthyr unfortunately is our odd-one-out and not worth picking currently.
-
+"Elemental Lariat" Necklace, is 30% uptime on 2.5-3% secondary stats, averages out to 1%.
+"Infurious Helmet of Vengeance" is around 1% dps.
+"Armor Spikes" is around 1% dps.
+"Unstable Frostfire Belt" is solid dps and can proc the Raid Rings.
+"Allied Wrists of Companionship" 100% uptime on 1% vers, super solid.
+"Fang Adornements"is around 1% dps.
+"Frostfire Legguards of Preparation" are bait, you only get the benefit of  ~8-10% haste for 10seconds on pull in m+. Useless outside of fresh pulls, cant recommend.
 
 **Q:** Protection Warrior streamers?
 **A:**
