@@ -3,25 +3,23 @@
 **Q**: Should I play Arms or Fury for arena?
 **A**: Arms is currently one of the best melees for competitive PvP, while fury is unfortunately among the weakest. 
 
-**Q**: What is best covenant for PvP?
-**A**: Kyrian pulls out ahead with Elysian Might and the general best choice for all brackets.
-       Kyrian >= Venthyr >= Necrolord > Night Fae
-
-**Q**: What is the best legendary?
-**A**:
-       Elysian Might = Best legendary to use as Kyrian
-       Misshapen Mirror = Good vs magic setup comps like hunters and mages
-       Exploiter = Go to legendary for Venthyr warriors
-       Battlelord / Enduring Blow = Both are fine and act as the best damage option for Necrolord and Night Fae.
-
-**Q**: What are the stats I should go for?
-**A**: Versatility > Critical Strike > Mastery >= Haste
-       Battlelord and Enduring Blow users can optimise for more haste if they see fit.
-
-**Q**: I have reason to stick with another covenant/legendary, will this prevent me from reaching my rating goals?
-**A**: You can reach at least gladiator with any covenant as arms, and obtain the elite set as both arms and fury with any covenant.
-
 **Q**: How do I simulate my character for PvP?
 **A**: You cannot simulate for PvP, the nature of PvP is too dynamic and have too many variables to be able to produce any useable results.
 
+**Q**: Can I play double dps as warrior in 2v2?
+**A**: Ideally, double dps comps requires a lot of crowd control and great sustained healing, something which warrior  doesn't have.
+       It's heavily recommended to play with a healer.
+       Ret+arms and enh+arms can see some form of success at higher skill levels.
 
+**Q**: I can't find any PvP content on Youtube, what resources do I have available?
+**A**: All PvP guides written by respected warriors are pinned in the <#897055819475091456> channel. We recommend watching streamers on Twitch.tv for the best learning experience.
+       High rated and good warriors to watch are:
+       
+       Magnusz: <https://www.twitch.tv/magnusz>
+       Zhrey: <https://www.twitch.tv/zhreytv>
+       Bajheera: <https://www.twitch.tv/bajheera>
+       Dekel: <https://www.twitch.tv/dekel>
+       Trille: <https://www.twitch.tv/trillebartom>
+       Warroid: <https://www.twitch.tv/warroidxyz>
+       Truckbenny: <https://www.twitch.tv/truckbenny>
+       Mud: <https://www.twitch.tv/mudcx>

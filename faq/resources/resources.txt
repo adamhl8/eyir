@@ -6,7 +6,6 @@
 
 <https://wago.io> - WeakAuras resource
 
-<https://www.wowprogress.com> - Rankings for guilds, players, etc
 <https://raider.io> - Great Mythic+ tools, guild rankings, and more
 <https://www.warcraftlogs.com> - Analyze your own or other players' logs, see raid statistics, and more
 

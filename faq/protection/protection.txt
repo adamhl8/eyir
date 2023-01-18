@@ -7,7 +7,6 @@ TankNotes (tank-specific Raid and Mythic+ guide) - <https://tanknotes.com>
 
 Blockable/Reflectable Spells Sheet - <https://tinyurl.com/ReflectGuide>
 
-
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/protection>
 
 __Ignore Pain Tracker__ - <https://wago.io/IgnorePainTracker>
@@ -17,4 +16,4 @@ __Spell Reflection Tracker__ - <https://wago.io/SpellReflectionTracker>
 **__FAQ__**
 
 **Q:** Is Protection viable for end-game M+ / raid progression?
-**A:** Yes. We are currently the strongest offensive tank in raid and we are very strong defensively if played correctly, particularly in situations where the majority of the damage is blockable. Regradless of that, what tank you play isn't going to dictate your overall success. Tank balance right now is in a decent spot and the minor differences between the different tank specs won't make a difference for most. What matters is your individual skill and how familiar you are with a particular spec.
+**A:** Yes. We are currently one of strongest offensive tank in raids and Mythic+, and we are very strong defensively if played correctly, particularly in situations where the majority of the damage is blockable. Regradless of that, what tank you play isn't going to dictate your overall success. Tank balance right now is in a decent spot and the minor differences between the different tank specs won't make a difference for most. What matters is your individual skill and how familiar you are with a particular spec.
