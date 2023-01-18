@@ -1,9 +1,10 @@
-import { Message } from "discord.js"
-import bot from "../index.js"
+import { Client, Message } from "discord.js"
 
-bot.on("messageCreate", (message: Message) => {
-  void sass(message).catch(console.error)
-})
+function registerMessageCreate(bot: Client) {
+  bot.on("messageCreate", (message: Message) => {
+    void sass(message).catch(console.error)
+  })
+}
 
 async function sass(message: Message) {
   await respondToWords(["eyir", "sucks"], `fuk u ${message.author.toString()}`)
@@ -16,3 +17,5 @@ async function sass(message: Message) {
     if (words.every((word) => message.content.toLowerCase().includes(word))) await message.channel.send(response)
   }
 }
+
+export default registerMessageCreate

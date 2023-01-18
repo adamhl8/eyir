@@ -1,10 +1,12 @@
 import { getGuildCache, throwError } from "discord-bot-shared"
-import bot from "../index.js"
+import { Client } from "discord.js"
 import { isExcluded } from "../util.js"
 
-bot.once("ready", () => {
-  void applyValarjarToAll().catch(console.error)
-})
+function registerApplyValarjarToAll(bot: Client) {
+  bot.once("ready", () => {
+    void applyValarjarToAll().catch(console.error)
+  })
+}
 
 async function applyValarjarToAll() {
   const { members, roles } = (await getGuildCache()) || throwError("Unable to get guild cache.")
@@ -18,3 +20,5 @@ async function applyValarjarToAll() {
     }
   }
 }
+
+export default registerApplyValarjarToAll

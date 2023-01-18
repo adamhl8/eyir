@@ -1,4 +1,11 @@
+import { Guild, throwError } from "discord-bot-shared"
 import { GuildMember } from "discord.js"
+import { getGuildCollection } from "./index.js"
+
+function getGuild(guildId: string): Guild {
+  const GuildCollection = getGuildCollection()
+  return GuildCollection.get(guildId) || throwError("Unable to get guild.")
+}
 
 const moderatorRole = "Val'kyr (Mod)"
 
@@ -9,4 +16,4 @@ function isExcluded(member: GuildMember) {
   return member.roles.cache.some((role) => excludedRoles.has(role.name))
 }
 
-export { moderatorRole, isExcluded }
+export { getGuild, moderatorRole, isExcluded }

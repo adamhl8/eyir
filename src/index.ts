@@ -1,10 +1,14 @@
 import login from "discord-bot-shared"
 import { ClientOptions, GatewayIntentBits as Intents } from "discord.js"
+import commands from "./commands/_commands.js"
+import events from "./events/_events.js"
 
 const botIntents: ClientOptions = {
   intents: [Intents.Guilds, Intents.GuildMembers, Intents.GuildMessages, Intents.MessageContent],
 }
 
-const bot = await login(botIntents, import.meta.url)
+const { GuildCollection } = await login(botIntents, commands, events)
 
-export default bot
+const getGuildCollection = () => GuildCollection
+
+export { getGuildCollection }

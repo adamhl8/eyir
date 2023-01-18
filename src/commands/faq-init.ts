@@ -1,9 +1,9 @@
 import chokidar from "chokidar"
-import { Command, getChannel, getGuildCache, throwError } from "discord-bot-shared"
+import { Command, throwError } from "discord-bot-shared"
 import { ChannelType, EmbedBuilder, Message, SlashCommandBuilder, TextChannel } from "discord.js"
 import fsp from "node:fs/promises"
 import { fileURLToPath } from "node:url"
-import { moderatorRole } from "../util.js"
+import { getGuild, moderatorRole } from "../util.js"
 
 const faqDirectory = fileURLToPath(new URL("../../faq", import.meta.url)) + "/"
 const faqDirectoryOrder = ["resources", "faq", "arms", "fury", "protection", "pvp"]
@@ -14,13 +14,14 @@ const faqInit: Command = {
   requiredRoles: [moderatorRole],
   command: new SlashCommandBuilder().setName("faq-init").setDescription("Initialize the FAQ channel."),
   run: async (interaction) => {
+    if (!interaction.guildId) throwError("Unable to get guild ID.")
+    const guild = getGuild(interaction.guildId)
+
     await interaction.deferReply()
     faqChannelIsInitialized = false
 
-    const { guild } = (await getGuildCache()) || throwError("Unable to get guild cache.")
-
     const faqChannel =
-      (await getChannel<TextChannel>("guides-resources-faq", ChannelType.GuildText)) || throwError("Unable to get faq channel.")
+      (await guild.getChannel<TextChannel>("guides-resources-faq", ChannelType.GuildText)) || throwError("Unable to get faq channel.")
 
     await faqChannel.permissionOverwrites.edit(guild.id, { ViewChannel: false })
 
