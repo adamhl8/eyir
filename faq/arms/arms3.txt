@@ -1,7 +1,9 @@
-**Q:** What Consumables does Arms use?
-**A:** Potions: Potion of Spectral Strength
-       Weapon Oil: Shaded Sharpening Stone.
-       Food: Feast of Gluttonous Hedonism Feast. Spinefine Souffle and Fries if mainstat feasts aren't available. 
+**Q**: What should I spend my Valor on?
+**A**: Algeth'ar Puzzle Box / Hunger of the Pack > Jewled Signet of Melandrus > Weapons if you can bother farming the valor for it > Anything else
 
-**Q:** What are the best Trinkets for Arms?
-**A:** Typically Phial of Putrefacation and Titanic Ocular are the most popular. However theres many other trinkets that are just as viable, such as Overwhelming Power Crystal, Salvaged Fusion Amplifier and more. You can check out the <https://bloodmallet.com> for a more complete list. 
+**Q**: What should I craft with my spark?
+**A**: Embellished items (see below), Weapon, Ring(s) and generally filling low ilevel non-tier slots.
+
+**Q**: What Embellishments are best?
+**A**: Elemental Lariat > Allied Wristguards of Companionship/Frostfire Legguards of Preparation
+    Unstable Frostfire Belt is competitive with wrists, potentially even better depending on your specific gear, though it is a purely single target effect and a DoT, which means you won't always get full value. The only place it's really better is to proc raid rings, making it a strong early craft, though it still isn't technically part of the absolute BiS setup.

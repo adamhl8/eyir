@@ -1,22 +1,29 @@
-**Updated for Season 4**
+**Updated for 10.0.5**
 **Guides/Resources:**
 
-Icy Veins Guide - <https://www.icy-veins.com/wow/fury-warrior-pve-dps-guide>
+Icy Veins Guide - https://www.icy-veins.com/wow/fury-warrior-pve-dps-guide
 
-Wowhead Guide - <https://www.wowhead.com/fury-warrior-guide>
+Wowhead Guide - https://www.wowhead.com/fury-warrior-guide
 
-WeakAuras: <https://wago.io/weakauras/classes/warrior/fury>
+WeakAuras - https://wago.io/weakauras/classes/warrior/fury
 
-**Legendaries**: **Deathmaker** (Back) is the reccomended legendary for most raid encounters. It is the standard single target legendary. **Signet of Tormented Kings** is recomended for AoE heavy raid fights and Mythic+. 
-Unity should be crafted on wrists, or your worst slot that doesn't compete with tier. 
-Legendaries should be crafted with haste/mastery.
 
-**Covenants**: <:Spear:742631092711981106> **Kyrian** is the best overall PvE covenant. It is the best covenant in Mythic+ and most raid encounters. <:Aftershock:742631092326236282> **Night Fae** is even with Kyrian on single target, but worse on AoE. <:condemn:742631092279967785> **Venthyr** is the best covenant for single target, however in practice it performs lower than the other covenants due to the strict uptime requirements of it's covenant legendary. 
-
-**Soulbinds**
-<:Spear:742631092711981106> **Kyrian** Kleia for ST, with Hack'n'Slash, Depths of Insanity, and Pointed Courage. Mikanikos for AoE, with Merciless Bonegrinder, Hack'n'Slash, and Hammer of Genesis.
-<:Aftershock:742631092326236282> **Night Fae** Dreamweaver Hack'n'Slash, Depths of Insanity, and Adaptive Armour Fragment. Replace Depths of Insanity with Merciless Bonegrinder for AoE/M+. 
-
-**__FAQ__** 
+**FAQ**
 
 __**FOR THE MOST ACCURATE ANSWER TO ANY QUESTIONS, ALWAYS SIM YOURSELF**__
+
+**Q**: Should I be in Arms Lootspec?
+**A**: You should always be in Arms Lootspec to avoid getting One Handed Weapons. Your Lootspec does not affect Group Loot drops.
+
+**Q**: What are the best talents?
+**A**: ST: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAChIoEARQISQUgEiARSIJpFRSkgQSSSkSASSkEAAAAEE
+   M+: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACBCKJARQICEFIhIQkESSaJRSkgQkkEpEgkIJBAAABEE
+
+**Q**: I don't like Spear of Bastion/Elysian Might, how far behind is Thunderous Roar?
+**A**: Thunderous Roar is a few percent behind Spear of Bastion, but gives you a lot more freedom.
+
+**Q**: Does it matter what order I use Recklessness and Avatar with Berserker's Torment?
+**A**: Yes, currently it's bugged and you should use Avatar before Recklessness. Doing it the other way around makes you lose 8 seconds of the Avatar buff.
+
+**Q**: What can I use Spell Reflect on?
+**A**: This google doc sheet shows what you can and can't reflect. https://docs.google.com/spreadsheets/d/e/2PACX-1vS26lkSc_eaulHX7-UY8Uu-7DAHvkScxh3npd0kQn3uvvWsgsQm9ducLUi4R2mb7ieNluVilyq5sQe5/pubhtml#.

@@ -1,23 +1,31 @@
--
-**Q:** What are the best talents?
-**A:** ST: Sudden Death, Massacre as Venthyr/Frenzy as non-Venthyr, Cruelty, Dragon Roar, Reckless Abandon
-M+ Talents: Fresh Meat, Massacre, Cruelty, Bladestorm, Anger Management
+**Q**: How do I sim myself?
+**A**: https://medium.com/raidbots/how-to-install-and-use-the-simulationcraft-addon-5b64d0835a0b | https://medium.com/raidbots/beware-of-stat-weights-240769a5323e
 
-**Q:** Should I be enraged before using Recklessness if I have Signet?
-**A:** Yes, try and get enraged before using Recklessness. With Elysian Might and Signet, press recklessness immediately after throwing your Spear of Bastion, so you can potentially gain the bonus damage on your spear from Avatar. If you have Signet, try and use Recklessness during your GCD downtime after a Rampage/Fresh Meat Bloodthirst. This is because even if you are in a GCD, if Reck procs Bladestorm it will still trigger and you lose nothing, and your GCD downtime is being eaten by the Bladestorm. 
+**Q**: Should I use x trinket?
+**A**: Go to https://bloodmallet.com/chart/warrior/fury/trinkets/castingpatchwerk for a general list. **SIM YOURSELF FOR MORE ACCURATE RESULTS**
 
-**Q:** Do I cancel Bladestorm on Single Target if Signet procs it?
-**A:** You want to cancel Bladestorm, both the proc and natural cast, on Single Target if you are in an Execute phase with Massacre talented or are Venthyr. You cancel if you can Rampage or can Condemn. Bladestorm should not be canceled in AoE.
+**Q**: What Gems/Enchants do I use? **SIM YOURSELF FOR MORE ACCURATE RESULTS**
+**A**: Chest: Waking Stats.
+       Weapon: Sophic Devotion
+       Rings: Devotion of Haste or Mastery
+       Legs: Fierce Armor Kit or Frosted Armor Kit
+       Gems: Skillful Illimited Diamond, and Keen Ysmerald or Keen Neltharite
+       Cloak and Bracers: Avoidance/Speed/Leech
+       Boots: Plainsrunner's Breeze or Watcher's Loam
 
-**Q:** What can I use Spell Reflect on?
-**A:** This google doc sheet shows what you can and can't reflect. https://tinyurl.com/ReflectGuide.
+**Q**: What Consumables does Fury use?
+**A**: Potions: Elemental Potion of Ultimate Power or Elemental Potion of Power
+       Phial: Phial of Tepid Versatility. Phial of Glacial Fury is a strong alternative in Mythic+
+       Weapon Buff: Howling Rune
+       Food: Feast - Grand Banquet of the Kalu'ak or Hoard of Draconic Delicacies
+       Personal Food - Fated Fortune Cookie or Sizzling Seafood Medley
 
-**Q:** Should I use *x* trinket?
-**A:** Go to <https://bloodmallet.com/chart/warrior/fury/trinkets/castingpatchwerk> for a general list. **SIM YOURSELF FOR BEST RESULTS**
+**Q**: Are there stat breakpoints?
+**A**: There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stat amounts.
 
-**Q:** What Gems/Enchants do I use? **SIM YOURSELF FOR BEST RESULTS**
-**A:** Chest: Eternal Skirmish for single target, Eternal Stats for AoE.
-       Weapon: Sinful Revelation+Celestial Guidance for single target, Lightless Force+Celestial Guidance for AoE.
-       Rings: Tenet of Haste or
-       Gloves: Eternal Strength
-       Gems: Haste
+**Q**: Titan's Grip vs Single-Minded Fury?
+**A**: Titan's Grip is better, especially since you don't have to spend a talent point on it. Single-Minded fury is only a few percent behind Titan's Grip.
+
+**Q**: What talent build do I use for Single-Minded Fury?
+**A**: ST: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACggSCBRQICEFIhIQkESSaRkkEhQkkEpEQSCJBAAABEE
+       AoE: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACBCKJARQICEFIhIQkESSaJRSkECRiEpEgkIJBAAABEE

@@ -1,22 +1,12 @@
-**Q:** What Consumables does Fury use?
-**A:** Potions: Potion of Spectral Strength
-       Weapon Enhancement: 2 Sharpening Stone/Shaded Weightstone
-       Food: Feast
+**Q**: What should I spend my Valor on?
+**A**: Algeth'ar Puzzle Box > Jewled Signet of Melandrus > Weapons if you can bother farming the valor for it > Anything else
 
-**Q:** Are there stat breakpoints?
-**A:** There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stat amounts.
+**Q**: What should I craft with my spark?
+**A**: Embellished items (see below), Weapon, Ring(s) and generally filling low ilevel non-tier slots.
 
-**Q:** Titan's Grip vs Single-Minded Fury?
-**A:** Titan's Grip is significantly better with the powerful 2-handed weapons from the raid. Single-Minded fury is only slightly behind Titan's Grip without them. 
+**Q**: What Embellishments are best?
+**A**: Elemental Lariat > Allied Wristguards of Companionship/Frostfire Legguards of Preparation
+    Unstable Frostfire Belt is competitive with wrists, potentially even better depending on your specific gear, though it is a purely single target effect and a DoT, which means you won't always get full value. The only place it's really better is to proc raid rings, making it a strong early craft, though it still isn't technically part of the absolute BiS setup.
 
-**Q:** What stat should I take as my bounty in Mythic+?
-**A:** Haste or Crit. 
-
-**Q:** Do I always use Reckless Abandon with the tier set bonus?
-**A:** No. With Signet of Tormented kings you want to use Anger Management and Bladestorm. 
-
-**Q:** What should I spend my Puzzling Cartel Dinar's on?
-**A:** Gavel of the First Arbiter > Jaithys > Old Warrior's Soul > First Sigil/Scars of Fraternal Strife.
-
-**Q:** Should I upgrade my Jaithys all the way to rank 5 or stop earlier? 
-**A:** Upgrade it all the way to rank 5. 
+**Q**: What buff do I take in Al'gethar Academy?
+**A**: Vers is a much better stat when its gained through % rather than rating, so we take it for the flat damage and damage reduction.

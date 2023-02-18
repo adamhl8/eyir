@@ -1,27 +1,35 @@
+**Updated for 10.0.5**
 **Guides/Resources:**
 
-__Icy Veins Guide__ - <https://www.icy-veins.com/wow/arms-warrior-pve-dps-guide>
-__WoWhead Guide__ - <https://www.wowhead.com/arms-warrior-guide>
+Wowhead Guide: <https://www.wowhead.com/guide/classes/warrior/arms/overview-pve-dps>
 
-**WeakAuras:** <https://wago.io/weakauras/classes/warrior/arms>
+Icyveins Guide: <https://www.icy-veins.com/wow/arms-warrior-pve-dps-guide>
 
-**__FAQ__**
+Weakauras: <https://wago.io/dragonflight-weakauras/classes/warrior/arms>
 
-**Q:** What is the best Covenant?
-**A:** At this moment, <:Aftershock:742631092326236282> **Night Fae** is the best covenant for raiding with <:Spear:742631092711981106> **Kyrian** being a close second. <:whyisthisgood:742631092229767220> **Necrolord** is in theory a strong option too for overall group damage however not every group can get the best value out of it. 
-<:condemn:742631092279967785> **Venthyr** is the worst covenant overall with the lowest single target and aoe/cleave damage.
 
-**Q:** What are the best Potency Conduits?
-**A:** Single Target:  Mortal Combo > Crash the Ramparts ~= Veteran's Repute (Necrolord) > Ashen Juggernaut > Covenant Conduits
-       Aoe/M+: Crash the Ramparts > Covenant Conduits > Adaptive Armour Fragment > Rest
+__**FAQ**__ 
 
-**Q:** What are the best Soulbindings?
-**A:** Venthyr: Nadjia > Theotar > Draven
-       Night Fae: Niya > Korayn > Dreamweaver (Niya is best on single target, however Korayn's "First Strike" for AoE is best)
-       Kyrian: Mikanikos ~= Pelegos ~= Kleia. Mikanikos is the best on AoE with Effusive Anima Accelerator
-       Necrolord: Bonesmith > Emeni > Plague Deviser 
+__**FOR THE MOST ACCURATE ANSWER TO ANY QUESTIONS, ALWAYS SIM YOURSELF**__
 
-**Q:** What are the best Legendary Effectss and what gear slot should they be crafted on?
-**A:** Single Target: Enduring Blow > Covenant Legenaries > Battlelord > rest
-       AoE: Elysian Might > Signet of Tormented Kings (Non-Kyrian) > rest 
-       Enduring Blow goes on waist. Signet on Ring. 
+**Q**: Should I be in Arms Lootspec?
+**A**: You should always be in Arms Lootspec to avoid getting One Handed Weapons. Your Lootspec does not affect Group Loot drops.
+
+**Q**: What are the best talents?
+**A**: ST: BcEAAAAAAAAAAAAAAAAAAAAAAAQplIRkQkkSrkEAAAAQQkIKEQREQiQSoJRIAhECAAAAAAAAJBJJgQ0QA
+       M+: BcEAAAAAAAAAAAAAAAAAAAAAAAIlWiERCJJalSkEAAAAEEhoQQUEBkIkEKSECQIhAAAAAAAAQiWCCIEQA
+
+**Q**: What is our general stat priority?
+**A**: Strength > Crit/Haste > Versatility > Mastery __(NOTE: This is a GENERAL stat priority, sim yourself to know what gear YOUR character specifically wants).__
+
+**Q**: What can I use Spell Reflect on?
+**A**: This google doc sheet shows what you can and can't reflect. <https://docs.google.com/spreadsheets/d/e/2PACX-1vS26lkSc_eaulHX7-UY8Uu-7DAHvkScxh3npd0kQn3uvvWsgsQm9ducLUi4R2mb7ieNluVilyq5sQe5/pubhtml#>.
+
+**Q**: Is Mortal Strike used in the Execute phase?
+**A**: Yes. If you have Executioner's Precision talented, you will Mortal strike at 2 stacks. If you are playing any version of the bladestorm build or don't have Juggernaut talented, you will cast Mortal Strike on cooldown. 
+
+**Q**: Do I wait for 40 rage to cast Execute?
+**A**: No, you want to use Execute at any rage, the DPR scales linearly. That being said sometimes casting Overpower when under 40 rage may be better for long term rage economy. 
+
+**Q**: Do Shattering/Wrecking Throw have any use in PVE?
+**A**: Yes! Wrecking Throw has a 500% modifier vs absorb shields and has a relatively low cooldown making it very useful for shields such as during Raszageth and Ruby Life Pools. 

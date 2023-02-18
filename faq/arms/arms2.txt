@@ -1,26 +1,18 @@
-**Q:** What is the general stat priority?
-**A:** Strength > Critical Strike > Mastery > Versatility > Haste
-__THIS CAN VARY FROM CHARACTER TO CHARACTER PLEASE SIM FOR MORE ACCURATE WEIGHTS.__
+**Q**: What Gems/Enchants do I use?
+**A**: Generally speaking - 
+    Chest: Waking Stats.
+    Weapon: Sophic Devotion
+    Rings: Devotion of Haste or Crit
+    Legs: Fierce Armor Kit or Frosted Armor Kit
+    Gems: Skillful Illimited Diamond, and Ysemeralds or Alexstraszites
+    Cloak and Bracers: Avoidance/Speed/Leech
+    Boots: Plainsrunner's Breeze or Watcher's Loam
 
-**Q:** What are the best Talents?
-**A:** Sudden Death, Double Time or Stormbolt for CC, Rend for Single Target, Massacre for AoE, Avatar, Dreadnaught
-     Level 40 row: Warbreaker for M+/AoE. Collateral Damage for 2 target / Single target. Warbreaker at the moment overwrites Enduring Blow procs, while Colossus Smash extends the debuff. It's reccomended to **not** use Warbreaker in pure single target at the moment.
+**Q**: What Consumables does Arms use?
+**A**: Potions: Elemental Potion of Ultimate Power or Elemental Potion of Power
+       Phial: Phial of Tepid Versatility
+       Weapon: Howling Rune
+       Food: Feast, or Fated Fortune Cookie
 
-**Q:** Is Mortal Strike used in the Execute/Condemn phase?
-**A:** Yes. If you have the Enduring Blow legendary, you'd Mortal Strike on cooldown the entire fight. If you have the Battlelord Legendary, you'd Mortal Strike when that legendary would proc. Without either legendary you would only Mortal Strike to keep up Deep Wounds.
-
-**Q:** Do I wait for 40 rage to cast Execute/Condemn?
-**A:** No, you want to use Execute/Condemn at any rage, the DPR scales linearly.
-
-**Q:** Does Shattering Throw have any use in PVE?
-**A:** Yes! The ability deals 500% increased damage to any absorbtion shield. Making it a very strong ability to burn shields very quickly.
-
-**Q:** What can I use Spell Reflect on?
-**A:** This google doc sheet shows what you can and can't reflect. https://tinyurl.com/ReflectGuide .
-
-**Q:** What Gems/Enchants do I use?
-**A:** Chest: Eternal stats.
-       Weapon: Sinful Revelation for single target, Lightless force for AoE.
-       Rings: Crit/Haste. This can vary greatly from person to person, sim yourself for the most accurate results.
-       Gloves: Eternal Strength
-       Gems: Crit/Haste. This can vary greatly from person to person, sim yourself for the most accurate results.
+**Q**: What are the best Trinkets for Arms?
+**A**: Typically Incarnate Icon, Puzzle Box, and Hunger of the Pack are good choices. However many options are viable, and can even beat these out based on ilevel. Be sure to sim yourself constantly to find out which options are the best for your character. 
