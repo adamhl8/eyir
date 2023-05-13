@@ -1,24 +1,34 @@
 -
-**Q:** How much of <insert stat here> do I need? How do my stats look?
-**A:** You do not need a certain amount of any particular stat, nor do you need or want a certain distribution of stats. You simply want the most amount of total stats possible. That means going for item level. If you have to choose between items of the same ilvl the stat priority is Haste >> Crit = Vers > Mastery.
+__**Q: How much of <insert stat here> do I need? How do my stats look?**__
+**A:** You do not need a certain amount of any particular stat, nor do you need or want a certain distribution of stats. You simply want the most amount of total stats possible. That means going for item level. If you have to choose between items of the same ilvl the stat priority is ``Haste >> Crit = Vers > Mastery``.
 
-Your gear and stats are a lot less meaningful to tanking than your actual play. So, if you're struggling on appropriately geared content, it's because you are playing poorly. Read the guide, learn the spec, and learn to make your own decisions.
+Your gear and stats are a lot less meaningful to tanking than your actual play.
 
-**Q:** I’m having trouble keeping aggro on enemies, why is that?
-**A:** Make sure you're using your damaging cooldowns like Avatar as often as possible while also following the proper ability priority order. Protection has solid damage output and as a result threat should not be a issue. If you are having threat issues you are likely making mistakes.
+__**Q: I’m having trouble keeping aggro on enemies, why is that?**__
+**A:** Make sure you're using your damaging cooldowns like Avatar, Shield Charge, Dragon Roar and Ravager as often as possible while also following the proper ability priority order.
 
-**Q:** Which Embellishments should I use/Spark should I craft on??
-**A:** The power target for Embellishments seems to be around 1% power gain over having none at all, so theyre not that important to have the ABSOLUTE best one.
+__**Q:Which Embellishments should I use/Spark should I craft on?**__
+__Sparks:__
+- First craft should be Shield to get a 447 Shield as it is your most important defensive item
+- ilvl upgrades
 
-**Elemental Lariat** Necklace, is 30% uptime on 2.5-3% secondary stats, averages out to 1%.
-**Infurious Helmet of Vengeance** is around 1% dps.
-**Armor Spikes** is around 1% dps.
-**Unstable Frostfire Belt** is solid dps and can proc the Raid Rings.
-**Allied Wrists of Companionship** 100% uptime on 1% vers, super solid.
-**Fang Adornements** is around 1% dps.
-**Frostfire Legguards of Preparation** are bait, you only get the benefit of  ~8-10% haste for 10seconds on pull in m+. Useless outside of fresh pulls, cant recommend.
+__Embellishments:__
+- 2x Shadowflame Armor Patch (Boots/Belt/Wrists)
+or
+- 1x Shadowflame Armor Patch (Boots/Wrists) + Unstable Frostfire Belt
 
-**Q:** Protection Warrior streamers?
+__**Q: I want a bis list!**__
+BiS lists are a thing of the past because of the RNG of Vault and depending on how much of the raid you can clear on mythic.
+The only notable things that are listable are as follows:
+- *Any 450 pieces from raid*
+- **[Forgestorm]** (1h weapon) from Neltharus
+- **[Mark of Dargrul]** (offensive trinket) and **[Talisman of the Cragshaper]** (defensive Trinket) from Neltharions Lair
+- **[Beacon to the Beyond], [Elementium Pocket Anvil], [Zaqali Chaos Grapnel]** (offensive ST trinkets) and **[Neltharion's Call to Chaos]** (offensive aoe trinket) from Abberus
+- **[Onyx Annulet]** and **[421 Seal of Diurna's Chosen]** (rings) for raid
+- any ilvl upgrade
+
+
+__**Q: Protection Warrior streamers?**__
 **A:**
      Plka: <https://www.twitch.tv/plkatv>
      Tattman: <https://www.twitch.tv/tattman>

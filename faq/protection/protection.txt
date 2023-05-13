@@ -1,11 +1,11 @@
-**Guides/Resources:**
+__**Guides/Resources:**__
 
 Icy Veins Guide - <https://www.icy-veins.com/wow/protection-warrior-pve-tank-guide>
 Wowhead Guide - <https://www.wowhead.com/protection-warrior-guide>
 
 TankNotes (tank-specific Raid and Mythic+ guide) - <https://tanknotes.com>
 
-Blockable/Reflectable Spells Sheet - <https://tinyurl.com/ReflectGuide>
+Blockable/Reflectable Spells Sheet - <https://docs.google.com/spreadsheets/d/e/2PACX-1vS26lkSc_eaulHX7-UY8Uu-7DAHvkScxh3npd0kQn3uvvWsgsQm9ducLUi4R2mb7ieNluVilyq5sQe5/pubhtml>
 
 **WeakAuras:** <https://wago.io/weakauras/classes/warrior/protection>
 
@@ -15,5 +15,5 @@ __Spell Reflection Tracker__ - <https://wago.io/SpellReflectionTracker>
 
 **__FAQ__**
 
-**Q:** Is Protection viable for end-game M+ / raid progression?
+__**Q: Is Protection viable for end-game M+ / raid progression?**__
 **A:** Yes. We are currently one of strongest offensive tank in raids and Mythic+, and we are very strong defensively if played correctly, particularly in situations where the majority of the damage is blockable. Regradless of that, what tank you play isn't going to dictate your overall success. Tank balance right now is in a decent spot and the minor differences between the different tank specs won't make a difference for most. What matters is your individual skill and how familiar you are with a particular spec.
