@@ -1,29 +1,30 @@
-**Updated for 10.0.5**
+**Updated for 10.1**
 **Guides/Resources:**
 
-Icy Veins Guide - https://www.icy-veins.com/wow/fury-warrior-pve-dps-guide
+Icy Veins Guide - <https://www.icy-veins.com/wow/fury-warrior-pve-dps-guide>
 
-Wowhead Guide - https://www.wowhead.com/fury-warrior-guide
+Wowhead Guide - <https://www.wowhead.com/fury-warrior-guide>
 
-WeakAuras - https://wago.io/weakauras/classes/warrior/fury
+WeakAuras - <https://wago.io/weakauras/classes/warrior/fury>
 
 
-**FAQ**
+__**FAQ**__
 
 __**FOR THE MOST ACCURATE ANSWER TO ANY QUESTIONS, ALWAYS SIM YOURSELF**__
 
-**Q**: Should I be in Arms Lootspec?
+__**Q: Should I be in Arms Lootspec?**__
 **A**: You should always be in Arms Lootspec to avoid getting One Handed Weapons. Your Lootspec does not affect Group Loot drops.
 
-**Q**: What are the best talents?
-**A**: ST: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAChIoEARQISQUgEiARSIJpFRSkgQSSSkSASSkEAAAAEE
-   M+: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACBCKJARQICEFIhIQkESSaJRSkgQkkEpEgkIJBAAABEE
+__**Q: What are the best talents?**__
+**A**: ST: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACBShSAEBhIQUgEiARSIJpFRSSQyBkkkEpEgkQEAAAEQQA
+    M+: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQggSCQEEiEJRBEiIRQIJplEJJhkQSIRKBIJSEAAAEQQA
+    Raid Cleave: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQgUoEARQIikEFIhIQ4AhkkWSkkESCJhEpEgkIRAAAQABB
 
-**Q**: I don't like Spear of Bastion/Elysian Might, how far behind is Thunderous Roar?
-**A**: Thunderous Roar is a few percent behind Spear of Bastion, but gives you a lot more freedom.
+__**Q: I don't like Spear of Bastion/Elysian Might, how far behind is Thunderous Roar?**__
+**A**: With the addition of T30, and subsequently Cold Steel, Hot Blood, the gap between roar and spear is only ~1% on ST. On aoe roar is always preferable.
 
-**Q**: Does it matter what order I use Recklessness and Avatar with Berserker's Torment?
+__**Q: Does it matter what order I use Recklessness and Avatar with Berserker's Torment?**__
 **A**: Yes, currently it's bugged and you should use Avatar before Recklessness. Doing it the other way around makes you lose 8 seconds of the Avatar buff.
 
-**Q**: What can I use Spell Reflect on?
+__**Q: What can I use Spell Reflect on?**__
 **A**: This google doc sheet shows what you can and can't reflect. https://docs.google.com/spreadsheets/d/e/2PACX-1vS26lkSc_eaulHX7-UY8Uu-7DAHvkScxh3npd0kQn3uvvWsgsQm9ducLUi4R2mb7ieNluVilyq5sQe5/pubhtml#.

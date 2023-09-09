@@ -1,25 +1,27 @@
 **__FAQ__**
 
 **Q**: Should I play Arms or Fury for arena?
-**A**: Arms is currently one of the best melees for competitive PvP, while fury is unfortunately among the weakest. 
+**A**: Generally, Arms is the go to spec for PvP and is usually the stronger one. As of right now, both are playable and are about equal so play what you want!
 
 **Q**: How do I simulate my character for PvP?
 **A**: You cannot simulate for PvP, the nature of PvP is too dynamic and have too many variables to be able to produce any useable results.
 
+**Q**: Do I want Tier set bonuses in PvP?
+**A**: Yes, Tier set bonuses are nerfed by 50% in PvP but still seem worth getting the 4 set.
+
+**Q**: What Embellishments do I want?
+**A**: Infurious Warboots of Impunity/Undulating Sporecloak.
+
 **Q**: Can I play double dps as warrior in 2v2?
-**A**: Ideally, double dps comps requires a lot of crowd control and great sustained healing, something which warrior  doesn't have.
-       It's heavily recommended to play with a healer.
-       Ret+arms and enh+arms can see some form of success at higher skill levels.
+**A**: Ideally, double dps comps requires a lot of crowd control and great sustained healing, something which warrior  doesn't have. Just play with any healer and you'll do fine, Rdruid or Hpal seem to be the best atm.
+
 
 **Q**: I can't find any PvP content on Youtube, what resources do I have available?
-**A**: All PvP guides written by respected warriors are pinned in the <#897055819475091456> channel. We recommend watching streamers on Twitch.tv for the best learning experience.
+**A**: All PvP guides written by respected warriors are pinned in the ⁠pvp channel. We recommend watching streamers on Twitch.tv for the best learning experience.
        High rated and good warriors to watch are:
-       
+
        Magnusz: <https://www.twitch.tv/magnusz>
-       Zhrey: <https://www.twitch.tv/zhreytv>
-       Bajheera: <https://www.twitch.tv/bajheera>
-       Dekel: <https://www.twitch.tv/dekel>
-       Trille: <https://www.twitch.tv/trillebartom>
-       Warroid: <https://www.twitch.tv/warroidxyz>
-       Truckbenny: <https://www.twitch.tv/truckbenny>
        Mud: <https://www.twitch.tv/mudcx>
+       Laros: <https://www.twitch.tv/larosw>
+       joefernandes: <https://www.twitch.tv/joefernandes123>
+       Bajheera: <https://www.twitch.tv/bajheera>

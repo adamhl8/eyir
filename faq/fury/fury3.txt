@@ -1,12 +1,16 @@
-**Q**: What should I spend my Valor on?
-**A**: Algeth'ar Puzzle Box > Jewled Signet of Melandrus > Weapons if you can bother farming the valor for it > Anything else
+__**Q: What talent build do I use for Single-Minded Fury?**__
+**A**: ST: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACggSCBRQICEFIhIQkESSaRkkEhQkkEpEQSCJBAAABEE
+      AoE: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACBCKJARQICEFIhIQkESSaJRSkECRiEpEgkIJBAAABEE
 
-**Q**: What should I craft with my spark?
+__**Q: When should I press Bloodthirst with the new 4 piece?**__
+**A**: Generally, you want to wait until you can guarantee a crit before you press it. To make it easy, a WeakAura has been made that glows and plays a sound when its ready to press: <https://wago.io/PKtmE426S/1.0.0> 
+*NOTE: THERE IS A MORE UPDATED, MORE CUSTOMIZABLE VERSION OF THIS WEAKAURA. IF THAT IS SOMETHING YOU WOULD PREFER CLICK THIS LINK* -> <https://wago.io/PKtmE426S>
+
+__**Q: What should I spend my crests on?**__
+**A**: Weapon > Embellished Items > Tier > Trinkets > Spark off pieces > Everything else
+
+__**Q: What should I craft with my spark?**__
 **A**: Embellished items (see below), Weapon, Ring(s) and generally filling low ilevel non-tier slots.
 
-**Q**: What Embellishments are best?
-**A**: Elemental Lariat > Allied Wristguards of Companionship/Frostfire Legguards of Preparation
-    Unstable Frostfire Belt is competitive with wrists, potentially even better depending on your specific gear, though it is a purely single target effect and a DoT, which means you won't always get full value. The only place it's really better is to proc raid rings, making it a strong early craft, though it still isn't technically part of the absolute BiS setup.
-
-**Q**: What buff do I take in Al'gethar Academy?
-**A**: Vers is a much better stat when its gained through % rather than rating, so we take it for the flat damage and damage reduction.
+__**Q: What Embellishments are best?**__
+**A**: For ST, 2xShadowflame Armor Patch is best. For aoe, Allied Wristguards of Companionship + Lariat is best if you have full socketed gear. Otherwise, Wristguards +  Armor Patch is a fine stand-in until you have Lariat.

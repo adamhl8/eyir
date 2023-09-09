@@ -1,33 +1,23 @@
 -
-__**Q: How much of <insert stat here> do I need? How do my stats look?**__
-**A:** You do not need a certain amount of any particular stat, nor do you need or want a certain distribution of stats. You simply want the most amount of total stats possible. That means going for item level. If you have to choose between items of the same ilvl the stat priority is ``Haste >> Crit = Vers > Mastery``.
-
-Your gear and stats are a lot less meaningful to tanking than your actual play.
-
-__**Q: I’m having trouble keeping aggro on enemies, why is that?**__
-**A:** Make sure you're using your damaging cooldowns like Avatar, Shield Charge, Dragon Roar and Ravager as often as possible while also following the proper ability priority order.
-
-__**Q:Which Embellishments should I use/Spark should I craft on?**__
-__Sparks:__
-- First craft should be Shield to get a 447 Shield as it is your most important defensive item
-- ilvl upgrades
-
-__Embellishments:__
-- 2x Shadowflame Armor Patch (Boots/Belt/Wrists)
-or
-- 1x Shadowflame Armor Patch (Boots/Wrists) + Unstable Frostfire Belt
-
 __**Q: I want a bis list!**__
+**A:**
 BiS lists are a thing of the past because of the RNG of Vault and depending on how much of the raid you can clear on mythic.
 The only notable things that are listable are as follows:
 - *Any 450 pieces from raid*
-- **[Forgestorm]** (1h weapon) from Neltharus
-- **[Mark of Dargrul]** (offensive trinket) and **[Talisman of the Cragshaper]** (defensive Trinket) from Neltharions Lair
-- **[Beacon to the Beyond], [Elementium Pocket Anvil], [Zaqali Chaos Grapnel]** (offensive ST trinkets) and **[Neltharion's Call to Chaos]** (offensive aoe trinket) from Abberus
-- **[Onyx Annulet]** and **[421 Seal of Diurna's Chosen]** (rings) for raid
+- **[Treemouth's Festering Splinter]** from Brackenhide Hollow
+- **[Beacon to the Beyond], [Elementium Pocket Anvil], [Zaqali Chaos Grapnel]** (offensive ST trinkets) and **[Neltharion's Call to Chaos]** **[Ominous Chromatic Essence]** (offensive aoe trinkets) from Abberus
 - any ilvl upgrade
 
+__**Q: Which dungeons should i play Spellblock?**__
+**A:**
+- Neltharus and Uldaman
+Most keys have little to no magic dmg aimed at the tank so Spellblock is hardly useful outside of those 2 Keys. Halls of Infusion it *can* potentially be somewhat useful on the section between 2nd and 3rd boss around the heavy caster area, but outside of that theres not alot going on either. Same goes for Brackenhide
+The Talent to drop to get Spellblock is Bloodsurge. It's the easiest point to drop without impacting actual performance.
 
+__**Q: Brutal Vitality or Fueled by Violence?**__
+**A:**
+Both Talents scale equally well depending on target count. Both are fairly interchangable so you can't go wrong with either.
+Generally BrV is preferred as it helps to maintain Ignore Pain in high pressure situation and low target count but isn't always active.
 __**Q: Protection Warrior streamers?**__
 **A:**
      Plka: <https://www.twitch.tv/plkatv>

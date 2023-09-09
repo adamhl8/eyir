@@ -1,31 +1,28 @@
-**Q**: How do I sim myself?
-**A**: https://medium.com/raidbots/how-to-install-and-use-the-simulationcraft-addon-5b64d0835a0b | https://medium.com/raidbots/beware-of-stat-weights-240769a5323e
+__**Q: How do I sim myself?**__
+**A**: <https://medium.com/raidbots/how-to-install-and-use-the-simulationcraft-addon-5b64d0835a0b> | <https://medium.com/raidbots/beware-of-stat-weights-240769a5323e>
 
-**Q**: Should I use x trinket?
-**A**: Go to https://bloodmallet.com/chart/warrior/fury/trinkets/castingpatchwerk for a general list. **SIM YOURSELF FOR MORE ACCURATE RESULTS**
+__**Q: Should I use x trinket?**__
+**A**: Go to <https://bloodmallet.com/chart/warrior/fury/trinkets/castingpatchwerk> for a general list. **SIM YOURSELF FOR MORE ACCURATE RESULTS**
 
-**Q**: What Gems/Enchants do I use? **SIM YOURSELF FOR MORE ACCURATE RESULTS**
-**A**: Chest: Waking Stats.
-       Weapon: Sophic Devotion
+__**Q: What Gems/Enchants do I use? SIM YOURSELF FOR MORE ACCURATE RESULTS**__
+**A**:  Chest: Waking Stats.
+       Weapon: Sophic Devotion + Wafting Devotion
        Rings: Devotion of Haste or Mastery
        Legs: Fierce Armor Kit or Frosted Armor Kit
        Gems: Skillful Illimited Diamond, and Keen Ysmerald or Keen Neltharite
        Cloak and Bracers: Avoidance/Speed/Leech
        Boots: Plainsrunner's Breeze or Watcher's Loam
 
-**Q**: What Consumables does Fury use?
-**A**: Potions: Elemental Potion of Ultimate Power or Elemental Potion of Power
+__**Q: What Consumables does Fury use?**__
+**A**:  Potions: Elemental Potion of Ultimate Power or Elemental Potion of Power
        Phial: Phial of Tepid Versatility. Phial of Glacial Fury is a strong alternative in Mythic+
-       Weapon Buff: Howling Rune
+       Weapon Buff: Howling Rune or Hissing Rune
        Food: Feast - Grand Banquet of the Kalu'ak or Hoard of Draconic Delicacies
        Personal Food - Fated Fortune Cookie or Sizzling Seafood Medley
 
-**Q**: Are there stat breakpoints?
-**A**: There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stat amounts.
+__**Q: What stats does Fury like? Do I need to worry about any breakpoints?**__
+**A**: Fury stat prio is Str > Mastery >= Haste > Vers = Crit. There are no stat breakpoints that you should be specifically aiming for. Just follow your top gear sims instead of worrying about specific stat amounts.
 
-**Q**: Titan's Grip vs Single-Minded Fury?
+__**Q: Titan's Grip vs Single-Minded Fury?**__
 **A**: Titan's Grip is better, especially since you don't have to spend a talent point on it. Single-Minded fury is only a few percent behind Titan's Grip.
 
-**Q**: What talent build do I use for Single-Minded Fury?
-**A**: ST: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACggSCBRQICEFIhIQkESSaRkkEhQkkEpEQSCJBAAABEE
-       AoE: BgEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACBCKJARQICEFIhIQkESSaJRSkECRiEpEgkIJBAAABEE

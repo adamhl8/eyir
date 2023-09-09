@@ -1,4 +1,4 @@
-**Updated for 10.0.5**
+__**WILL BE PROPERLY UPDATED FOR 10.1 BY JUNE 5TH**__
 **Guides/Resources:**
 
 Wowhead Guide: <https://www.wowhead.com/guide/classes/warrior/arms/overview-pve-dps>
@@ -12,24 +12,22 @@ __**FAQ**__
 
 __**FOR THE MOST ACCURATE ANSWER TO ANY QUESTIONS, ALWAYS SIM YOURSELF**__
 
-**Q**: Should I be in Arms Lootspec?
+__**Q: Should I be in Arms Lootspec?**__
 **A**: You should always be in Arms Lootspec to avoid getting One Handed Weapons. Your Lootspec does not affect Group Loot drops.
 
-**Q**: What are the best talents?
-**A**: ST: BcEAAAAAAAAAAAAAAAAAAAAAAAQplIRkQkkSrkEAAAAQQkIKEQREQiQSoJRIAhECAAAAAAAAJBJJgQ0QA
-       M+: BcEAAAAAAAAAAAAAAAAAAAAAAAIlWiERCJJalSkEAAAAEEhoQQUEBkIkEKSECQIhAAAAAAAAQiWCCIEQA
+__**Q: What are the best talents?**__
+**A**: ST: BcEAAAAAAAAAAAAAAAAAAAAAAAQplIRkQOQiSrkEAAAAQQESpQAFRAJCJhmEhAESIAAAAAAAAkEkkACRDB
+       M+: BcEAAAAAAAAAAAAAAAAAAAAAAAQplIRkQSiWpkEAAAAQQEiCJEFRAJIJhiEhAEOQIAAAAAAAAkolICIEFEA
+       Raid Cleave: BcEAAAAAAAAAAAAAAAAAAAAAAAQplIRkQOQiSrkEAAAAQQkIKEQREQiQSoJRIAhECAAAAAAAAJBJJgQUQA
 
-**Q**: What is our general stat priority?
+__**Q: What is our general stat priority?**__
 **A**: Strength > Crit/Haste > Versatility > Mastery __(NOTE: This is a GENERAL stat priority, sim yourself to know what gear YOUR character specifically wants).__
 
-**Q**: What can I use Spell Reflect on?
+__**Q: What can I use Spell Reflect on?**__
 **A**: This google doc sheet shows what you can and can't reflect. <https://docs.google.com/spreadsheets/d/e/2PACX-1vS26lkSc_eaulHX7-UY8Uu-7DAHvkScxh3npd0kQn3uvvWsgsQm9ducLUi4R2mb7ieNluVilyq5sQe5/pubhtml#>.
 
-**Q**: Is Mortal Strike used in the Execute phase?
+__**Q: Is Mortal Strike used in the Execute phase?**__
 **A**: Yes. If you have Executioner's Precision talented, you will Mortal strike at 2 stacks. If you are playing any version of the bladestorm build or don't have Juggernaut talented, you will cast Mortal Strike on cooldown. 
 
-**Q**: Do I wait for 40 rage to cast Execute?
+__**Q: Do I wait for 40 rage to cast Execute?**__
 **A**: No, you want to use Execute at any rage, the DPR scales linearly. That being said sometimes casting Overpower when under 40 rage may be better for long term rage economy. 
-
-**Q**: Do Shattering/Wrecking Throw have any use in PVE?
-**A**: Yes! Wrecking Throw has a 500% modifier vs absorb shields and has a relatively low cooldown making it very useful for shields such as during Raszageth and Ruby Life Pools. 

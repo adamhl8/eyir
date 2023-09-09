@@ -1,4 +1,7 @@
-**Q**: What Gems/Enchants do I use?
+__**Q: Do Shattering/Wrecking Throw have any use in PVE?**__
+**A**: Yes! Wrecking Throw has a 500% modifier vs absorb shields and has a relatively low cooldown making it very useful for shields such as during Raszageth and Ruby Life Pools. 
+
+__**Q: What Gems/Enchants do I use?**__
 **A**: Generally speaking - 
     Chest: Waking Stats.
     Weapon: Sophic Devotion
@@ -8,11 +11,11 @@
     Cloak and Bracers: Avoidance/Speed/Leech
     Boots: Plainsrunner's Breeze or Watcher's Loam
 
-**Q**: What Consumables does Arms use?
+__**Q: What Consumables does Arms use?**__
 **A**: Potions: Elemental Potion of Ultimate Power or Elemental Potion of Power
        Phial: Phial of Tepid Versatility
        Weapon: Howling Rune
        Food: Feast, or Fated Fortune Cookie
 
-**Q**: What are the best Trinkets for Arms?
-**A**: Typically Incarnate Icon, Puzzle Box, and Hunger of the Pack are good choices. However many options are viable, and can even beat these out based on ilevel. Be sure to sim yourself constantly to find out which options are the best for your character. 
+__**Q: What are the best Trinkets for Arms?**__
+**A**: Vial of Animated Blood, Ominous Chromatic Essence, Screaming Black Dragonscale and Beacon to the Beyond are all good choices. However many options are viable, and can even beat these out based on ilevel. Be sure to sim yourself constantly to find out which options are the best for your character. 

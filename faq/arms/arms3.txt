@@ -1,9 +1,8 @@
-**Q**: What should I spend my Valor on?
-**A**: Algeth'ar Puzzle Box / Hunger of the Pack > Jewled Signet of Melandrus > Weapons if you can bother farming the valor for it > Anything else
+__**Q: What should I spend my Crests on?**__
+**A**: Weapon > Embellished Items > Tier > Trinkets > Spark off pieces > Everything else
 
-**Q**: What should I craft with my spark?
+__**Q: What should I craft with my spark?**__
 **A**: Embellished items (see below), Weapon, Ring(s) and generally filling low ilevel non-tier slots.
 
-**Q**: What Embellishments are best?
-**A**: Elemental Lariat > Allied Wristguards of Companionship/Frostfire Legguards of Preparation
-    Unstable Frostfire Belt is competitive with wrists, potentially even better depending on your specific gear, though it is a purely single target effect and a DoT, which means you won't always get full value. The only place it's really better is to proc raid rings, making it a strong early craft, though it still isn't technically part of the absolute BiS setup.
+__**Q: What Embellishments are best?**__
+**A**: For ST, 2xShadowflame Armor Patch is best. For aoe, Allied Wristguards of Companionship + Lariat is best if you have full socketed gear. Otherwise, Wristguards +  Armor Patch is a fine stand-in until you have Lariat.
