@@ -6,3 +6,17 @@ datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
 }
+
+model FaqSettings {
+  guildId String @id
+  faqChannelId String @unique
+  faqLogChannelId String @unique
+  faqMessages FaqMessage[]
+}
+
+model FaqMessage {
+  id String @id
+  fileName String @unique
+  faqChannelId String
+  faqSettings FaqSettings @relation(fields: [faqChannelId], references: [faqChannelId])
+}

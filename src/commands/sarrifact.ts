@@ -1,9 +1,9 @@
 import { Command } from "discord-bot-shared"
-import { CommandInteraction, SlashCommandBuilder } from "discord.js"
+import { SlashCommandBuilder } from "discord.js"
 
 const sarrifact: Command = {
-  command: new SlashCommandBuilder().setName("sarrifact").setDescription("Get a fun fact from Sarri."),
-  run: async (interaction: CommandInteraction) => {
+  command: new SlashCommandBuilder().setName("sarrifact").setDescription("Get a fun fact from Sarri.").toJSON(),
+  run: async (interaction) => {
     await interaction.reply("<@139773837121159168>")
   },
 }

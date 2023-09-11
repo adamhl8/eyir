@@ -19,5 +19,6 @@ module.exports = {
     "unicorn/prevent-abbreviations": "off",
     "unicorn/no-null": "off",
     "sonarjs/no-duplicate-string": "off",
+    "@typescript-eslint/no-base-to-string": "off",
   },
 }
