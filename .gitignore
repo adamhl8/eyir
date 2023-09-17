@@ -1,2 +1,4 @@
 node_modules
 dist
+prisma/dev.db*
+.env

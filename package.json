@@ -4,41 +4,38 @@
   "type": "module",
   "description": "A Discord bot for the Warrior Discord Community, Skyhold.",
   "repository": "github:adamhl8/eyir",
+  "author": "adamhl8",
   "license": "MIT",
-  "engines": {
-    "node": ">=16"
-  },
   "scripts": {
-    "build": "rm -rf dist && pnpm lint && tsc && pnpm format",
-    "docker:push": "pnpm build && docker build . -t ghcr.io/adamhl8/eyir && docker push ghcr.io/adamhl8/eyir:latest",
+    "build": "rm -rf dist && tsc",
+    "dev": "tsx --trace-warnings ./src/index.ts",
+    "docker:push": "docker build --platform linux/amd64 . -t ghcr.io/adamhl8/eyir && docker push ghcr.io/adamhl8/eyir:latest",
     "format": "prettier --write .",
-    "lint": "eslint -f pretty .",
-    "start": "ts-node ./src/index.ts"
+    "lint": "tsc --noEmit && eslint ./src/",
+    "migrate:dev": "prisma migrate dev",
+    "prepare": "find .githooks -type f -exec ln -srf {} .git/hooks/ \\;",
+    "start:prod": "prisma migrate deploy && node --enable-source-maps ./dist/index.js"
   },
   "dependencies": {
-    "@discordjs/rest": "^1.4.0",
+    "@prisma/client": "5.3.1",
     "chokidar": "^3.5.3",
-    "discord-api-types": "^0.37.21",
-    "discord-bot-shared": "^0.6.4",
-    "discord.js": "^14.7.1",
-    "node-json-db": "^2.1.3"
+    "discord-bot-shared": "^0.14.0",
+    "discord.js": "^14.13.0",
+    "prisma": "^5.3.1"
   },
   "devDependencies": {
-    "@swc/core": "^1.3.21",
-    "@types/node": "^18.11.11",
-    "@typescript-eslint/eslint-plugin": "^5.45.1",
-    "@typescript-eslint/parser": "^5.45.1",
-    "eslint": "^8.29.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-formatter-pretty": "^4.1.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-sonarjs": "^0.17.0",
-    "eslint-plugin-unicorn": "^45.0.1",
-    "prettier": "^2.8.1",
-    "prettier-plugin-organize-imports": "^3.2.1",
-    "prettier-plugin-pkg": "^0.17.1",
-    "prettier-plugin-sh": "^0.12.8",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.3"
+    "@types/node": "^20.6.2",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-sonarjs": "^0.21.0",
+    "eslint-plugin-unicorn": "^48.0.1",
+    "prettier": "^3.0.3",
+    "prettier-plugin-organize-imports": "^3.2.3",
+    "prettier-plugin-pkg": "^0.18.0",
+    "prettier-plugin-sh": "^0.13.1",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2"
   }
 }

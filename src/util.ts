@@ -1,12 +1,16 @@
-import { GuildMember } from "discord.js"
+import { throwError } from "discord-bot-shared"
+import { Client, Guild } from "discord.js"
 
 const moderatorRole = "Val'kyr (Mod)"
 
-// Members that have any of these roles will not have Valarjar applied to them.
-const excludedRoles = new Set([moderatorRole, "Theorycrafter", "Bot", "Valarjar"])
-
-function isExcluded(member: GuildMember) {
-  return member.roles.cache.some((role) => excludedRoles.has(role.name))
+async function getFirstGuild(client: Client) {
+  const guilds = await client.guilds.fetch()
+  return (await guilds.first()?.fetch()) ?? throwError("Failed to fetch first guild.")
 }
 
-export { moderatorRole, isExcluded }
+async function getRoleByName(guild: Guild, roleName: string) {
+  const roles = await guild.roles.fetch()
+  return roles.find((role) => role.name === roleName) ?? throwError(`Failed to find role with name: ${roleName}`)
+}
+
+export { getFirstGuild, getRoleByName, moderatorRole }
