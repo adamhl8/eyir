@@ -19,12 +19,8 @@ async function saveFaqSettings(faqSettings: FaqSettings) {
     where: {
       guildId: faqSettings.guildId,
     },
-    update: {
-      ...faqSettings,
-    },
-    create: {
-      ...faqSettings,
-    },
+    update: faqSettings,
+    create: faqSettings,
   })
 }
 
